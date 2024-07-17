@@ -22,7 +22,7 @@ Pada \emph{front end} akan terhubung dengan \emph{smart contract} ketika penggun
 \subsection{Flow Pembelian NFT}
 \begin{figure} [H] \centering
   % Nama dari file gambar yang diinputkan
-  \includegraphics[scale=0.22]{gambar/flow_transaksi.png}
+  \includegraphics[scale=0.22]{gambar/flow_transaksi_new.png}
   % Keterangan gambar yang diinputkan
   \caption{Flow Pembelian NFT}
   % Label referensi dari gambar yang diinputkan
@@ -59,15 +59,14 @@ Proses \emph{minting} adalah langkah awal di mana sebuah NFT baru dibuat di dala
 \label{sec:tools}
 \subsection{Solidity}
 
-Solidity adalah bahasa pemrograman tingkat tinggi yang dirancang khusus untuk menulis \emph{smart contracts} di dalam platform \emph{blockchain} Ethereum. Bahasa pemrograman ini dirancang khusus untuk mengatasi \emph{smart contracts}, menyediakan sintaks yang mendukung variabel, fungsi, serta pernyataan kontrol yang diperlukan untuk kontrak yang andal. Solidity juga menyertakan fitur-fitur keamanan yang dapat membantu pengembang menghindari kerentanannya seperti serangan \emph{reentrancy} dan \emph{overflows}. Solidity dirancang untuk berjalan di atas Ethereum Virtual Machine (EVM), yang merupakan lingkungan komputasi Ethereum.
+Solidity adalah bahasa pemrograman tingkat tinggi yang secara khusus dirancang untuk mengembangkan \emph{smart contracts} pada platform \emph{blockchain} Ethereum. Bahasa ini menawarkan sintaks yang dioptimalkan untuk menangani operasi kontrak cerdas, termasuk dukungan untuk variabel, fungsi, dan struktur kontrol yang kompleks, yang semuanya vital dalam menciptakan aplikasi terdesentralisasi yang efisien dan aman. Selain itu, Solidity dilengkapi dengan berbagai fitur keamanan yang mencegah kerentanan umum seperti serangan \emph{reentrancy} dan \emph{overflows}. Keunggulan utama dari Solidity adalah kemampuannya untuk dijalankan di atas Ethereum Virtual Machine (EVM), lingkungan runtime yang menjadikannya kompatibel dengan berbagai jenis \emph{blockchain} yang mengadopsi standar EVM. Penggunaan Solidity membuka peluang bagi pengembang untuk menerapkan logika kontrak yang rumit yang bisa interaksi langsung dengan \emph{blockchain}, memberikan tingkat transparansi dan keandalan yang tinggi dalam transaksi digital.
 
 \subsection{Metamask}
 
-Metamask adalah perangkat lunak yang memungkinkan pengguna untuk mengelola kripto-currency, terutama Ether (ETH), serta berinteraksi dengan aplikasi dan layanan terdesentralisasi di \emph{blockchain} Ethereum. Metamask hadir sebagai sebuah Extension pada Browser. 
+MetaMask adalah dompet digital yang dirancang khusus untuk memudahkan pengguna dalam mengelola aset kripto seperti Ether (ETH) dan berinteraksi dengan aplikasi terdesentralisasi (dApps) pada jaringan Ethereum. Fungsinya tidak hanya terbatas pada penyimpanan dan pengelolaan kripto, tetapi juga sebagai jembatan yang menghubungkan pengguna dengan ekosistem Ethereum. Sebagai ekstensi browser, MetaMask memungkinkan pengguna untuk melakukan transaksi kripto secara langsung dari browser web mereka tanpa perlu menggunakan perangkat lunak tambahan. MetaMask juga mendukung jaringan \emph{blockchain} lain yang kompatibel dengan Ethereum, memungkinkan pengguna untuk berpartisipasi dalam berbagai aktivitas \emph{blockchain} seperti game berbasis \emph{blockchain}, pasar seni digital, dan platform keuangan terdesentralisasi (DeFi). Dengan MetaMask, pengguna dapat dengan mudah beralih antara jaringan ini, menjelajahi dunia kripto dengan lebih aman dan nyaman.
 
 \subsection{Hardhat}
-
-Hardhat adalah framework pengembangan \emph{smart contracts} yang didesain khusus untuk mempermudah pengembangan, pengujian, dan distribusi \emph{smart contracts}, Hardhat menyediakan berbagai alat dan fungsi yang kuat bagi pengembang blockchain.
+Hardhat adalah kerangka kerja pengembangan \emph{smart contract} yang dirancang khusus untuk memudahkan proses pengembangan, pengujian, dan penyebaran \emph{smart contract}. Alat ini menyediakan serangkaian fitur yang memungkinkan pengembang \emph{blockchain} untuk bekerja lebih efisien. Dengan menggunakan Hardhat, pengembang dapat menjalankan lingkungan Ethereum lokal yang memudahkan proses pengujian dan debugging. Hardhat mendukung tugas otomatisasi yang kompleks dan mengintegrasikan stack perangkat lunak yang luas, termasuk plugin dan skrip yang dapat disesuaikan untuk meningkatkan fungsionalitas dan efisiensi. Framework ini juga memfasilitasi interaksi yang lebih mulus dengan jaringan Ethereum publik dan testnet, memungkinkan pengembang untuk memperoleh feedback yang cepat dan efektif tentang cara kerja \emph{smart contract} mereka di dalam kondisi jaringan yang sebenarnya.
 
 \subsection{Ganache}
 
@@ -93,14 +92,18 @@ Ethers.js adalah sebuah \emph{library} JavaScript ringan yang dirancang untuk be
 
 Dalam pengembangan dengan React.js, Ethers.js membantu mengintegrasikan fungsi \emph{blockchain} ke dalam komponen React dengan cara yang bersih dan efektif. Misalnya, dengan menggunakan React \emph{hooks} seperti \emph{useState} dan \emph{useEffect}, pengembang dapat dengan mudah mengintegrasikan status dari \emph{Ethereum blockchain} ke dalam UI aplikasi, memperbarui UI secara \emph{real-time} ketika ada perubahan pada \emph{blockchain} seperti konfirmasi transaksi atau perubahan pada data \emph{contract}.
 
+\subsection{Etherscan}
+Etherscan adalah platform analitis berbasis web yang memungkinkan pengguna untuk melacak transaksi Ethereum, \emph{smart contract}, dan status \emph{blockchain} secara real-time. Platform ini memberikan wawasan mendetail tentang semua aktivitas yang terjadi di jaringan Ethereum, termasuk informasi tentang blok terbaru, transaksi yang sedang berlangsung, dan token yang beredar. Etherscan juga digunakan secara luas oleh pengembang untuk memeriksa dan memverifikasi kode sumber \emph{smart contract}, yang merupakan aspek penting dalam memastikan transparansi dan keamanan dalam ekosistem Ethereum. Dengan antarmuka yang mudah digunakan, Etherscan telah menjadi alat esensial bagi siapa saja yang terlibat dalam industri \emph{blockchain} Ethereum untuk memonitor, memverifikasi, dan menganalisis transaksi dan kontrak.
 
+\subsection{Token ERC-721}
+ERC-721 adalah standar untuk mewakili aset non-fungible (NFT) di \emph{blockchain} Ethereum. Standar ini memungkinkan representasi unik dari aset digital seperti karya seni, barang koleksi, dan item dalam game dalam bentuk token digital. Setiap token ERC-721 memiliki identifikasi unik dan dapat memiliki metadata yang terkait dengannya, yang membedakannya dari token lain di \emph{blockchain}. Fitur ini memfasilitasi pembuatan, perdagangan, dan penjualan aset digital dengan cara yang terdesentralisasi dan transparan. ERC-721 juga mendukung fungsi yang memungkinkan pemilik token untuk mentransfer, menyetujui, atau mengakses informasi tentang kepemilikan token, yang krusial untuk aplikasi di ekosistem Web3 dan ekonomi digital.
 
 \section{Metode Yang Digunakan}
 
 % Contoh input gambar dengan format *.jpg
 \begin{figure} [H] \centering
   % Nama dari file gambar yang diinputkan
-  \includegraphics[scale=0.25]{gambar/metodologi_new.png}
+  \includegraphics[scale=0.35]{gambar/metodologi_new_2.png}
   % Keterangan gambar yang diinputkan
   \caption{Metodologi Penelitian Yang Digunakan}
   % Label referensi dari gambar yang diinputkan

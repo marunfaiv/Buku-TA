@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.9)  25 JUN 2024 20:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.9)  14 JUL 2024 17:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**e:/TUGAS_AKHIR/Buku/main.tex
-(e:/TUGAS_AKHIR/Buku/main.tex
+**e:/TUGAS_AKHIR/Pembukuan/Buku/main.tex
+(e:/TUGAS_AKHIR/Pembukuan/Buku/main.tex
 LaTeX2e <2024-06-01>
 L3 programming layer <2024-05-27>
 (c:/texlive/2024/texmf-dist/tex/latex/base/report.cls
@@ -273,10 +273,7 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'apa.dbx' found.
- (c:/texlive/2024/texmf-dist/tex/latex/biblatex-apa/apa.dbx
-File: apa.dbx 2023/03/20 v9.17 APA biblatex style data model
-)
+Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count332
@@ -315,48 +312,38 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedshortauthor=\count365
 \c@shorteditor=\count366
 \c@savedshorteditor=\count367
-\c@narrator=\count368
-\c@savednarrator=\count369
-\c@execproducer=\count370
-\c@savedexecproducer=\count371
-\c@execdirector=\count372
-\c@savedexecdirector=\count373
-\c@with=\count374
-\c@savedwith=\count375
-\c@labelname=\count376
-\c@savedlabelname=\count377
-\c@institution=\count378
-\c@savedinstitution=\count379
-\c@lista=\count380
-\c@savedlista=\count381
-\c@listb=\count382
-\c@savedlistb=\count383
-\c@listc=\count384
-\c@savedlistc=\count385
-\c@listd=\count386
-\c@savedlistd=\count387
-\c@liste=\count388
-\c@savedliste=\count389
-\c@listf=\count390
-\c@savedlistf=\count391
-\c@location=\count392
-\c@savedlocation=\count393
-\c@organization=\count394
-\c@savedorganization=\count395
-\c@origlocation=\count396
-\c@savedoriglocation=\count397
-\c@origpublisher=\count398
-\c@savedorigpublisher=\count399
-\c@publisher=\count400
-\c@savedpublisher=\count401
-\c@language=\count402
-\c@savedlanguage=\count403
-\c@origlanguage=\count404
-\c@savedoriglanguage=\count405
-\c@citation=\count406
-\c@savedcitation=\count407
-\c@pageref=\count408
-\c@savedpageref=\count409
+\c@labelname=\count368
+\c@savedlabelname=\count369
+\c@institution=\count370
+\c@savedinstitution=\count371
+\c@lista=\count372
+\c@savedlista=\count373
+\c@listb=\count374
+\c@savedlistb=\count375
+\c@listc=\count376
+\c@savedlistc=\count377
+\c@listd=\count378
+\c@savedlistd=\count379
+\c@liste=\count380
+\c@savedliste=\count381
+\c@listf=\count382
+\c@savedlistf=\count383
+\c@location=\count384
+\c@savedlocation=\count385
+\c@organization=\count386
+\c@savedorganization=\count387
+\c@origlocation=\count388
+\c@savedoriglocation=\count389
+\c@origpublisher=\count390
+\c@savedorigpublisher=\count391
+\c@publisher=\count392
+\c@savedpublisher=\count393
+\c@language=\count394
+\c@savedlanguage=\count395
+\c@origlanguage=\count396
+\c@savedoriglanguage=\count397
+\c@pageref=\count398
+\c@savedpageref=\count399
 \shorthandwidth=\skip63
 \shortjournalwidth=\skip64
 \shortserieswidth=\skip65
@@ -380,57 +367,66 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-\c@textcitecount=\count410
-\c@textcitetotal=\count411
-\c@textcitemaxnames=\count412
-\c@biburlbigbreakpenalty=\count413
-\c@biburlbreakpenalty=\count414
-\c@biburlnumpenalty=\count415
-\c@biburlucpenalty=\count416
-\c@biburllcpenalty=\count417
+\c@textcitecount=\count400
+\c@textcitetotal=\count401
+\c@textcitemaxnames=\count402
+\c@biburlbigbreakpenalty=\count403
+\c@biburlbreakpenalty=\count404
+\c@biburlnumpenalty=\count405
+\c@biburlucpenalty=\count406
+\c@biburllcpenalty=\count407
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count418
+\c@smartand=\count408
 )
-Package biblatex Info: Trying to load bibliography style 'apa'...
-Package biblatex Info: ... file 'apa.bbx' found.
- (c:/texlive/2024/texmf-dist/tex/latex/biblatex-apa/apa.bbx
-File: apa.bbx 2023/03/20 v9.17 APA biblatex references style
+Package biblatex Info: Trying to load bibliography style 'ieee'...
+Package biblatex Info: ... file 'ieee.bbx' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
+File: ieee.bbx 2021/12/06 v1.3f biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count419
-\c@bbx:relatedtotal=\count420
-)
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defined, overwriting.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already defined, overwriting.
-Package biblatex Info: Delimiter 'nonameyeardelim' in context 'bib' already defined, overwriting.
-Package biblatex Info: Delimiter 'nonameyeardelim' in context 'biblist' already defined, overwriting.
-)
-Package biblatex Info: Trying to load citation style 'apa'...
-Package biblatex Info: ... file 'apa.cbx' found.
- (c:/texlive/2024/texmf-dist/tex/latex/biblatex-apa/apa.cbx
-File: apa.cbx 2023/03/20 v9.17 APA biblatex citation style
-Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting.
-Package biblatex Info: Delimiter 'andothersdelim' in context '' already defined, overwriting.
-Package biblatex Info: Redefining '\fullcite'.
-Package biblatex Info: Redefining '\citeauthor'.
-Package biblatex Info: Redefining '\citeyear'.
+\c@bbx:relatedcount=\count409
+\c@bbx:relatedtotal=\count410
+))))
+Package biblatex Info: Trying to load citation style 'ieee'...
+Package biblatex Info: ... file 'ieee.cbx' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex-ieee/ieee.cbx
+File: ieee.cbx 2021/12/06 v1.3f biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+File: numeric-comp.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count411
+\c@cbx@tempcntb=\count412
+\c@cbx@tempcntc=\count413
+\c@cbx@tempcntd=\count414
 Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\parencites'.
 Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcites'.
 Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\footcitetexts'.
 Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\smartcites'.
+Package biblatex Info: Redefining '\supercite'.
 Package biblatex Info: Redefining '\textcite'.
 Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\cites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
@@ -443,7 +439,7 @@ Package biblatex Info: Document encoding is UTF8 ....
 Package: expl3 2024-05-27 L3 programming layer (loader) 
  (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count421
+\l__color_backend_stack_int=\count415
 \l__pdf_internal_box=\box54
 ))
 Package biblatex Info: ... and expl3
@@ -456,16 +452,16 @@ Package: xparse 2024-05-08 L3 Experimental document command parser
 Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 )) (c:/texlive/2024/texmf-dist/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count422
-\cp@tempcnt=\count423
+\c@cp@cntr=\count416
+\cp@tempcnt=\count417
 ) (c:/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip77
 \enit@outerparindent=\dimen156
 \enit@toks=\toks23
 \enit@inbox=\box55
-\enit@count@id=\count424
-\enitdp@description=\count425
+\enit@count@id=\count418
+\enitdp@description=\count419
 ) (c:/texlive/2024/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
 \ESO@tempdima=\dimen157
@@ -564,26 +560,26 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
 Package: l3keys2e 2024-05-08 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count426
-\l__lipsum_a_int=\count427
-\l__lipsum_b_int=\count428
+\g__lipsum_par_int=\count420
+\l__lipsum_a_int=\count421
+\l__lipsum_b_int=\count422
  (c:/texlive/2024/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)) (c:/texlive/2024/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2024-04-26 v4.20 Multi-page Table package (DPC)
 \LTleft=\skip78
 \LTright=\skip79
 \LTpre=\skip80
 \LTpost=\skip81
-\LTchunksize=\count429
+\LTchunksize=\count423
 \LTcapwidth=\dimen161
 \LT@head=\box56
 \LT@firsthead=\box57
 \LT@foot=\box58
 \LT@lastfoot=\box59
 \LT@gbox=\box60
-\LT@cols=\count430
-\LT@rows=\count431
-\c@LT@tables=\count432
-\c@LT@chunks=\count433
+\LT@cols=\count424
+\LT@rows=\count425
+\c@LT@tables=\count426
+\c@LT@chunks=\count427
 \LT@p@ftn=\toks24
 ) (c:/texlive/2024/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
@@ -592,18 +588,18 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@old@col=\dimen164
 \TX@target=\dimen165
 \TX@delta=\dimen166
-\TX@cols=\count434
+\TX@cols=\count428
 \TX@ftn=\toks25
 ) (c:/texlive/2024/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen167
 \WF@size=\dimen168
-\c@WF@wrappedlines=\count435
+\c@WF@wrappedlines=\count429
 \WF@box=\box61
 \WF@everypar=\toks26
 Package: wrapfig 2003/01/31  v 3.6
 ) (c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count436
+\c@float@type=\count430
 \float@exts=\toks27
 \float@box=\box62
 \@float@everytoks=\toks28
@@ -620,12 +616,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen176
 \cmidrulekern=\dimen177
 \defaultaddspace=\dimen178
-\@cmidla=\count437
-\@cmidlb=\count438
+\@cmidla=\count431
+\@cmidlb=\count432
 \@aboverulesep=\dimen179
 \@belowrulesep=\dimen180
-\@thisruleclass=\count439
-\@lastruleclass=\count440
+\@thisruleclass=\count433
+\@lastruleclass=\count434
 \@thisrulewidth=\dimen181
 ) (c:/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
@@ -643,8 +639,8 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen189
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count441
-\c@continuedfloat=\count442
+\c@caption@flags=\count435
+\c@continuedfloat=\count436
 Package caption Info: changepage package is loaded.
 \caption@adjustwidth@hsize=\dimen190
 \caption@adjustwidth@linewidth=\dimen191
@@ -657,9 +653,9 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 Package caption Info: wrapfig package is loaded.
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count443
+\c@subfigure=\count437
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count444
+\c@subtable=\count438
 ) (c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2024/04/23 v4.2 Extensive control of page headers and footers
 \f@nch@headwidth=\skip82
@@ -683,31 +679,31 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \titlewidthlast=\dimen195
 \titlewidthfirst=\dimen196
 ) (./pustaka/variables.tex) (./pustaka/tanda-hubung.tex) (c:/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count445
+\lst@mode=\count439
 \lst@gtempboxa=\box65
 \lst@token=\toks30
-\lst@length=\count446
+\lst@length=\count440
 \lst@currlwidth=\dimen197
-\lst@column=\count447
-\lst@pos=\count448
+\lst@column=\count441
+\lst@pos=\count442
 \lst@lostspace=\dimen198
 \lst@width=\dimen199
-\lst@newlines=\count449
-\lst@lineno=\count450
+\lst@newlines=\count443
+\lst@lineno=\count444
 \lst@maxwidth=\dimen256
  (c:/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
 File: lstpatch.sty 2024/05/25 1.10b (Carsten Heinz)
 ) (c:/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2024/05/25 1.10b (Carsten Heinz)
-\c@lstnumber=\count451
-\lst@skipnumbers=\count452
+\c@lstnumber=\count445
+\lst@skipnumbers=\count446
 \lst@framebox=\box66
 ) (c:/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2024/05/25 1.10b listings configuration
 ))
 Package: listings 2024/05/25 1.10b (Carsten Heinz)
-\@quotelevel=\count453
-\@quotereset=\count454
+\@quotelevel=\count447
+\@quotereset=\count448
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 131.
  (c:/texlive/2024/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
@@ -719,10 +715,13 @@ LaTeX Warning: Label `fig:flowtransaksi' multiply defined.
 LaTeX Warning: Label `fig:flowtransaksi' multiply defined.
 
 
-LaTeX Warning: Label `fig:transaction' multiply defined.
-
-
 LaTeX Warning: Label `fig:koneksi_web_metamask' multiply defined.
+
+
+LaTeX Warning: Label `fig:bridge_transfer' multiply defined.
+
+
+LaTeX Warning: Label `fig:bridge_transfer' multiply defined.
 
 )
 \openout1 = `main.aux'.
@@ -803,16 +802,16 @@ Package hyperref Info: Link coloring OFF on input line 131.
 
  (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count455
+\scratchcounter=\count449
 \scratchdimen=\dimen257
 \scratchbox=\box67
-\nofMPsegments=\count456
-\nofMParguments=\count457
+\nofMPsegments=\count450
+\nofMParguments=\count451
 \everyMPshowfont=\toks31
-\MPscratchCnt=\count458
+\MPscratchCnt=\count452
 \MPscratchDim=\dimen258
-\MPnumerator=\count459
-\makeMPintoPDFobject=\count460
+\MPnumerator=\count453
+\makeMPintoPDFobject=\count454
 \everyMPtoPDFconversion=\toks32
 ) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -820,28 +819,11 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
-Package biblatex Info: ... file 'english-apa.lbx' found.
- (c:/texlive/2024/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
-File: english-apa.lbx 2023/03/20 v9.17 APA biblatex localisation
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (c:/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 )
-Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
-Package biblatex Info: ... file 'american-apa.lbx' found.
- (c:/texlive/2024/texmf-dist/tex/latex/biblatex-apa/american-apa.lbx
-File: american-apa.lbx 2023/03/20 v9.17 APA biblatex localisation
-Package biblatex Info: Trying to load language 'american'...
-Package biblatex Info: ... file 'american.lbx' found.
- (c:/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/american.lbx
-File: american.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
- (c:/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
-))))
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -855,7 +837,7 @@ Package biblatex Info: Reference segment=0 on input line 131.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count461
+\c@lstlisting=\count455
  (./sampul/sampul-luar.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -912,7 +894,7 @@ LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 13.67995pt on input line 17.
 )
 
-<sampul/gambar/sampul-luar.png, id=250, 2107.875pt x 2981.1375pt>
+<sampul/gambar/sampul-luar.png, id=258, 2107.875pt x 2981.1375pt>
 File: sampul/gambar/sampul-luar.png Graphic file (type png)
 <use sampul/gambar/sampul-luar.png>
 Package pdftex.def Info: sampul/gambar/sampul-luar.png  used on input line 41.
@@ -961,7 +943,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.38 \restoregeometry
                      
-<sampul/gambar/sampul-luar-tipis.png, id=257, 2107.875pt x 2981.1375pt>
+<sampul/gambar/sampul-luar-tipis.png, id=265, 2107.875pt x 2981.1375pt>
 File: sampul/gambar/sampul-luar-tipis.png Graphic file (type png)
 <use sampul/gambar/sampul-luar-tipis.png>
 Package pdftex.def Info: sampul/gambar/sampul-luar-tipis.png  used on input line 38.
@@ -1151,11 +1133,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.18 
+l.16 
       [1
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (5.93858pt too wide) in paragraph at lines 25--26
+[]\OT1/txr/m/n/12 Penelitian ini akan meng-gu-nakan plat-form \OT1/txr/m/it/12 blockchain \OT1/txr/m/n/12 Ethereum, mengin-gat So-lid-ity meru-
+ []
 
 
 
@@ -1163,8 +1147,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.70   \item \textbf
-                    {BAB II Tinjauan Pustaka} [2])
+l.68   \item \textbf
+                    {BAB III Metodologi} [2])
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
@@ -1285,16 +1269,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has 
 l.215 \cleardoublepage
                        [10] (./bab/3-metodologi.tex
 Chapter 3.
-<gambar/desain_sistem_new.png, id=586, 1671.99657pt x 1443.14156pt>
+<gambar/desain_sistem_new.png, id=637, 1671.99657pt x 1443.14156pt>
 File: gambar/desain_sistem_new.png Graphic file (type png)
 <use gambar/desain_sistem_new.png>
 Package pdftex.def Info: gambar/desain_sistem_new.png  used on input line 10.
 (pdftex.def)             Requested size: 284.23566pt x 245.33081pt.
-<gambar/flow_transaksi.png, id=587, 1954.30125pt x 383.18156pt>
-File: gambar/flow_transaksi.png Graphic file (type png)
-<use gambar/flow_transaksi.png>
-Package pdftex.def Info: gambar/flow_transaksi.png  used on input line 25.
-(pdftex.def)             Requested size: 429.94762pt x 84.3002pt.
+<gambar/flow_transaksi_new.png, id=638, 2211.76312pt x 953.81343pt>
+File: gambar/flow_transaksi_new.png Graphic file (type png)
+<use gambar/flow_transaksi_new.png>
+Package pdftex.def Info: gambar/flow_transaksi_new.png  used on input line 25.
+(pdftex.def)             Requested size: 486.5894pt x 209.8396pt.
+
+Overfull \hbox (31.34529pt too wide) in paragraph at lines 25--27
+ [][] 
+ []
+
 
 Underfull \vbox (badness 3623) has occurred while \output is active []
 
@@ -1318,13 +1307,13 @@ LaTeX Font Info:    Trying to load font information for TS1+txtt on input line 3
  (c:/texlive/2024/texmf-dist/tex/latex/txfonts/ts1txtt.fd
 File: ts1txtt.fd 2000/12/15 v3.1
 ))
-<gambar/proses_minting.png, id=591, 1458.19781pt x 883.04906pt>
+<gambar/proses_minting.png, id=642, 1458.19781pt x 883.04906pt>
 File: gambar/proses_minting.png Graphic file (type png)
 <use gambar/proses_minting.png>
 Package pdftex.def Info: gambar/proses_minting.png  used on input line 46.
 (pdftex.def)             Requested size: 364.54855pt x 220.76172pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 7099) has occurred while \output is active []
 
 
 
@@ -1333,131 +1322,143 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.12}) has 
 <to be read again> 
                    \relax 
 l.52 
-      [12 <./gambar/flow_transaksi.png>]
-Overfull \hbox (3.41989pt too wide) in paragraph at lines 62--63
-\OT1/txr/m/n/12 khusus un-tuk men-gatasi \OT1/txr/m/it/12 smart con-tracts\OT1/txr/m/n/12 , menye-di-akan sin-taks yang men-dukung vari-abel, fungsi,
- []
+      [12 <./gambar/flow_transaksi_new.png (PNG copy)>]
+Underfull \vbox (badness 2205) has occurred while \output is active []
 
 
 
 [13 <./gambar/proses_minting.png>]
+Overfull \hbox (20.41193pt too wide) in paragraph at lines 69--70
+\OT1/txr/m/n/12 lebih efisien. Den-gan meng-gu-nakan Hard-hat, pengem-bang da-pat men-jalankan lingkun-gan Ethereum
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 [14]
-Overfull \hbox (6.33589pt too wide) in paragraph at lines 89--90
+Overfull \hbox (6.33589pt too wide) in paragraph at lines 88--89
 []\OT1/txr/m/n/12 Integrasi Web3.js dalam ap-likasi Re-act.js memu-ngkinkan pengem-bang un-tuk me-man-faatkan
  []
 
 
-Overfull \hbox (27.34789pt too wide) in paragraph at lines 94--95
+Overfull \hbox (27.34789pt too wide) in paragraph at lines 93--94
 []\OT1/txr/m/n/12 Dalam pengem-ban-gan den-gan Re-act.js, Ethers.js mem-bantu meng-in-te-grasikan fungsi \OT1/txr/m/it/12 blockchain
  []
 
-<gambar/metodologi_new.png, id=612, 1023.07219pt x 448.67625pt>
-File: gambar/metodologi_new.png Graphic file (type png)
-<use gambar/metodologi_new.png>
-Package pdftex.def Info: gambar/metodologi_new.png  used on input line 103.
-(pdftex.def)             Requested size: 255.76743pt x 112.16878pt.
+
+Overfull \hbox (13.2839pt too wide) in paragraph at lines 96--97
+\OT1/txr/m/n/12 i-fikasi kode sum-ber \OT1/txr/m/it/12 smart con-tract\OT1/txr/m/n/12 , yang meru-pakan as-pek pent-ing dalam memas-tikan transparansi
+ []
 
 
-[15 <./gambar/metodologi_new.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[15]
+<gambar/metodologi_new_2.png, id=667, 1023.07219pt x 448.67625pt>
+File: gambar/metodologi_new_2.png Graphic file (type png)
+<use gambar/metodologi_new_2.png>
+Package pdftex.def Info: gambar/metodologi_new_2.png  used on input line 106.
+(pdftex.def)             Requested size: 358.08063pt x 157.03903pt.
+
+Underfull \vbox (badness 6032) has occurred while \output is active []
+
+
+
+[16 <./gambar/metodologi_new_2.png (PNG copy)>]
 LaTeX Font Info:    Font shape `OT1/txtt/m/it' in size <12> not available
-(Font)              Font shape `OT1/txtt/m/sl' tried instead on input line 132.
+(Font)              Font shape `OT1/txtt/m/sl' tried instead on input line 135.
 
-Overfull \hbox (3.6946pt too wide) in paragraph at lines 132--133
+Overfull \hbox (3.6946pt too wide) in paragraph at lines 135--136
 \OT1/txr/m/n/12 pen-cip-taan to-ken sebe-narnya. Ini mene-tap-kan kepemi-likan to-ken yang baru dic-etak kepada
  []
 
 
-Overfull \hbox (15.8145pt too wide) in paragraph at lines 136--137
+Overfull \hbox (15.8145pt too wide) in paragraph at lines 139--140
 []\OT1/txr/m/n/12 Setelah menc-etak to-ken, fungsi mem-per-barui meta-data to-ken den-gan me-mang-gil []\OT1/txtt/m/sl/12 tokenURI\OT1/txr/m/n/12 .
  []
 
 
 
-[16]
-Overfull \hbox (2.08656pt too wide) in paragraph at lines 165--166
+[17]
+Overfull \hbox (2.08656pt too wide) in paragraph at lines 168--169
 []\OT1/txr/m/n/12 Setelah to-ken berhasil dikunci, fungsi ke-mu-dian memicu event To-ken-Locked yang menan-
  []
 
 
 
-[17]
-
 [18]
-Overfull \hbox (1.11461pt too wide) in paragraph at lines 219--220
+
+[19]
+Overfull \hbox (1.11461pt too wide) in paragraph at lines 222--223
 \OT1/txr/m/n/12 pent-ing un-tuk au-dit dan pe-man-tauan, memu-ngkinkan ap-likasi dan layanan yang ter-hubung
  []
 
 
-Overfull \hbox (7.85988pt too wide) in paragraph at lines 229--230
+Overfull \hbox (7.85988pt too wide) in paragraph at lines 232--233
 \OT1/txr/m/n/12 modul yang lebih kom-pre-hen-sif dan men-dukung in-ter-aksi yang lebih be-ragam den-gan blockchain,
  []
 
 
 
-[19]
-Overfull \hbox (0.5519pt too wide) in paragraph at lines 236--237
+[20]
+Overfull \hbox (0.5519pt too wide) in paragraph at lines 239--240
 []\OT1/txr/m/n/12 Dalam ap-likasi, kami men-gon-fig-urasi ethers.js un-tuk ter-hubung den-gan provider Ethereum,
  []
 
 
-Overfull \hbox (6.9466pt too wide) in paragraph at lines 244--246
+Overfull \hbox (6.9466pt too wide) in paragraph at lines 247--249
 \OT1/txr/m/n/12 cara in-di-vid-ual. Dalam kon-teks fron-tend Re-act.js, ini be-rarti men-guji komponen-komponen
  []
 
 )
 
-[20] (./bab/4-pengujian-analisis.tex
+[21]
+
+[22
+
+] (./bab/4-pengujian-analisis.tex
 Chapter 4.
-<gambar/web_interface.jpeg, id=667, 1606.0pt x 917.4275pt>
-File: gambar/web_interface.jpeg Graphic file (type jpg)
-<use gambar/web_interface.jpeg>
-Package pdftex.def Info: gambar/web_interface.jpeg  used on input line 11.
-(pdftex.def)             Requested size: 449.67694pt x 256.87794pt.
-<gambar/dashboard_connected.jpeg, id=668, 810.02625pt x 254.9525pt>
-File: gambar/dashboard_connected.jpeg Graphic file (type jpg)
-<use gambar/dashboard_connected.jpeg>
-Package pdftex.def Info: gambar/dashboard_connected.jpeg  used on input line 22.
-(pdftex.def)             Requested size: 364.50844pt x 114.72755pt.
-<gambar/metamask_connected.jpeg, id=669, 441.65pt x 745.78625pt>
-File: gambar/metamask_connected.jpeg Graphic file (type jpg)
-<use gambar/metamask_connected.jpeg>
-Package pdftex.def Info: gambar/metamask_connected.jpeg  used on input line 23.
-(pdftex.def)             Requested size: 154.5798pt x 261.0291pt.
+<gambar/tampilan_aplikasi.jpeg, id=726, 1507.6325pt x 657.45625pt>
+File: gambar/tampilan_aplikasi.jpeg Graphic file (type jpg)
+<use gambar/tampilan_aplikasi.jpeg>
+Package pdftex.def Info: gambar/tampilan_aplikasi.jpeg  used on input line 11.
+(pdftex.def)             Requested size: 452.29324pt x 197.23839pt.
 
 
-[21
+[23
+
+ <./gambar/tampilan_aplikasi.jpeg>]
+<gambar/home_page.jpg, id=732, 1463.4675pt x 724.7075pt>
+File: gambar/home_page.jpg Graphic file (type jpg)
+<use gambar/home_page.jpg>
+Package pdftex.def Info: gambar/home_page.jpg  used on input line 22.
+(pdftex.def)             Requested size: 395.14151pt x 195.67363pt.
+<gambar/create_page.jpeg, id=734, 1548.78625pt x 780.9175pt>
+File: gambar/create_page.jpeg Graphic file (type jpg)
+<use gambar/create_page.jpeg>
+Package pdftex.def Info: gambar/create_page.jpeg  used on input line 33.
+(pdftex.def)             Requested size: 418.17789pt x 210.85054pt.
+<gambar/listing_page.jpg, id=736, 1522.68875pt x 697.60625pt>
+File: gambar/listing_page.jpg Graphic file (type jpg)
+<use gambar/listing_page.jpg>
+Package pdftex.def Info: gambar/listing_page.jpg  used on input line 44.
+(pdftex.def)             Requested size: 411.13147pt x 188.3562pt.
 
 
- <./gambar/web_interface.jpeg>]
-<gambar/payment.jpeg, id=674, 628.3475pt x 164.615pt>
-File: gambar/payment.jpeg Graphic file (type jpg)
-<use gambar/payment.jpeg>
-Package pdftex.def Info: gambar/payment.jpeg  used on input line 34.
-(pdftex.def)             Requested size: 314.17297pt x 82.3073pt.
-<gambar/transaction.jpeg, id=675, 454.69875pt x 776.9025pt>
-File: gambar/transaction.jpeg Graphic file (type jpg)
-<use gambar/transaction.jpeg>
-Package pdftex.def Info: gambar/transaction.jpeg  used on input line 45.
-(pdftex.def)             Requested size: 159.14694pt x 271.91994pt.
-
-Underfull \vbox (badness 7925) has occurred while \output is active []
+[24 <./gambar/home_page.jpg> <./gambar/create_page.jpeg>]
+<gambar/purchase_page.jpg, id=742, 1499.6025pt x 658.46pt>
+File: gambar/purchase_page.jpg Graphic file (type jpg)
+<use gambar/purchase_page.jpg>
+Package pdftex.def Info: gambar/purchase_page.jpg  used on input line 55.
+(pdftex.def)             Requested size: 404.89809pt x 177.78658pt.
 
 
-
-[22 <./gambar/dashboard_connected.jpeg> <./gambar/metamask_connected.jpeg> <./gambar/payment.jpeg>]
-<gambar/new_owner.jpeg, id=681, 373.395pt x 505.89pt>
-File: gambar/new_owner.jpeg Graphic file (type jpg)
-<use gambar/new_owner.jpeg>
-Package pdftex.def Info: gambar/new_owner.jpeg  used on input line 57.
-(pdftex.def)             Requested size: 168.0262pt x 227.64839pt.
-
-
-[23 <./gambar/transaction.jpeg> <./gambar/new_owner.jpeg>]
-<gambar/etherscan.jpeg, id=686, 1054.94125pt x 613.29124pt>
+[25 <./gambar/listing_page.jpg> <./gambar/purchase_page.jpg>]
+<gambar/etherscan.jpeg, id=748, 1054.94125pt x 613.29124pt>
 File: gambar/etherscan.jpeg Graphic file (type jpg)
 <use gambar/etherscan.jpeg>
 Package pdftex.def Info: gambar/etherscan.jpeg  used on input line 73.
@@ -1474,250 +1475,427 @@ Overfull \hbox (8.06317pt too wide) in paragraph at lines 81--82
 
 
 
-[24 <./gambar/etherscan.jpeg>]
-<gambar/opensea.jpeg, id=691, 1606.0pt x 781.92125pt>
+[26 <./gambar/etherscan.jpeg>]
+<gambar/opensea.jpeg, id=753, 1606.0pt x 781.92125pt>
 File: gambar/opensea.jpeg Graphic file (type jpg)
 <use gambar/opensea.jpeg>
 Package pdftex.def Info: gambar/opensea.jpeg  used on input line 85.
 (pdftex.def)             Requested size: 449.67694pt x 218.93645pt.
 
+
+[27 <./gambar/opensea.jpeg>]
 Overfull \hbox (2.34386pt too wide) in paragraph at lines 109--121
  [][] 
  []
 
-
-
-[25 <./gambar/opensea.jpeg>]
-<gambar/riwayat_transaksi.jpeg, id=696, 414.54875pt x 692.5875pt>
+<gambar/riwayat_transaksi.jpeg, id=758, 414.54875pt x 692.5875pt>
 File: gambar/riwayat_transaksi.jpeg Graphic file (type jpg)
 <use gambar/riwayat_transaksi.jpeg>
-Package pdftex.def Info: gambar/riwayat_transaksi.jpeg  used on input line 131.
+Package pdftex.def Info: gambar/riwayat_transaksi.jpeg  used on input line 152.
 (pdftex.def)             Requested size: 145.09422pt x 242.40926pt.
-<gambar/detail_transaksi_etherscan.jpeg, id=697, 1100.11pt x 706.64pt>
+
+
+[28 <./gambar/riwayat_transaksi.jpeg>]
+<gambar/detail_transaksi_etherscan.jpeg, id=764, 1100.11pt x 706.64pt>
 File: gambar/detail_transaksi_etherscan.jpeg Graphic file (type jpg)
 <use gambar/detail_transaksi_etherscan.jpeg>
-Package pdftex.def Info: gambar/detail_transaksi_etherscan.jpeg  used on input line 142.
+Package pdftex.def Info: gambar/detail_transaksi_etherscan.jpeg  used on input line 166.
 (pdftex.def)             Requested size: 352.04239pt x 226.12941pt.
-<gambar/detail_nft_etherscan.jpeg, id=698, 1571.8725pt x 568.1225pt>
+
+
+[29 <./gambar/detail_transaksi_etherscan.jpeg>]
+<gambar/detail_nft_etherscan.jpeg, id=769, 1571.8725pt x 568.1225pt>
 File: gambar/detail_nft_etherscan.jpeg Graphic file (type jpg)
 <use gambar/detail_nft_etherscan.jpeg>
-Package pdftex.def Info: gambar/detail_nft_etherscan.jpeg  used on input line 153.
+Package pdftex.def Info: gambar/detail_nft_etherscan.jpeg  used on input line 177.
 (pdftex.def)             Requested size: 471.5654pt x 170.43805pt.
 
-Overfull \hbox (16.32129pt too wide) in paragraph at lines 153--155
+Overfull \hbox (16.32129pt too wide) in paragraph at lines 177--179
  [][] 
  []
 
-
-
-[26 <./gambar/riwayat_transaksi.jpeg> <./gambar/detail_transaksi_etherscan.jpeg>]
-<gambar/nft_pada_opensea.jpeg, id=703, 1276.77pt x 944.52875pt>
+<gambar/nft_pada_opensea.jpeg, id=770, 1276.77pt x 944.52875pt>
 File: gambar/nft_pada_opensea.jpeg Graphic file (type jpg)
 <use gambar/nft_pada_opensea.jpeg>
-Package pdftex.def Info: gambar/nft_pada_opensea.jpeg  used on input line 164.
+Package pdftex.def Info: gambar/nft_pada_opensea.jpeg  used on input line 186.
 (pdftex.def)             Requested size: 383.03395pt x 283.36081pt.
-<gambar/lock_token.jpeg, id=704, 1120.185pt x 596.2275pt>
+
+
+[30 <./gambar/detail_nft_etherscan.jpeg> <./gambar/nft_pada_opensea.jpeg>]
+<gambar/lock_token.jpeg, id=775, 1120.185pt x 596.2275pt>
 File: gambar/lock_token.jpeg Graphic file (type jpg)
 <use gambar/lock_token.jpeg>
-Package pdftex.def Info: gambar/lock_token.jpeg  used on input line 175.
-(pdftex.def)             Requested size: 358.46652pt x 190.79669pt.
-
-
-[27 <./gambar/detail_nft_etherscan.jpeg> <./gambar/nft_pada_opensea.jpeg>]
-<gambar/bridge_transfer.jpeg, id=710, 351.3125pt x 170.6375pt>
+Package pdftex.def Info: gambar/lock_token.jpeg  used on input line 200.
+(pdftex.def)             Requested size: 392.07062pt x 208.68274pt.
+<gambar/bridge_transfer.jpeg, id=776, 351.3125pt x 170.6375pt>
 File: gambar/bridge_transfer.jpeg Graphic file (type jpg)
 <use gambar/bridge_transfer.jpeg>
-Package pdftex.def Info: gambar/bridge_transfer.jpeg  used on input line 186.
+Package pdftex.def Info: gambar/bridge_transfer.jpeg  used on input line 211.
 (pdftex.def)             Requested size: 263.48372pt x 127.9778pt.
-<gambar/verifikasi_metamask_wallet.jpeg, id=712, 462.72874pt x 835.12pt>
+
+
+[31 <./gambar/lock_token.jpeg> <./gambar/bridge_transfer.jpeg>]
+<gambar/verifikasi_metamask_wallet.jpeg, id=782, 462.72874pt x 835.12pt>
 File: gambar/verifikasi_metamask_wallet.jpeg Graphic file (type jpg)
 <use gambar/verifikasi_metamask_wallet.jpeg>
-Package pdftex.def Info: gambar/verifikasi_metamask_wallet.jpeg  used on input line 197.
+Package pdftex.def Info: gambar/verifikasi_metamask_wallet.jpeg  used on input line 222.
 (pdftex.def)             Requested size: 148.07622pt x 267.24385pt.
+<gambar/detail_pada_etherscan.jpeg, id=783, 1106.1325pt x 689.57625pt>
+File: gambar/detail_pada_etherscan.jpeg Graphic file (type jpg)
+<use gambar/detail_pada_etherscan.jpeg>
+Package pdftex.def Info: gambar/detail_pada_etherscan.jpeg  used on input line 233.
+(pdftex.def)             Requested size: 387.15218pt x 241.3553pt.
+
+
+[32 <./gambar/verifikasi_metamask_wallet.jpeg> <./gambar/detail_pada_etherscan.jpeg>]
+<gambar/nft_detail_etherscan2.jpeg, id=789, 1546.77875pt x 546.04pt>
+File: gambar/nft_detail_etherscan2.jpeg Graphic file (type jpg)
+<use gambar/nft_detail_etherscan2.jpeg>
+Package pdftex.def Info: gambar/nft_detail_etherscan2.jpeg  used on input line 244.
+(pdftex.def)             Requested size: 464.03722pt x 163.81326pt.
+
+Overfull \hbox (8.7931pt too wide) in paragraph at lines 244--246
+ [][] 
+ []
+
+<gambar/nft_pada_opensea_2.jpeg, id=790, 1179.40625pt x 901.3675pt>
+File: gambar/nft_pada_opensea_2.jpeg Graphic file (type jpg)
+<use gambar/nft_pada_opensea_2.jpeg>
+Package pdftex.def Info: gambar/nft_pada_opensea_2.jpeg  used on input line 255.
+(pdftex.def)             Requested size: 318.44394pt x 243.37247pt.
+
+
+[33 <./gambar/nft_detail_etherscan2.jpeg> <./gambar/nft_pada_opensea_2.jpeg>]
+Overfull \hbox (8.12183pt too wide) in paragraph at lines 273--274
+[]\OT1/txr/m/it/12 User \OT1/txr/m/n/12 yang memi-liki NFT terse-but da-pat me-la-ku-kan \OT1/txr/m/it/12 trans-fer own-er-ship \OT1/txr/m/n/12 atau pin-dah kepemi-
+ []
+
+
+Overfull \hbox (4.36787pt too wide) in paragraph at lines 278--279
+[]\OT1/txr/m/n/12 Berikut meru-pakan langkah-langkah dari pen-gu-jian in-te-grasi \OT1/txr/m/it/12 smart con-tract \OT1/txr/m/n/12 den-gan Web3.0
+ []
+
+<gambar/login_page.jpg, id=795, 1545.775pt x 946.53625pt>
+File: gambar/login_page.jpg Graphic file (type jpg)
+<use gambar/login_page.jpg>
+Package pdftex.def Info: gambar/login_page.jpg  used on input line 285.
+(pdftex.def)             Requested size: 401.89203pt x 246.09361pt.
+<gambar/integrasi_metamask.jpg, id=797, 440.64626pt x 766.865pt>
+File: gambar/integrasi_metamask.jpg Graphic file (type jpg)
+<use gambar/integrasi_metamask.jpg>
+Package pdftex.def Info: gambar/integrasi_metamask.jpg  used on input line 297.
+(pdftex.def)             Requested size: 154.22849pt x 268.40677pt.
+<gambar/metamask_konek.jpeg, id=798, 443.6575pt x 751.80875pt>
+File: gambar/metamask_konek.jpeg Graphic file (type jpg)
+<use gambar/metamask_konek.jpeg>
+Package pdftex.def Info: gambar/metamask_konek.jpeg  used on input line 303.
+(pdftex.def)             Requested size: 155.28244pt x 263.137pt.
+
+
+[34 <./gambar/login_page.jpg>]
+Overfull \hbox (1.5226pt too wide) in paragraph at lines 311--312
+\OT1/txr/m/n/12 pada web. Ketika peng-guna menekan tombol \OT1/txr/m/it/12 Con-nect Wal-let \OT1/txr/m/n/12 maka akan di-arahkan kepada
+ []
+
+<gambar/create_nft.jpg, id=807, 1524.69624pt x 850.17625pt>
+File: gambar/create_nft.jpg Graphic file (type jpg)
+<use gambar/create_nft.jpg>
+Package pdftex.def Info: gambar/create_nft.jpg  used on input line 317.
+(pdftex.def)             Requested size: 411.6735pt x 229.55066pt.
+
+Underfull \vbox (badness 5050) has occurred while \output is active []
+
+
+
+[35 <./gambar/integrasi_metamask.jpg> <./gambar/metamask_konek.jpeg>]
+Overfull \hbox (0.33388pt too wide) in paragraph at lines 324--325
+[]\OT1/txr/m/n/12 Pada tahap awal ini peng-guna me-la-ku-kan pen-gung-ga-han NFT pada ha-la-man \OT1/txr/m/it/12 cre-ate\OT1/txr/m/n/12 . Peng-
+ []
+
+<gambar/confirm_create.jpg, id=812, 437.635pt x 767.86874pt>
+File: gambar/confirm_create.jpg Graphic file (type jpg)
+<use gambar/confirm_create.jpg>
+Package pdftex.def Info: gambar/confirm_create.jpg  used on input line 329.
+(pdftex.def)             Requested size: 140.04605pt x 245.723pt.
+<gambar/confirm_upload.jpg, id=813, 433.62pt x 766.865pt>
+File: gambar/confirm_upload.jpg Graphic file (type jpg)
+<use gambar/confirm_upload.jpg>
+Package pdftex.def Info: gambar/confirm_upload.jpg  used on input line 335.
+(pdftex.def)             Requested size: 138.76123pt x 245.40181pt.
+
+
+[36 <./gambar/create_nft.jpg> <./gambar/confirm_create.jpg> <./gambar/confirm_upload.jpg>]
+<gambar/pinata.jpeg, id=820, 1606.0pt x 796.9775pt>
+File: gambar/pinata.jpeg Graphic file (type jpg)
+<use gambar/pinata.jpeg>
+Package pdftex.def Info: gambar/pinata.jpeg  used on input line 349.
+(pdftex.def)             Requested size: 401.49902pt x 199.24388pt.
+
+
+[37 <./gambar/pinata.jpeg>]
+File: gambar/confirm_create.jpg Graphic file (type jpg)
+<use gambar/confirm_create.jpg>
+Package pdftex.def Info: gambar/confirm_create.jpg  used on input line 360.
+(pdftex.def)             Requested size: 188.17938pt x 330.17712pt.
+<gambar/listed_nft.jpeg, id=827, 1556.81625pt x 876.27374pt>
+File: gambar/listed_nft.jpeg Graphic file (type jpg)
+<use gambar/listed_nft.jpeg>
+Package pdftex.def Info: gambar/listed_nft.jpeg  used on input line 373.
+(pdftex.def)             Requested size: 404.76268pt x 227.82579pt.
+
+Underfull \vbox (badness 5022) has occurred while \output is active []
+
+
+
+[38]
+<gambar/nft_listed_home.jpeg, id=832, 1564.84625pt x 806.01125pt>
+File: gambar/nft_listed_home.jpeg Graphic file (type jpg)
+<use gambar/nft_listed_home.jpeg>
+Package pdftex.def Info: gambar/nft_listed_home.jpeg  used on input line 386.
+(pdftex.def)             Requested size: 406.85043pt x 209.55798pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[28 <./gambar/lock_token.jpeg> <./gambar/bridge_transfer.jpeg>]
-<gambar/detail_pada_etherscan.jpeg, id=718, 1106.1325pt x 689.57625pt>
-File: gambar/detail_pada_etherscan.jpeg Graphic file (type jpg)
-<use gambar/detail_pada_etherscan.jpeg>
-Package pdftex.def Info: gambar/detail_pada_etherscan.jpeg  used on input line 208.
-(pdftex.def)             Requested size: 387.15218pt x 241.3553pt.
-<gambar/nft_detail_etherscan2.jpeg, id=720, 1546.77875pt x 546.04pt>
-File: gambar/nft_detail_etherscan2.jpeg Graphic file (type jpg)
-<use gambar/nft_detail_etherscan2.jpeg>
-Package pdftex.def Info: gambar/nft_detail_etherscan2.jpeg  used on input line 219.
-(pdftex.def)             Requested size: 464.03722pt x 163.81326pt.
+[39 <./gambar/listed_nft.jpeg>]
+<gambar/metamask_akun_2.jpeg, id=838, 446.66875pt x 747.79375pt>
+File: gambar/metamask_akun_2.jpeg Graphic file (type jpg)
+<use gambar/metamask_akun_2.jpeg>
+Package pdftex.def Info: gambar/metamask_akun_2.jpeg  used on input line 399.
+(pdftex.def)             Requested size: 209.93433pt x 351.4631pt.
 
-Overfull \hbox (8.7931pt too wide) in paragraph at lines 219--221
- [][] 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[40 <./gambar/nft_listed_home.jpeg>]
+Overfull \hbox (0.90984pt too wide) in paragraph at lines 406--407
+[]\OT1/txr/m/n/12 Pada gam-bar []4.27[] ketika peng-guna memilih un-tuk mem-beli se-buah NFT yang di-ta-mpilkan
+ []
+
+<gambar/make_item.jpeg, id=846, 435.6275pt x 769.87625pt>
+File: gambar/make_item.jpeg Graphic file (type jpg)
+<use gambar/make_item.jpeg>
+Package pdftex.def Info: gambar/make_item.jpeg  used on input line 410.
+(pdftex.def)             Requested size: 196.03056pt x 346.44112pt.
+
+
+[41 <./gambar/metamask_akun_2.jpeg>]
+<gambar/home_setelah_nft_dibeli.jpg, id=851, 1550.79375pt x 841.1425pt>
+File: gambar/home_setelah_nft_dibeli.jpg Graphic file (type jpg)
+<use gambar/home_setelah_nft_dibeli.jpg>
+Package pdftex.def Info: gambar/home_setelah_nft_dibeli.jpg  used on input line 420.
+(pdftex.def)             Requested size: 387.6975pt x 210.28511pt.
+
+
+[42 <./gambar/make_item.jpeg> <./gambar/home_setelah_nft_dibeli.jpg>]
+<gambar/tampilan_pada_listed_items.jpeg, id=858, 1527.7075pt x 943.525pt>
+File: gambar/tampilan_pada_listed_items.jpeg Graphic file (type jpg)
+<use gambar/tampilan_pada_listed_items.jpeg>
+Package pdftex.def Info: gambar/tampilan_pada_listed_items.jpeg  used on input line 431.
+(pdftex.def)             Requested size: 381.92593pt x 235.88066pt.
+
+
+[43 <./gambar/tampilan_pada_listed_items.jpeg>]
+<gambar/my_purchases_akun2.jpg, id=865, 1551.7975pt x 887.315pt>
+File: gambar/my_purchases_akun2.jpg Graphic file (type jpg)
+<use gambar/my_purchases_akun2.jpg>
+Package pdftex.def Info: gambar/my_purchases_akun2.jpg  used on input line 444.
+(pdftex.def)             Requested size: 387.94843pt x 221.8282pt.
+
+
+[44 <./gambar/my_purchases_akun2.jpg>]
+<gambar/address_akun_kedua_nft_b.jpeg, id=871, 268.00125pt x 446.41782pt>
+File: gambar/address_akun_kedua_nft_b.jpeg Graphic file (type jpg)
+<use gambar/address_akun_kedua_nft_b.jpeg>
+Package pdftex.def Info: gambar/address_akun_kedua_nft_b.jpeg  used on input line 459.
+(pdftex.def)             Requested size: 214.40128pt x 357.13474pt.
+<gambar/metamask_akun_3.jpg, id=873, 445.665pt x 753.81625pt>
+File: gambar/metamask_akun_3.jpg Graphic file (type jpg)
+<use gambar/metamask_akun_3.jpg>
+Package pdftex.def Info: gambar/metamask_akun_3.jpg  used on input line 470.
+(pdftex.def)             Requested size: 178.26283pt x 301.52116pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[45 <./gambar/address_akun_kedua_nft_b.jpeg>]
+Overfull \hbox (13.32983pt too wide) in paragraph at lines 486--487
+\OT1/txr/m/n/12 dari NFT yang telah di-lakukan \OT1/txr/m/it/12 trans-fer own-er-ship \OT1/txr/m/n/12 se-cara \OT1/txr/m/it/12 lo-cal-host \OT1/txr/m/n/12 maupun lin-tas \OT1/txr/m/it/12 blockchain
  []
 
 
 
-[29 <./gambar/verifikasi_metamask_wallet.jpeg> <./gambar/detail_pada_etherscan.jpeg>]
-<gambar/nft_pada_opensea_2.jpeg, id=725, 1179.40625pt x 901.3675pt>
-File: gambar/nft_pada_opensea_2.jpeg Graphic file (type jpg)
-<use gambar/nft_pada_opensea_2.jpeg>
-Package pdftex.def Info: gambar/nft_pada_opensea_2.jpeg  used on input line 230.
-(pdftex.def)             Requested size: 318.44394pt x 243.37247pt.
+[46 <./gambar/metamask_akun_3.jpg>]
+<gambar/normal_transfer.jpg, id=883, 242.40562pt x 542.77782pt>
+File: gambar/normal_transfer.jpg Graphic file (type jpg)
+<use gambar/normal_transfer.jpg>
+Package pdftex.def Info: gambar/normal_transfer.jpg  used on input line 497.
+(pdftex.def)             Requested size: 145.44447pt x 325.6692pt.
+<gambar/my_nft_b.jpg, id=884, 443.6575pt x 748.7975pt>
+File: gambar/my_nft_b.jpg Graphic file (type jpg)
+<use gambar/my_nft_b.jpg>
+Package pdftex.def Info: gambar/my_nft_b.jpg  used on input line 508.
+(pdftex.def)             Requested size: 199.64401pt x 336.95576pt.
 
 
-[30 <./gambar/nft_detail_etherscan2.jpeg> <./gambar/nft_pada_opensea_2.jpeg>]
-Overfull \hbox (8.12183pt too wide) in paragraph at lines 248--249
-[]\OT1/txr/m/it/12 User \OT1/txr/m/n/12 yang memi-liki NFT terse-but da-pat me-la-ku-kan \OT1/txr/m/it/12 trans-fer own-er-ship \OT1/txr/m/n/12 atau pin-dah kepemi-
+[47 <./gambar/normal_transfer.jpg>]
+<gambar/transfer_berhasil.jpg, id=889, 557.08125pt x 149.55875pt>
+File: gambar/transfer_berhasil.jpg Graphic file (type jpg)
+<use gambar/transfer_berhasil.jpg>
+Package pdftex.def Info: gambar/transfer_berhasil.jpg  used on input line 519.
+(pdftex.def)             Requested size: 389.95422pt x 104.6904pt.
+
+
+[48 <./gambar/my_nft_b.jpg> <./gambar/transfer_berhasil.jpg>]
+<gambar/letter_b_to_akun3.jpg, id=894, 1549.79pt x 756.8275pt>
+File: gambar/letter_b_to_akun3.jpg Graphic file (type jpg)
+<use gambar/letter_b_to_akun3.jpg>
+Package pdftex.def Info: gambar/letter_b_to_akun3.jpg  used on input line 530.
+(pdftex.def)             Requested size: 387.44655pt x 189.2064pt.
+<gambar/hardhat_transaction.jpg, id=895, 1411.2725pt x 876.27374pt>
+File: gambar/hardhat_transaction.jpg Graphic file (type jpg)
+<use gambar/hardhat_transaction.jpg>
+Package pdftex.def Info: gambar/hardhat_transaction.jpg  used on input line 541.
+(pdftex.def)             Requested size: 381.04868pt x 236.59706pt.
+<gambar/letter_b_akun3.jpg, id=896, 1556.81625pt x 893.3375pt>
+File: gambar/letter_b_akun3.jpg Graphic file (type jpg)
+<use gambar/letter_b_akun3.jpg>
+Package pdftex.def Info: gambar/letter_b_akun3.jpg  used on input line 552.
+(pdftex.def)             Requested size: 420.34601pt x 241.20435pt.
+
+
+[49 <./gambar/letter_b_to_akun3.jpg> <./gambar/hardhat_transaction.jpg>]
+<gambar/sepolia_akun.jpg, id=901, 440.64626pt x 752.8125pt>
+File: gambar/sepolia_akun.jpg Graphic file (type jpg)
+<use gambar/sepolia_akun.jpg>
+Package pdftex.def Info: gambar/sepolia_akun.jpg  used on input line 564.
+(pdftex.def)             Requested size: 141.00967pt x 240.90492pt.
+<gambar/btc_akun.jpg, id=902, 467.7475pt x 716.6775pt>
+File: gambar/btc_akun.jpg Graphic file (type jpg)
+<use gambar/btc_akun.jpg>
+Package pdftex.def Info: gambar/btc_akun.jpg  used on input line 570.
+(pdftex.def)             Requested size: 149.68225pt x 229.34149pt.
+
+
+[50 <./gambar/letter_b_akun3.jpg> <./gambar/sepolia_akun.jpg> <./gambar/btc_akun.jpg>]
+<gambar/interoperability_1.jpg, id=907, 336.25626pt x 732.7375pt>
+File: gambar/interoperability_1.jpg Graphic file (type jpg)
+<use gambar/interoperability_1.jpg>
+Package pdftex.def Info: gambar/interoperability_1.jpg  used on input line 585.
+(pdftex.def)             Requested size: 168.12772pt x 366.36786pt.
+<gambar/fungsi_lock.jpg, id=908, 426.59375pt x 590.205pt>
+File: gambar/fungsi_lock.jpg Graphic file (type jpg)
+<use gambar/fungsi_lock.jpg>
+Package pdftex.def Info: gambar/fungsi_lock.jpg  used on input line 596.
+(pdftex.def)             Requested size: 170.63446pt x 236.0778pt.
+
+
+[51 <./gambar/interoperability_1.jpg>]
+Overfull \hbox (7.83385pt too wide) in paragraph at lines 603--604
+[]\OT1/txr/m/n/12 Setelah me-la-ku-kan kon-fir-masi pem-ba-yaran gas dari fungsi \OT1/txr/m/it/12 lock \OT1/txr/m/n/12 to-ken, kon-disi NFT berubah
  []
 
-
-Overfull \hbox (4.36787pt too wide) in paragraph at lines 253--254
-[]\OT1/txr/m/n/12 Berikut meru-pakan langkah-langkah dari pen-gu-jian in-te-grasi \OT1/txr/m/it/12 smart con-tract \OT1/txr/m/n/12 den-gan Web3.0
- []
-
-<gambar/login_page.jpg, id=730, 1545.775pt x 946.53625pt>
-File: gambar/login_page.jpg Graphic file (type jpg)
-<use gambar/login_page.jpg>
-Package pdftex.def Info: gambar/login_page.jpg  used on input line 260.
-(pdftex.def)             Requested size: 386.44281pt x 236.63348pt.
-<gambar/integrasi_metamask.jpg, id=732, 440.64626pt x 766.865pt>
-File: gambar/integrasi_metamask.jpg Graphic file (type jpg)
-<use gambar/integrasi_metamask.jpg>
-Package pdftex.def Info: gambar/integrasi_metamask.jpg  used on input line 272.
-(pdftex.def)             Requested size: 154.22849pt x 268.40677pt.
-<gambar/metamask_konek.jpeg, id=733, 443.6575pt x 751.80875pt>
-File: gambar/metamask_konek.jpeg Graphic file (type jpg)
-<use gambar/metamask_konek.jpeg>
-Package pdftex.def Info: gambar/metamask_konek.jpeg  used on input line 278.
-(pdftex.def)             Requested size: 155.28244pt x 263.137pt.
+<gambar/bridge.jpg, id=913, 432.61626pt x 590.205pt>
+File: gambar/bridge.jpg Graphic file (type jpg)
+<use gambar/bridge.jpg>
+Package pdftex.def Info: gambar/bridge.jpg  used on input line 607.
+(pdftex.def)             Requested size: 173.04343pt x 236.0778pt.
 
 
-[31 <./gambar/login_page.jpg>]
-Overfull \hbox (1.5226pt too wide) in paragraph at lines 286--287
-\OT1/txr/m/n/12 pada web. Ketika peng-guna menekan tombol \OT1/txr/m/it/12 Con-nect Wal-let \OT1/txr/m/n/12 maka akan di-arahkan kepada
- []
-
-<gambar/home_page.jpg, id=741, 1463.4675pt x 724.7075pt>
-File: gambar/home_page.jpg Graphic file (type jpg)
-<use gambar/home_page.jpg>
-Package pdftex.def Info: gambar/home_page.jpg  used on input line 290.
-(pdftex.def)             Requested size: 395.14151pt x 195.67363pt.
-
-
-[32 <./gambar/integrasi_metamask.jpg> <./gambar/metamask_konek.jpeg> <./gambar/home_page.jpg>]
-<gambar/create_page.jpeg, id=747, 1548.78625pt x 780.9175pt>
-File: gambar/create_page.jpeg Graphic file (type jpg)
-<use gambar/create_page.jpeg>
-Package pdftex.def Info: gambar/create_page.jpeg  used on input line 301.
-(pdftex.def)             Requested size: 418.17789pt x 210.85054pt.
-<gambar/listing_page.jpg, id=749, 1522.68875pt x 697.60625pt>
-File: gambar/listing_page.jpg Graphic file (type jpg)
-<use gambar/listing_page.jpg>
-Package pdftex.def Info: gambar/listing_page.jpg  used on input line 312.
-(pdftex.def)             Requested size: 411.13147pt x 188.3562pt.
+[52 <./gambar/fungsi_lock.jpg> <./gambar/bridge.jpg>]
+<gambar/smart_chain.jpg, id=919, 340.27126pt x 578.16pt>
+File: gambar/smart_chain.jpg Graphic file (type jpg)
+<use gambar/smart_chain.jpg>
+Package pdftex.def Info: gambar/smart_chain.jpg  used on input line 620.
+(pdftex.def)             Requested size: 153.12064pt x 260.16959pt.
+<gambar/unlock_token.jpg, id=920, 438.63875pt x 579.16376pt>
+File: gambar/unlock_token.jpg Graphic file (type jpg)
+<use gambar/unlock_token.jpg>
+Package pdftex.def Info: gambar/unlock_token.jpg  used on input line 631.
+(pdftex.def)             Requested size: 175.45238pt x 231.66139pt.
 
 
-[33 <./gambar/create_page.jpeg> <./gambar/listing_page.jpg>]
-<gambar/purchase_page.jpg, id=755, 1499.6025pt x 658.46pt>
-File: gambar/purchase_page.jpg Graphic file (type jpg)
-<use gambar/purchase_page.jpg>
-Package pdftex.def Info: gambar/purchase_page.jpg  used on input line 323.
-(pdftex.def)             Requested size: 404.89809pt x 177.78658pt.
-<gambar/create_nft.jpg, id=757, 1524.69624pt x 850.17625pt>
-File: gambar/create_nft.jpg Graphic file (type jpg)
-<use gambar/create_nft.jpg>
-Package pdftex.def Info: gambar/create_nft.jpg  used on input line 336.
-(pdftex.def)             Requested size: 411.6735pt x 229.55066pt.
-
-Underfull \vbox (badness 3514) has occurred while \output is active []
+[53 <./gambar/smart_chain.jpg> <./gambar/unlock_token.jpg>]
+<gambar/interoperabilitas_2.jpg, id=925, 1071.00125pt x 592.2125pt>
+File: gambar/interoperabilitas_2.jpg Graphic file (type jpg)
+<use gambar/interoperabilitas_2.jpg>
+Package pdftex.def Info: gambar/interoperabilitas_2.jpg  used on input line 642.
+(pdftex.def)             Requested size: 428.39291pt x 236.8808pt.
+<gambar/block_hash.jpg, id=926, 631.60968pt x 174.6525pt>
+File: gambar/block_hash.jpg Graphic file (type jpg)
+<use gambar/block_hash.jpg>
+Package pdftex.def Info: gambar/block_hash.jpg  used on input line 653.
+(pdftex.def)             Requested size: 442.12376pt x 122.2559pt.
 
 
+[54 <./gambar/interoperabilitas_2.jpg> <./gambar/block_hash.jpg>])
 
-[34 <./gambar/purchase_page.jpg>]
-Overfull \hbox (0.33388pt too wide) in paragraph at lines 343--344
-[]\OT1/txr/m/n/12 Pada tahap awal ini peng-guna me-la-ku-kan pen-gung-ga-han NFT pada ha-la-man \OT1/txr/m/it/12 cre-ate\OT1/txr/m/n/12 . Peng-
- []
+[55]
 
-<gambar/confirm_create.jpg, id=763, 437.635pt x 767.86874pt>
-File: gambar/confirm_create.jpg Graphic file (type jpg)
-<use gambar/confirm_create.jpg>
-Package pdftex.def Info: gambar/confirm_create.jpg  used on input line 348.
-(pdftex.def)             Requested size: 140.04605pt x 245.723pt.
-<gambar/confirm_upload.jpg, id=764, 433.62pt x 766.865pt>
-File: gambar/confirm_upload.jpg Graphic file (type jpg)
-<use gambar/confirm_upload.jpg>
-Package pdftex.def Info: gambar/confirm_upload.jpg  used on input line 354.
-(pdftex.def)             Requested size: 138.76123pt x 245.40181pt.
-
-
-[35 <./gambar/create_nft.jpg> <./gambar/confirm_create.jpg> <./gambar/confirm_upload.jpg>]
-<gambar/pinata.jpeg, id=771, 1606.0pt x 796.9775pt>
-File: gambar/pinata.jpeg Graphic file (type jpg)
-<use gambar/pinata.jpeg>
-Package pdftex.def Info: gambar/pinata.jpeg  used on input line 368.
-(pdftex.def)             Requested size: 417.55016pt x 207.20926pt.
-
-
-[36 <./gambar/pinata.jpeg>]
-File: gambar/confirm_create.jpg Graphic file (type jpg)
-<use gambar/confirm_create.jpg>
-Package pdftex.def Info: gambar/confirm_create.jpg  used on input line 379.
-(pdftex.def)             Requested size: 131.2915pt x 230.3624pt.
-
-
-[37]
-<gambar/listed_nft.jpg, id=782, 1509.64pt x 784.9325pt>
-File: gambar/listed_nft.jpg Graphic file (type jpg)
-<use gambar/listed_nft.jpg>
-Package pdftex.def Info: gambar/listed_nft.jpg  used on input line 393.
-(pdftex.def)             Requested size: 392.49715pt x 204.07764pt.
-<gambar/nft_listed_home.jpg, id=783, 1534.73375pt x 839.135pt>
-File: gambar/nft_listed_home.jpg Graphic file (type jpg)
-<use gambar/nft_listed_home.jpg>
-Package pdftex.def Info: gambar/nft_listed_home.jpg  used on input line 405.
-(pdftex.def)             Requested size: 399.02136pt x 218.16995pt.
-
-
-[38 <./gambar/listed_nft.jpg> <./gambar/nft_listed_home.jpg>])
-
-[39]
-
-[40
+[56
 
 ] (./bab/5-penutup.tex
 Chapter 5.
+
+Overfull \hbox (11.8559pt too wide) in paragraph at lines 9--11
+\OT1/txr/m/n/12 Studi ini berhasil me-nun-jukkan potensi dan efek-tiv-i-tas tek-no-logi blockchain, khusus-nya Ethereum,
+ []
+
+
+Overfull \hbox (13.04185pt too wide) in paragraph at lines 12--13
+[]\OT1/txr/m/n/12 NFT yang dikem-bangkan me-nun-jukkan in-ter-op-er-abil-i-tas lin-tas berba-gai plat-form \OT1/txr/m/it/12 blockchain
+ []
+
 )
-
-[41
-
-]
-
-[42
-
-]
-Overfull \hbox (3.71342pt too wide) in paragraph at lines 237--237
-[][]\OT1/txr/m/n/12 Khan, S. N., Loukil, F., Ghedira-Guegan, C., Benkhe-lifa, E., & Bani-Hani, A. (2023). Blockchain
+Overfull \hbox (23.8079pt too wide) in paragraph at lines 16--227
+\OT1/txr/m/n/12 mekanisme kea-manan yang da-pat melin-dungi pri-vasi peng-guna sam-bil mem-per-ta-hankan transparansi
  []
 
 
 
-[43
+[57
 
 ]
 
-[44
+[58
 
-] (./lainnya/biografi-penulis.tex
-<gambar/elon.jpg, id=825, 578.16pt x 867.24pt>
-File: gambar/elon.jpg Graphic file (type jpg)
-<use gambar/elon.jpg>
-Package pdftex.def Info: gambar/elon.jpg  used on input line 14.
-(pdftex.def)             Requested size: 136.57462pt x 204.86006pt.
+]
+Overfull \hbox (11.41954pt too wide) in paragraph at lines 237--237
+\OT1/txr/m/n/12 blockchain-based sys-tems us-ing trans-ac-tions,'' \OT1/txr/m/it/12 The Knowl-edge En-gi-neer-ing Re-view\OT1/txr/m/n/12 , vol. 35,
+ []
+
+
+
+[59
+
+]
+
+[60] (./lainnya/biografi-penulis.tex
+<gambar/foto_biografi.jpg, id=967, 1204.5pt x 1606.0pt>
+File: gambar/foto_biografi.jpg Graphic file (type jpg)
+<use gambar/foto_biografi.jpg>
+Package pdftex.def Info: gambar/foto_biografi.jpg  used on input line 14.
+(pdftex.def)             Requested size: 136.57462pt x 182.10078pt.
+
+Overfull \hbox (0.8399pt too wide) in paragraph at lines 25--26
+[]\OT1/txr/m/n/12 Lebih lan-jut, Arya juga men-dalami pengem-ban-gan fron-tend meng-gu-nakan Re-act JS, meng-
+ []
+
+
+Overfull \hbox (5.78392pt too wide) in paragraph at lines 25--26
+\OT1/txr/m/n/12 lai mengek-splo-rasi ranah blockchain dan smart con-tract den-gan meng-gu-nakan So-lid-ity, menandai
+ []
+
 )
 
-[45 <./gambar/elon.jpg>]
+[61
 
-[46
+ <./gambar/foto_biografi.jpg>]
+
+[62
 
 ] (./main.aux)
  ***********
@@ -1729,24 +1907,24 @@ L3 programming layer <2024-05-27>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 01029534C977DF7CE4A40D121E840585;11186.
+(rerunfilecheck)             Checksum: FA9BAD7BD67ACEE4DEBA5F0CFB951FA6;11788.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24836 strings out of 473600
- 430255 string characters out of 5732738
+ 24357 strings out of 473600
+ 421718 string characters out of 5732738
  2014894 words of memory out of 5000000
- 47080 multiletter control sequences out of 15000+600000
- 614856 words of font info for 161 fonts, out of 8000000 for 9000
+ 46571 multiletter control sequences out of 15000+600000
+ 615910 words of font info for 163 fonts, out of 8000000 for 9000
  1147 hyphenation exceptions out of 8191
- 75i,12n,81p,2012b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/tcxtt.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/txsy.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/txtt.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/txtt.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (73 pages, 3042790 bytes).
+ 75i,12n,81p,2022b,1968s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/tcxtt.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/txsy.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/txtt.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/txtt.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (89 pages, 4427407 bytes).
 PDF statistics:
- 954 PDF objects out of 1000 (max. 8388607)
- 801 compressed objects within 9 object streams
- 219 named destinations out of 1000 (max. 500000)
- 687 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1104 PDF objects out of 1200 (max. 8388607)
+ 915 compressed objects within 10 object streams
+ 252 named destinations out of 1000 (max. 500000)
+ 788 words of extra memory for PDF output out of 10000 (max. 10000000)
 

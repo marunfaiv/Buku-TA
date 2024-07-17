@@ -18,121 +18,255 @@
 
 
 \refsection{0}
-  \datalist[entry]{apa/apasortcite//global/global/global}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Wang2021}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=415d15406f27ab6319fe3dc2d7408598}{%
+           family={{Wang}},
+           familyi={W\bibinitperiod},
+           given={Q.},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=167a2a4880ce27a4c05cc8c9c9bb68c6}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=415d15406f27ab6319fe3dc2d7408598}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Q.},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=ed4e688b3a13c815213f1ff2acb5d92b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b2b56e6c2ed16355c0ebdd99bdaf6711}
+      \strng{fullhash}{1cdf130674d23bedc0fee080352dd120}
+      \strng{fullhashraw}{1cdf130674d23bedc0fee080352dd120}
+      \strng{bibnamehash}{1cdf130674d23bedc0fee080352dd120}
+      \strng{authorbibnamehash}{1cdf130674d23bedc0fee080352dd120}
+      \strng{authornamehash}{b2b56e6c2ed16355c0ebdd99bdaf6711}
+      \strng{authorfullhash}{1cdf130674d23bedc0fee080352dd120}
+      \strng{authorfullhashraw}{1cdf130674d23bedc0fee080352dd120}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NFT's}
+      \field{title}{Non-Fungible Token (NFT): Overview, Evaluation, Opportunities and Challenges.}
+      \field{year}{2021}
+    \endentry
+    \entry{Khan2021}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=e28f07645796e9dc908004fd9fd76ab2}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={S.\bibnamedelimi N.},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=198859d107344228ee2ceba986ee53e4}{%
+           family={Loukil},
+           familyi={L\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=b8f445bcb98ad0bc0c95eeaa5fb8bd04}{%
+           family={Ghedira-Guegan},
+           familyi={G\bibinithyphendelim G\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=85eb3f39b19f69bb182237fc83caf629}{%
+           family={Benkhelifa},
+           familyi={B\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=86b3ba2bc0e64c534e81ef2332e7431e}{%
+           family={Bani-Hani},
+           familyi={B\bibinithyphendelim H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f8c01e0ca82201695a7d08f3f08ca618}
+      \strng{fullhash}{cda073177097fcf23f50c0b254c49206}
+      \strng{fullhashraw}{cda073177097fcf23f50c0b254c49206}
+      \strng{bibnamehash}{cda073177097fcf23f50c0b254c49206}
+      \strng{authorbibnamehash}{cda073177097fcf23f50c0b254c49206}
+      \strng{authornamehash}{f8c01e0ca82201695a7d08f3f08ca618}
+      \strng{authorfullhash}{cda073177097fcf23f50c0b254c49206}
+      \strng{authorfullhashraw}{cda073177097fcf23f50c0b254c49206}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Blockchain smart contracts: Applications, challenges, and future trends.}
+      \field{title}{Blockchain smart contracts: Applications, challenges, and future trends.}
+      \field{year}{2023}
+    \endentry
+    \entry{Malik2023}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=8a141cb204b476d73484db77c3604fe1}{%
+           family={{Malik}},
+           familyi={M\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=6221d6a70068813c905969a04d3a85ea}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Y.\bibnamedelimi "Max"},
+           giveni={Y\bibinitperiod\bibinitdelim "\bibinitperiod}}}%
+        {{hash=2c0f9ed0be7a761a79ba4abd20e8c0bd}{%
+           family={Appel},
+           familyi={A\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=0a8268bbdf398efb0752135f9a7d74f6}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{ec781267f1082d4b7759149c39b8d42f}
+      \strng{fullhash}{40315bb96be164a23d1db343534dd849}
+      \strng{fullhashraw}{40315bb96be164a23d1db343534dd849}
+      \strng{bibnamehash}{40315bb96be164a23d1db343534dd849}
+      \strng{authorbibnamehash}{40315bb96be164a23d1db343534dd849}
+      \strng{authornamehash}{ec781267f1082d4b7759149c39b8d42f}
+      \strng{authorfullhash}{40315bb96be164a23d1db343534dd849}
+      \strng{authorfullhashraw}{40315bb96be164a23d1db343534dd849}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Research in Marketing}
+      \field{title}{Blockchain technology for creative industries: Current state and research opportunities}
+      \field{year}{2023}
+    \endentry
+    \entry{Gadekallu2022}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=64616a5c107600b784e5f22c9e0e69cf}{%
+           family={{Gadekallu}},
+           familyi={G\bibinitperiod},
+           given={T.\bibnamedelimi R.},
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=ff19e5188988e8490af5f0dec2f5dfc1}{%
+           family={Huynh-The},
+           familyi={H\bibinithyphendelim T\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8c0d8d495d30364a6fdc14d3ee19f5b7}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=6a0e58542ae45da5f788eafe64aa16f3}{%
+           family={Yenduri},
+           familyi={Y\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=a7d4c112cd50488072fa93de2650fe8c}{%
+           family={Ranaweera},
+           familyi={R\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=dcaf3487e5a58d3357d142cf717c293b}{%
+           family={Pham},
+           familyi={P\bibinitperiod},
+           given={Q.-V.},
+           giveni={Q\bibinithyphendelim V\bibinitperiod}}}%
+        {{hash=909cf9c65c934f31978a63c213e315a2}{%
+           family={Costa},
+           familyi={C\bibinitperiod},
+           given={D.\bibnamedelimi B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           prefix={da},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=bb832a4d611ac9c85db963326ddfe39f}{%
+           family={Liyanage},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{20a9bb34b1c4d25604409a26248fffa5}
+      \strng{fullhash}{a57a06f924aeb4e0c8b54ca32f982275}
+      \strng{fullhashraw}{a57a06f924aeb4e0c8b54ca32f982275}
+      \strng{bibnamehash}{20a9bb34b1c4d25604409a26248fffa5}
+      \strng{authorbibnamehash}{20a9bb34b1c4d25604409a26248fffa5}
+      \strng{authornamehash}{20a9bb34b1c4d25604409a26248fffa5}
+      \strng{authorfullhash}{a57a06f924aeb4e0c8b54ca32f982275}
+      \strng{authorfullhashraw}{a57a06f924aeb4e0c8b54ca32f982275}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Blockchain}
+      \field{title}{Blockchain for the Metaverse: A Review}
+      \field{year}{2022}
+    \endentry
+    \entry{Tjokrosetio22}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=a99c73e64e3f03d9982b243f93e36ce7}{%
+           family={Tjokrosetio},
+           familyi={T\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{a99c73e64e3f03d9982b243f93e36ce7}
+      \strng{fullhash}{a99c73e64e3f03d9982b243f93e36ce7}
+      \strng{fullhashraw}{a99c73e64e3f03d9982b243f93e36ce7}
+      \strng{bibnamehash}{a99c73e64e3f03d9982b243f93e36ce7}
+      \strng{authorbibnamehash}{a99c73e64e3f03d9982b243f93e36ce7}
+      \strng{authornamehash}{a99c73e64e3f03d9982b243f93e36ce7}
+      \strng{authorfullhash}{a99c73e64e3f03d9982b243f93e36ce7}
+      \strng{authorfullhashraw}{a99c73e64e3f03d9982b243f93e36ce7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Tempo Publishing}
+      \field{title}{The complete guide to blockchain.}
+      \field{year}{2022}
+    \endentry
     \entry{Antonopoulos2018}{article}{}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=fa26658d341e5ec6d6837304ecbb0498}{%
+        {{hash=fa26658d341e5ec6d6837304ecbb0498}{%
            family={Antonopoulos},
            familyi={A\bibinitperiod},
            given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bf764ec052bbc8534c12daa80b957bdc}{%
+           giveni={A\bibinitperiod}}}%
+        {{hash=bf764ec052bbc8534c12daa80b957bdc}{%
            family={Wood},
            familyi={W\bibinitperiod},
            given={G.},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bf764ec052bbc8534c12daa80b957bdc}{%
+           giveni={G\bibinitperiod}}}%
+        {{hash=bf764ec052bbc8534c12daa80b957bdc}{%
            family={Wood},
            familyi={W\bibinitperiod},
            given={G.},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
+           giveni={G\bibinitperiod}}}%
       }
-      \strng{namehash}{91e03a2690de8df4f99efa651fdc608b}
+      \strng{namehash}{ca965229717358b534c86eb7a24d2dbc}
       \strng{fullhash}{ca965229717358b534c86eb7a24d2dbc}
       \strng{fullhashraw}{ca965229717358b534c86eb7a24d2dbc}
       \strng{bibnamehash}{ca965229717358b534c86eb7a24d2dbc}
       \strng{authorbibnamehash}{ca965229717358b534c86eb7a24d2dbc}
-      \strng{authornamehash}{91e03a2690de8df4f99efa651fdc608b}
+      \strng{authornamehash}{ca965229717358b534c86eb7a24d2dbc}
       \strng{authorfullhash}{ca965229717358b534c86eb7a24d2dbc}
       \strng{authorfullhashraw}{ca965229717358b534c86eb7a24d2dbc}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{O’Reilly Media, Incorporated.}
       \field{title}{Mastering ethereum: Building smart contracts and dapps.}
       \field{year}{2018}
     \endentry
-    \entry{bambacht2022web3}{misc}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=2b276a455161dbf5ec4f2223444756ca}{%
-           family={Bambacht},
-           familyi={B\bibinitperiod},
-           given={Joost},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d2cf29d9a89e6ec368422ed7571d4c95}{%
-           family={Pouwelse},
-           familyi={P\bibinitperiod},
-           given={Johan},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{c53da721d9a541740aae837966a06e78}
-      \strng{fullhash}{c53da721d9a541740aae837966a06e78}
-      \strng{fullhashraw}{c53da721d9a541740aae837966a06e78}
-      \strng{bibnamehash}{c53da721d9a541740aae837966a06e78}
-      \strng{authorbibnamehash}{c53da721d9a541740aae837966a06e78}
-      \strng{authornamehash}{c53da721d9a541740aae837966a06e78}
-      \strng{authorfullhash}{c53da721d9a541740aae837966a06e78}
-      \strng{authorfullhashraw}{c53da721d9a541740aae837966a06e78}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{id='cs.DC' full_name='Distributed, Parallel, and Cluster Computing' is_active=True alt_name=None in_archive='cs' is_general=False description='Covers fault-tolerance, distributed algorithms, stabilility, parallel computation, and cluster computing. Roughly includes material in ACM Subject Classes C.1.2, C.1.4, C.2.4, D.1.3, D.4.5, D.4.7, E.1.'}
-      \field{eprinttype}{arXiv}
-      \field{title}{Web3: A Decentralized Societal Infrastructure for Identity, Trust, Money, and Data}
-      \field{year}{2022}
-      \verb{eprint}
-      \verb 2203.00398
-      \endverb
-    \endentry
-    \entry{Chohan2022}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=cd19e74cb4c4cfc565e01bd15e9094bb}{%
-           family={{Chohan}},
-           familyi={C\bibinitperiod},
-           given={Usman\bibnamedelima W},
-           giveni={U\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{cd19e74cb4c4cfc565e01bd15e9094bb}
-      \strng{fullhash}{cd19e74cb4c4cfc565e01bd15e9094bb}
-      \strng{fullhashraw}{cd19e74cb4c4cfc565e01bd15e9094bb}
-      \strng{bibnamehash}{cd19e74cb4c4cfc565e01bd15e9094bb}
-      \strng{authorbibnamehash}{cd19e74cb4c4cfc565e01bd15e9094bb}
-      \strng{authornamehash}{cd19e74cb4c4cfc565e01bd15e9094bb}
-      \strng{authorfullhash}{cd19e74cb4c4cfc565e01bd15e9094bb}
-      \strng{authorfullhashraw}{cd19e74cb4c4cfc565e01bd15e9094bb}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Web3.0}
-      \field{title}{Web 3.0: The Future Architecture of the Internet?.}
-      \field{year}{2022}
-    \endentry
     \entry{Dannen2017}{article}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b26d54d97067f2de4cd653afa6d5c324}{%
+        {{hash=b26d54d97067f2de4cd653afa6d5c324}{%
            family={Dannen},
            familyi={D\bibinitperiod},
            given={C.},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
+           giveni={C\bibinitperiod}}}%
       }
       \strng{namehash}{b26d54d97067f2de4cd653afa6d5c324}
       \strng{fullhash}{b26d54d97067f2de4cd653afa6d5c324}
@@ -142,11 +276,8 @@
       \strng{authornamehash}{b26d54d97067f2de4cd653afa6d5c324}
       \strng{authorfullhash}{b26d54d97067f2de4cd653afa6d5c324}
       \strng{authorfullhashraw}{b26d54d97067f2de4cd653afa6d5c324}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Foundations of Cryptocurrency and Blockchain Programming for Beginners}
@@ -155,345 +286,143 @@
     \endentry
     \entry{Freni2022}{article}{}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=c3520341e94a6d173088b104379c1bfd}{%
+        {{hash=c3520341e94a6d173088b104379c1bfd}{%
            family={{Freni}},
            familyi={F\bibinitperiod},
            given={P.},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d7d418b49539ae51cbcf22b75c73e5ec}{%
+           giveni={P\bibinitperiod}}}%
+        {{hash=d7d418b49539ae51cbcf22b75c73e5ec}{%
            family={Ferro},
            familyi={F\bibinitperiod},
            given={E.},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=cf88b355a644f91c51140b388dd9b7cb}{%
+           giveni={E\bibinitperiod}}}%
+        {{hash=cf88b355a644f91c51140b388dd9b7cb}{%
            family={Moncada},
            familyi={M\bibinitperiod},
            given={R.},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
+           giveni={R\bibinitperiod}}}%
       }
-      \strng{namehash}{4b7aec530054bec4ad955cd64de7fe0b}
+      \strng{namehash}{458c184cb842e99836b20f0cb80b3c5b}
       \strng{fullhash}{458c184cb842e99836b20f0cb80b3c5b}
       \strng{fullhashraw}{458c184cb842e99836b20f0cb80b3c5b}
       \strng{bibnamehash}{458c184cb842e99836b20f0cb80b3c5b}
       \strng{authorbibnamehash}{458c184cb842e99836b20f0cb80b3c5b}
-      \strng{authornamehash}{4b7aec530054bec4ad955cd64de7fe0b}
+      \strng{authornamehash}{458c184cb842e99836b20f0cb80b3c5b}
       \strng{authorfullhash}{458c184cb842e99836b20f0cb80b3c5b}
       \strng{authorfullhashraw}{458c184cb842e99836b20f0cb80b3c5b}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Blockchain: Research and Applications}
       \field{title}{Tokenomics and blockchain tokens: A design-oriented morphological framework.}
       \field{year}{2022}
     \endentry
-    \entry{Gadekallu2022}{article}{}{}
-      \name{author}{8}{}{%
-        {{un=0,uniquepart=base,hash=64616a5c107600b784e5f22c9e0e69cf}{%
-           family={{Gadekallu}},
-           familyi={G\bibinitperiod},
-           given={T.\bibnamedelimi R.},
-           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ff19e5188988e8490af5f0dec2f5dfc1}{%
-           family={Huynh-The},
-           familyi={H\bibinithyphendelim T\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8c0d8d495d30364a6fdc14d3ee19f5b7}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={W.},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6a0e58542ae45da5f788eafe64aa16f3}{%
-           family={Yenduri},
-           familyi={Y\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a7d4c112cd50488072fa93de2650fe8c}{%
-           family={Ranaweera},
-           familyi={R\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=dcaf3487e5a58d3357d142cf717c293b}{%
-           family={Pham},
-           familyi={P\bibinitperiod},
-           given={Q.-V.},
-           giveni={Q\bibinithyphendelim V\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=909cf9c65c934f31978a63c213e315a2}{%
-           family={Costa},
-           familyi={C\bibinitperiod},
-           given={D.\bibnamedelimi B.},
-           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=0,
-           prefix={da},
-           prefixi={d\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=bb832a4d611ac9c85db963326ddfe39f}{%
-           family={Liyanage},
-           familyi={L\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{b1800e6691e4963570ce9cdf570a9f71}
-      \strng{fullhash}{a57a06f924aeb4e0c8b54ca32f982275}
-      \strng{fullhashraw}{a57a06f924aeb4e0c8b54ca32f982275}
-      \strng{bibnamehash}{a57a06f924aeb4e0c8b54ca32f982275}
-      \strng{authorbibnamehash}{a57a06f924aeb4e0c8b54ca32f982275}
-      \strng{authornamehash}{b1800e6691e4963570ce9cdf570a9f71}
-      \strng{authorfullhash}{a57a06f924aeb4e0c8b54ca32f982275}
-      \strng{authorfullhashraw}{a57a06f924aeb4e0c8b54ca32f982275}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Blockchain}
-      \field{title}{Blockchain for the Metaverse: A Review}
-      \field{year}{2022}
-    \endentry
-    \entry{Khan2021}{article}{}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=e28f07645796e9dc908004fd9fd76ab2}{%
-           family={Khan},
-           familyi={K\bibinitperiod},
-           given={S.\bibnamedelimi N.},
-           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=198859d107344228ee2ceba986ee53e4}{%
-           family={Loukil},
-           familyi={L\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b8f445bcb98ad0bc0c95eeaa5fb8bd04}{%
-           family={Ghedira-Guegan},
-           familyi={G\bibinithyphendelim G\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=85eb3f39b19f69bb182237fc83caf629}{%
-           family={Benkhelifa},
-           familyi={B\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=86b3ba2bc0e64c534e81ef2332e7431e}{%
-           family={Bani-Hani},
-           familyi={B\bibinithyphendelim H\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{870205472634483a0cb0ca40a505e299}
-      \strng{fullhash}{cda073177097fcf23f50c0b254c49206}
-      \strng{fullhashraw}{cda073177097fcf23f50c0b254c49206}
-      \strng{bibnamehash}{cda073177097fcf23f50c0b254c49206}
-      \strng{authorbibnamehash}{cda073177097fcf23f50c0b254c49206}
-      \strng{authornamehash}{870205472634483a0cb0ca40a505e299}
-      \strng{authorfullhash}{cda073177097fcf23f50c0b254c49206}
-      \strng{authorfullhashraw}{cda073177097fcf23f50c0b254c49206}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Blockchain smart contracts: Applications, challenges, and future trends.}
-      \field{title}{Blockchain smart contracts: Applications, challenges, and future trends.}
-      \field{year}{2023}
-    \endentry
-    \entry{s23041864}{article}{}{}
+    \entry{Zheng2020}{article}{}{}
       \name{author}{7}{}{%
-        {{un=0,uniquepart=base,hash=50523b89006bc2153432f47c4a3cfb8f}{%
-           family={Lu},
-           familyi={L\bibinitperiod},
-           given={Shaofei},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=589d813ba8c0d036c912e70e7aed03a3}{%
-           family={Pei},
-           familyi={P\bibinitperiod},
-           given={Jingru},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8d1aeab3c6f4bd27cd1cdb9bf397e01d}{%
-           family={Zhao},
+        {{hash=ca8aba2266d9d0f6fb5d8f38df25be33}{%
+           family={{Zheng}},
            familyi={Z\bibinitperiod},
-           given={Renke},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6ec4f3dbe516e0c29fb118f1747d16c9}{%
-           family={Yu},
-           familyi={Y\bibinitperiod},
-           given={Xiaochen},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9dec68a3c56335605f9f30e8ba4dfe7b}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Xuyang},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0da53871c5bda3ae9ea7b5d31b6a8874}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Junyi},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=78e9a3e141e4ac360ee7ee75dccf47f5}{%
-           family={Yang},
-           familyi={Y\bibinitperiod},
-           given={Guanzhong},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{d08609817b0013dd2b97e29d540e4265}
-      \strng{fullhash}{6703f93fc2e8a3dd33ee9fa2a47f6f4b}
-      \strng{fullhashraw}{6703f93fc2e8a3dd33ee9fa2a47f6f4b}
-      \strng{bibnamehash}{6703f93fc2e8a3dd33ee9fa2a47f6f4b}
-      \strng{authorbibnamehash}{6703f93fc2e8a3dd33ee9fa2a47f6f4b}
-      \strng{authornamehash}{d08609817b0013dd2b97e29d540e4265}
-      \strng{authorfullhash}{6703f93fc2e8a3dd33ee9fa2a47f6f4b}
-      \strng{authorfullhashraw}{6703f93fc2e8a3dd33ee9fa2a47f6f4b}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Cross-chain interoperability can expand the ability of data interaction and value circulation between different blockchains, especially the value interaction and information sharing between industry consortium blockchains. However, some current public blockchain cross-chain technologies or data migration schemes between consortium blockchains need help to meet the consortium blockchain requirements for efficient two-way data interaction. The critical issue to solve in cross-chain technology is improving the efficiency of cross-chain exchange while ensuring the security of data transmission outside the consortium blockchain. In this article, we design a cross-chain architecture based on blockchain oracle technology. Then, we propose a bidirectional information cross-chain interaction approach (CCIO) based on the former architecture, we novelly improve three traditional blockchain oracle patterns, and we combine a mixture of symmetric and asymmetric keys to encrypt private information to ensure cross-chain data security. The experimental results demonstrate that the proposed CCIO approach can achieve efficient and secure two-way cross-chain data interactions and better meet the application needs of large-scale consortium blockchains.}
-      \field{issn}{1424-8220}
-      \field{journaltitle}{Sensors}
-      \field{number}{4}
-      \field{title}{CCIO: A Cross-Chain Interoperability Approach for Consortium Blockchains Based on Oracle}
-      \field{volume}{23}
-      \field{year}{2023}
-      \verb{doi}
-      \verb 10.3390/s23041864
-      \endverb
-      \verb{urlraw}
-      \verb https://www.mdpi.com/1424-8220/23/4/1864
-      \endverb
-      \verb{url}
-      \verb https://www.mdpi.com/1424-8220/23/4/1864
-      \endverb
-    \endentry
-    \entry{Malik2023}{article}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=8a141cb204b476d73484db77c3604fe1}{%
-           family={{Malik}},
-           familyi={M\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6221d6a70068813c905969a04d3a85ea}{%
-           family={Wei},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=05914ffc126d0a489a0c1e0de4fa2468}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f3beb5fd01338559e2b85adc33098b95}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={H.-N.},
+           giveni={H\bibinithyphendelim N\bibinitperiod}}}%
+        {{hash=2bdd48dc68b3d7c9d63e3844f2459fd6}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=581b6aa2244cb0fe26ac5dc5c5b9c7ba}{%
+           family={hen},
+           familyi={h\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=79f9660a4616bc43a166e9329086be33}{%
+           family={Weng},
            familyi={W\bibinitperiod},
-           given={Y.\bibnamedelimi "Max"},
-           giveni={Y\bibinitperiod\bibinitdelim "\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2c0f9ed0be7a761a79ba4abd20e8c0bd}{%
-           family={Appel},
-           familyi={A\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0a8268bbdf398efb0752135f9a7d74f6}{%
-           family={Luo},
-           familyi={L\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ef00d2cd2e23b393bc6ff29747007cce}{%
+           family={Imran},
+           familyi={I\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{8bf6e2b4b4f2c740f2ac6178f0eee50f}
-      \strng{fullhash}{40315bb96be164a23d1db343534dd849}
-      \strng{fullhashraw}{40315bb96be164a23d1db343534dd849}
-      \strng{bibnamehash}{40315bb96be164a23d1db343534dd849}
-      \strng{authorbibnamehash}{40315bb96be164a23d1db343534dd849}
-      \strng{authornamehash}{8bf6e2b4b4f2c740f2ac6178f0eee50f}
-      \strng{authorfullhash}{40315bb96be164a23d1db343534dd849}
-      \strng{authorfullhashraw}{40315bb96be164a23d1db343534dd849}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
+      \strng{namehash}{7b06565b121899abecb39d321fa92cd4}
+      \strng{fullhash}{967f2a1c91981d435d9da7689ebf938b}
+      \strng{fullhashraw}{967f2a1c91981d435d9da7689ebf938b}
+      \strng{bibnamehash}{7b06565b121899abecb39d321fa92cd4}
+      \strng{authorbibnamehash}{7b06565b121899abecb39d321fa92cd4}
+      \strng{authornamehash}{7b06565b121899abecb39d321fa92cd4}
+      \strng{authorfullhash}{967f2a1c91981d435d9da7689ebf938b}
+      \strng{authorfullhashraw}{967f2a1c91981d435d9da7689ebf938b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Research in Marketing}
-      \field{title}{Blockchain technology for creative industries: Current state and research opportunities}
-      \field{year}{2023}
-    \endentry
-    \entry{Pillai_Biswas_Muthukkumarasamy_2020}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=e605a430e98031f2dd87d8253bf72cf0}{%
-           family={Pillai},
-           familyi={P\bibinitperiod},
-           given={Babu},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6f999a71fb0fef3d92a09d6ad8384ac5}{%
-           family={Biswas},
-           familyi={B\bibinitperiod},
-           given={Kamanashis},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=347fa08ece20bf413f011126870e8a53}{%
-           family={Muthukkumarasamy},
-           familyi={M\bibinitperiod},
-           given={Vallipuram},
-           giveni={V\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{5369f4702fc60ba8841e375ba3548770}
-      \strng{fullhash}{53270b9416073d43990419835403cb7f}
-      \strng{fullhashraw}{53270b9416073d43990419835403cb7f}
-      \strng{bibnamehash}{53270b9416073d43990419835403cb7f}
-      \strng{authorbibnamehash}{53270b9416073d43990419835403cb7f}
-      \strng{authornamehash}{5369f4702fc60ba8841e375ba3548770}
-      \strng{authorfullhash}{53270b9416073d43990419835403cb7f}
-      \strng{authorfullhashraw}{53270b9416073d43990419835403cb7f}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Knowledge Engineering Review}
-      \field{title}{Cross-chain interoperability among blockchain-based systems using transactions}
-      \field{volume}{35}
+      \field{journaltitle}{An overview on smart contracts: Challenges, advances and platforms. Future Generation Computer Systems}
+      \field{title}{An overview on smart contracts: Challenges, advances and platforms. Future Generation Computer Systems}
       \field{year}{2020}
-      \field{pages}{e23}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1017/S0269888920000314
-      \endverb
+    \endentry
+    \entry{Steichen18}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=6ba51442a63cca29e8ce2fd9eab8b861}{%
+           family={{Steichen}},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c51520c2c9b9c862448a0760178ce8f2}{%
+           family={Fiz},
+           familyi={F\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e4e703e322cbbe1f11098771cc8f83ce}{%
+           family={Norvill},
+           familyi={N\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=83811e582a4a8b94ea460a0c3014cdcf}{%
+           family={Shbair},
+           familyi={S\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=7fcb69e15a31a2b61dc6b381e5bda38d}{%
+           family={State},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{3e0ffaedc183cc253395774332c206c2}
+      \strng{fullhash}{97b063aa321a672fd4059559c04b18c0}
+      \strng{fullhashraw}{97b063aa321a672fd4059559c04b18c0}
+      \strng{bibnamehash}{97b063aa321a672fd4059559c04b18c0}
+      \strng{authorbibnamehash}{97b063aa321a672fd4059559c04b18c0}
+      \strng{authornamehash}{3e0ffaedc183cc253395774332c206c2}
+      \strng{authorfullhash}{97b063aa321a672fd4059559c04b18c0}
+      \strng{authorfullhashraw}{97b063aa321a672fd4059559c04b18c0}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2018 IEEE International Conference on Internet of Things (iThings) and IEEE Green Computing and Communications (GreenCom) and IEEE Cy-ber, Physical and Social Computing (CPSCom) and IEEE Smart Data (SmartData)}
+      \field{title}{Blockchain-Based, Decentralized Access Control for IPFS}
+      \field{year}{2018}
     \endentry
     \entry{RAY2023213}{article}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=37f6b94ff52303cf740e5df3c9a5f074}{%
+        {{hash=37f6b94ff52303cf740e5df3c9a5f074}{%
            family={Ray},
            familyi={R\bibinitperiod},
            given={Partha\bibnamedelima Pratim},
-           giveni={P\bibinitperiod\bibinitdelim P\bibinitperiod},
-           givenun=0}}%
+           giveni={P\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
       }
       \strng{namehash}{37f6b94ff52303cf740e5df3c9a5f074}
       \strng{fullhash}{37f6b94ff52303cf740e5df3c9a5f074}
@@ -503,11 +432,8 @@
       \strng{authornamehash}{37f6b94ff52303cf740e5df3c9a5f074}
       \strng{authorfullhash}{37f6b94ff52303cf740e5df3c9a5f074}
       \strng{authorfullhashraw}{37f6b94ff52303cf740e5df3c9a5f074}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Web3, the next generation web, promises a decentralized and democratized internet that puts users in control of their data and online identities. However, Web3 faces significant challenges, including scalability, interoperability, regulatory compliance, and energy consumption. To address these challenges, this review paper provides a comprehensive analysis of Web3, including its key advancements and implications, as well as an overview of its major applications in Decentralized Applications (DApps), Decentralized Finance (DeFi), Non-fungible Tokens (NFTs), Decentralized Autonomous Organizations (DAOs), and Supply Chain Management and Provenance Tracking. The paper also discusses the potential social and economic impact of Web3, as well as its integration with emerging technologies such as artificial intelligence (AI), the Internet of Things (IoT), and smart cities. This article then discusses importance of zero-trust architecture for Web3. Ultimately, this review highlights the importance of Web3 in shaping the future of the internet and provides insights into the challenges and opportunities that lie ahead.}
@@ -529,284 +455,13 @@
       \endverb
       \keyw{Web3,Decentralization,Blockchain,Digital transformation,DApps,Zero-Trust architecture}
     \endentry
-    \entry{Steichen18}{article}{}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=6ba51442a63cca29e8ce2fd9eab8b861}{%
-           family={{Steichen}},
-           familyi={S\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c51520c2c9b9c862448a0760178ce8f2}{%
-           family={Fiz},
-           familyi={F\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e4e703e322cbbe1f11098771cc8f83ce}{%
-           family={Norvill},
-           familyi={N\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=83811e582a4a8b94ea460a0c3014cdcf}{%
-           family={Shbair},
-           familyi={S\bibinitperiod},
-           given={W.},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7fcb69e15a31a2b61dc6b381e5bda38d}{%
-           family={State},
-           familyi={S\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{c23c059e97b575dd06d166c7801e55d3}
-      \strng{fullhash}{97b063aa321a672fd4059559c04b18c0}
-      \strng{fullhashraw}{97b063aa321a672fd4059559c04b18c0}
-      \strng{bibnamehash}{97b063aa321a672fd4059559c04b18c0}
-      \strng{authorbibnamehash}{97b063aa321a672fd4059559c04b18c0}
-      \strng{authornamehash}{c23c059e97b575dd06d166c7801e55d3}
-      \strng{authorfullhash}{97b063aa321a672fd4059559c04b18c0}
-      \strng{authorfullhashraw}{97b063aa321a672fd4059559c04b18c0}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{2018 IEEE International Conference on Internet of Things (iThings) and IEEE Green Computing and Communications (GreenCom) and IEEE Cy-ber, Physical and Social Computing (CPSCom) and IEEE Smart Data (SmartData)}
-      \field{title}{Blockchain-Based, Decentralized Access Control for IPFS}
-      \field{year}{2018}
-    \endentry
-    \entry{Tjokrosetio22}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=a99c73e64e3f03d9982b243f93e36ce7}{%
-           family={Tjokrosetio},
-           familyi={T\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{a99c73e64e3f03d9982b243f93e36ce7}
-      \strng{fullhash}{a99c73e64e3f03d9982b243f93e36ce7}
-      \strng{fullhashraw}{a99c73e64e3f03d9982b243f93e36ce7}
-      \strng{bibnamehash}{a99c73e64e3f03d9982b243f93e36ce7}
-      \strng{authorbibnamehash}{a99c73e64e3f03d9982b243f93e36ce7}
-      \strng{authornamehash}{a99c73e64e3f03d9982b243f93e36ce7}
-      \strng{authorfullhash}{a99c73e64e3f03d9982b243f93e36ce7}
-      \strng{authorfullhashraw}{a99c73e64e3f03d9982b243f93e36ce7}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Tempo Publishing}
-      \field{title}{The complete guide to blockchain.}
-      \field{year}{2022}
-    \endentry
-    \entry{Wang2021}{article}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=415d15406f27ab6319fe3dc2d7408598}{%
-           family={{Wang}},
-           familyi={W\bibinitperiod},
-           given={Q.},
-           giveni={Q\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=167a2a4880ce27a4c05cc8c9c9bb68c6}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=415d15406f27ab6319fe3dc2d7408598}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Q.},
-           giveni={Q\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ed4e688b3a13c815213f1ff2acb5d92b}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{9cc71a10b730ae2f62e8a404ed5ab922}
-      \strng{fullhash}{1cdf130674d23bedc0fee080352dd120}
-      \strng{fullhashraw}{1cdf130674d23bedc0fee080352dd120}
-      \strng{bibnamehash}{1cdf130674d23bedc0fee080352dd120}
-      \strng{authorbibnamehash}{1cdf130674d23bedc0fee080352dd120}
-      \strng{authornamehash}{9cc71a10b730ae2f62e8a404ed5ab922}
-      \strng{authorfullhash}{1cdf130674d23bedc0fee080352dd120}
-      \strng{authorfullhashraw}{1cdf130674d23bedc0fee080352dd120}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{NFT's}
-      \field{title}{Non-Fungible Token (NFT): Overview, Evaluation, Opportunities and Challenges.}
-      \field{year}{2021}
-    \endentry
-    \entry{Zheng2020}{article}{}{}
-      \name{author}{7}{}{%
-        {{un=0,uniquepart=base,hash=ca8aba2266d9d0f6fb5d8f38df25be33}{%
-           family={{Zheng}},
-           familyi={Z\bibinitperiod},
-           given={Z.},
-           giveni={Z\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=05914ffc126d0a489a0c1e0de4fa2468}{%
-           family={Xie},
-           familyi={X\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f3beb5fd01338559e2b85adc33098b95}{%
-           family={Dai},
-           familyi={D\bibinitperiod},
-           given={H.-N.},
-           giveni={H\bibinithyphendelim N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2bdd48dc68b3d7c9d63e3844f2459fd6}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={W.},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=581b6aa2244cb0fe26ac5dc5c5b9c7ba}{%
-           family={hen},
-           familyi={h\bibinitperiod},
-           given={X.},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=79f9660a4616bc43a166e9329086be33}{%
-           family={Weng},
-           familyi={W\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ef00d2cd2e23b393bc6ff29747007cce}{%
-           family={Imran},
-           familyi={I\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{824d7a1f91205d4fd323add0d3e9b05a}
-      \strng{fullhash}{967f2a1c91981d435d9da7689ebf938b}
-      \strng{fullhashraw}{967f2a1c91981d435d9da7689ebf938b}
-      \strng{bibnamehash}{967f2a1c91981d435d9da7689ebf938b}
-      \strng{authorbibnamehash}{967f2a1c91981d435d9da7689ebf938b}
-      \strng{authornamehash}{824d7a1f91205d4fd323add0d3e9b05a}
-      \strng{authorfullhash}{967f2a1c91981d435d9da7689ebf938b}
-      \strng{authorfullhashraw}{967f2a1c91981d435d9da7689ebf938b}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{An overview on smart contracts: Challenges, advances and platforms. Future Generation Computer Systems}
-      \field{title}{An overview on smart contracts: Challenges, advances and platforms. Future Generation Computer Systems}
-      \field{year}{2020}
-    \endentry
-  \enddatalist
-  \datalist[entry]{apa/global//global/global/global}
-    \entry{Antonopoulos2018}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=fa26658d341e5ec6d6837304ecbb0498}{%
-           family={Antonopoulos},
-           familyi={A\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bf764ec052bbc8534c12daa80b957bdc}{%
-           family={Wood},
-           familyi={W\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bf764ec052bbc8534c12daa80b957bdc}{%
-           family={Wood},
-           familyi={W\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{91e03a2690de8df4f99efa651fdc608b}
-      \strng{fullhash}{ca965229717358b534c86eb7a24d2dbc}
-      \strng{fullhashraw}{ca965229717358b534c86eb7a24d2dbc}
-      \strng{bibnamehash}{ca965229717358b534c86eb7a24d2dbc}
-      \strng{authorbibnamehash}{ca965229717358b534c86eb7a24d2dbc}
-      \strng{authornamehash}{91e03a2690de8df4f99efa651fdc608b}
-      \strng{authorfullhash}{ca965229717358b534c86eb7a24d2dbc}
-      \strng{authorfullhashraw}{ca965229717358b534c86eb7a24d2dbc}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{O’Reilly Media, Incorporated.}
-      \field{title}{Mastering ethereum: Building smart contracts and dapps.}
-      \field{year}{2018}
-    \endentry
-    \entry{bambacht2022web3}{misc}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=2b276a455161dbf5ec4f2223444756ca}{%
-           family={Bambacht},
-           familyi={B\bibinitperiod},
-           given={Joost},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d2cf29d9a89e6ec368422ed7571d4c95}{%
-           family={Pouwelse},
-           familyi={P\bibinitperiod},
-           given={Johan},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{c53da721d9a541740aae837966a06e78}
-      \strng{fullhash}{c53da721d9a541740aae837966a06e78}
-      \strng{fullhashraw}{c53da721d9a541740aae837966a06e78}
-      \strng{bibnamehash}{c53da721d9a541740aae837966a06e78}
-      \strng{authorbibnamehash}{c53da721d9a541740aae837966a06e78}
-      \strng{authornamehash}{c53da721d9a541740aae837966a06e78}
-      \strng{authorfullhash}{c53da721d9a541740aae837966a06e78}
-      \strng{authorfullhashraw}{c53da721d9a541740aae837966a06e78}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{id='cs.DC' full_name='Distributed, Parallel, and Cluster Computing' is_active=True alt_name=None in_archive='cs' is_general=False description='Covers fault-tolerance, distributed algorithms, stabilility, parallel computation, and cluster computing. Roughly includes material in ACM Subject Classes C.1.2, C.1.4, C.2.4, D.1.3, D.4.5, D.4.7, E.1.'}
-      \field{eprinttype}{arXiv}
-      \field{title}{Web3: A Decentralized Societal Infrastructure for Identity, Trust, Money, and Data}
-      \field{year}{2022}
-      \verb{eprint}
-      \verb 2203.00398
-      \endverb
-    \endentry
     \entry{Chohan2022}{article}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=cd19e74cb4c4cfc565e01bd15e9094bb}{%
+        {{hash=cd19e74cb4c4cfc565e01bd15e9094bb}{%
            family={{Chohan}},
            familyi={C\bibinitperiod},
            given={Usman\bibnamedelima W},
-           giveni={U\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
+           giveni={U\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
       }
       \strng{namehash}{cd19e74cb4c4cfc565e01bd15e9094bb}
       \strng{fullhash}{cd19e74cb4c4cfc565e01bd15e9094bb}
@@ -816,267 +471,94 @@
       \strng{authornamehash}{cd19e74cb4c4cfc565e01bd15e9094bb}
       \strng{authorfullhash}{cd19e74cb4c4cfc565e01bd15e9094bb}
       \strng{authorfullhashraw}{cd19e74cb4c4cfc565e01bd15e9094bb}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Web3.0}
       \field{title}{Web 3.0: The Future Architecture of the Internet?.}
       \field{year}{2022}
     \endentry
-    \entry{Dannen2017}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b26d54d97067f2de4cd653afa6d5c324}{%
-           family={Dannen},
-           familyi={D\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{b26d54d97067f2de4cd653afa6d5c324}
-      \strng{fullhash}{b26d54d97067f2de4cd653afa6d5c324}
-      \strng{fullhashraw}{b26d54d97067f2de4cd653afa6d5c324}
-      \strng{bibnamehash}{b26d54d97067f2de4cd653afa6d5c324}
-      \strng{authorbibnamehash}{b26d54d97067f2de4cd653afa6d5c324}
-      \strng{authornamehash}{b26d54d97067f2de4cd653afa6d5c324}
-      \strng{authorfullhash}{b26d54d97067f2de4cd653afa6d5c324}
-      \strng{authorfullhashraw}{b26d54d97067f2de4cd653afa6d5c324}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Foundations of Cryptocurrency and Blockchain Programming for Beginners}
-      \field{title}{Introducing Ethereum and Solidity}
-      \field{year}{2017}
-    \endentry
-    \entry{Freni2022}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=c3520341e94a6d173088b104379c1bfd}{%
-           family={{Freni}},
-           familyi={F\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d7d418b49539ae51cbcf22b75c73e5ec}{%
-           family={Ferro},
-           familyi={F\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=cf88b355a644f91c51140b388dd9b7cb}{%
-           family={Moncada},
-           familyi={M\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{4b7aec530054bec4ad955cd64de7fe0b}
-      \strng{fullhash}{458c184cb842e99836b20f0cb80b3c5b}
-      \strng{fullhashraw}{458c184cb842e99836b20f0cb80b3c5b}
-      \strng{bibnamehash}{458c184cb842e99836b20f0cb80b3c5b}
-      \strng{authorbibnamehash}{458c184cb842e99836b20f0cb80b3c5b}
-      \strng{authornamehash}{4b7aec530054bec4ad955cd64de7fe0b}
-      \strng{authorfullhash}{458c184cb842e99836b20f0cb80b3c5b}
-      \strng{authorfullhashraw}{458c184cb842e99836b20f0cb80b3c5b}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Blockchain: Research and Applications}
-      \field{title}{Tokenomics and blockchain tokens: A design-oriented morphological framework.}
-      \field{year}{2022}
-    \endentry
-    \entry{Gadekallu2022}{article}{}{}
-      \name{author}{8}{}{%
-        {{un=0,uniquepart=base,hash=64616a5c107600b784e5f22c9e0e69cf}{%
-           family={{Gadekallu}},
-           familyi={G\bibinitperiod},
-           given={T.\bibnamedelimi R.},
-           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ff19e5188988e8490af5f0dec2f5dfc1}{%
-           family={Huynh-The},
-           familyi={H\bibinithyphendelim T\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8c0d8d495d30364a6fdc14d3ee19f5b7}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={W.},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6a0e58542ae45da5f788eafe64aa16f3}{%
-           family={Yenduri},
-           familyi={Y\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a7d4c112cd50488072fa93de2650fe8c}{%
-           family={Ranaweera},
-           familyi={R\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=dcaf3487e5a58d3357d142cf717c293b}{%
-           family={Pham},
-           familyi={P\bibinitperiod},
-           given={Q.-V.},
-           giveni={Q\bibinithyphendelim V\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=909cf9c65c934f31978a63c213e315a2}{%
-           family={Costa},
-           familyi={C\bibinitperiod},
-           given={D.\bibnamedelimi B.},
-           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=0,
-           prefix={da},
-           prefixi={d\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=bb832a4d611ac9c85db963326ddfe39f}{%
-           family={Liyanage},
-           familyi={L\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{b1800e6691e4963570ce9cdf570a9f71}
-      \strng{fullhash}{a57a06f924aeb4e0c8b54ca32f982275}
-      \strng{fullhashraw}{a57a06f924aeb4e0c8b54ca32f982275}
-      \strng{bibnamehash}{a57a06f924aeb4e0c8b54ca32f982275}
-      \strng{authorbibnamehash}{a57a06f924aeb4e0c8b54ca32f982275}
-      \strng{authornamehash}{b1800e6691e4963570ce9cdf570a9f71}
-      \strng{authorfullhash}{a57a06f924aeb4e0c8b54ca32f982275}
-      \strng{authorfullhashraw}{a57a06f924aeb4e0c8b54ca32f982275}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Blockchain}
-      \field{title}{Blockchain for the Metaverse: A Review}
-      \field{year}{2022}
-    \endentry
-    \entry{Khan2021}{article}{}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=e28f07645796e9dc908004fd9fd76ab2}{%
-           family={Khan},
-           familyi={K\bibinitperiod},
-           given={S.\bibnamedelimi N.},
-           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=198859d107344228ee2ceba986ee53e4}{%
-           family={Loukil},
-           familyi={L\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b8f445bcb98ad0bc0c95eeaa5fb8bd04}{%
-           family={Ghedira-Guegan},
-           familyi={G\bibinithyphendelim G\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=85eb3f39b19f69bb182237fc83caf629}{%
-           family={Benkhelifa},
+    \entry{bambacht2022web3}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=2b276a455161dbf5ec4f2223444756ca}{%
+           family={Bambacht},
            familyi={B\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=86b3ba2bc0e64c534e81ef2332e7431e}{%
-           family={Bani-Hani},
-           familyi={B\bibinithyphendelim H\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
+           given={Joost},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d2cf29d9a89e6ec368422ed7571d4c95}{%
+           family={Pouwelse},
+           familyi={P\bibinitperiod},
+           given={Johan},
+           giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{870205472634483a0cb0ca40a505e299}
-      \strng{fullhash}{cda073177097fcf23f50c0b254c49206}
-      \strng{fullhashraw}{cda073177097fcf23f50c0b254c49206}
-      \strng{bibnamehash}{cda073177097fcf23f50c0b254c49206}
-      \strng{authorbibnamehash}{cda073177097fcf23f50c0b254c49206}
-      \strng{authornamehash}{870205472634483a0cb0ca40a505e299}
-      \strng{authorfullhash}{cda073177097fcf23f50c0b254c49206}
-      \strng{authorfullhashraw}{cda073177097fcf23f50c0b254c49206}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
+      \strng{namehash}{c53da721d9a541740aae837966a06e78}
+      \strng{fullhash}{c53da721d9a541740aae837966a06e78}
+      \strng{fullhashraw}{c53da721d9a541740aae837966a06e78}
+      \strng{bibnamehash}{c53da721d9a541740aae837966a06e78}
+      \strng{authorbibnamehash}{c53da721d9a541740aae837966a06e78}
+      \strng{authornamehash}{c53da721d9a541740aae837966a06e78}
+      \strng{authorfullhash}{c53da721d9a541740aae837966a06e78}
+      \strng{authorfullhashraw}{c53da721d9a541740aae837966a06e78}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Blockchain smart contracts: Applications, challenges, and future trends.}
-      \field{title}{Blockchain smart contracts: Applications, challenges, and future trends.}
-      \field{year}{2023}
+      \field{eprinttype}{arXiv}
+      \field{title}{Web3: A Decentralized Societal Infrastructure for Identity, Trust, Money, and Data}
+      \field{year}{2022}
+      \verb{eprint}
+      \verb 2203.00398
+      \endverb
     \endentry
     \entry{s23041864}{article}{}{}
       \name{author}{7}{}{%
-        {{un=0,uniquepart=base,hash=50523b89006bc2153432f47c4a3cfb8f}{%
+        {{hash=50523b89006bc2153432f47c4a3cfb8f}{%
            family={Lu},
            familyi={L\bibinitperiod},
            given={Shaofei},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=589d813ba8c0d036c912e70e7aed03a3}{%
+           giveni={S\bibinitperiod}}}%
+        {{hash=589d813ba8c0d036c912e70e7aed03a3}{%
            family={Pei},
            familyi={P\bibinitperiod},
            given={Jingru},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8d1aeab3c6f4bd27cd1cdb9bf397e01d}{%
+           giveni={J\bibinitperiod}}}%
+        {{hash=8d1aeab3c6f4bd27cd1cdb9bf397e01d}{%
            family={Zhao},
            familyi={Z\bibinitperiod},
            given={Renke},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6ec4f3dbe516e0c29fb118f1747d16c9}{%
+           giveni={R\bibinitperiod}}}%
+        {{hash=6ec4f3dbe516e0c29fb118f1747d16c9}{%
            family={Yu},
            familyi={Y\bibinitperiod},
            given={Xiaochen},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9dec68a3c56335605f9f30e8ba4dfe7b}{%
+           giveni={X\bibinitperiod}}}%
+        {{hash=9dec68a3c56335605f9f30e8ba4dfe7b}{%
            family={Zhang},
            familyi={Z\bibinitperiod},
            given={Xuyang},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0da53871c5bda3ae9ea7b5d31b6a8874}{%
+           giveni={X\bibinitperiod}}}%
+        {{hash=0da53871c5bda3ae9ea7b5d31b6a8874}{%
            family={Li},
            familyi={L\bibinitperiod},
            given={Junyi},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=78e9a3e141e4ac360ee7ee75dccf47f5}{%
+           giveni={J\bibinitperiod}}}%
+        {{hash=78e9a3e141e4ac360ee7ee75dccf47f5}{%
            family={Yang},
            familyi={Y\bibinitperiod},
            given={Guanzhong},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
+           giveni={G\bibinitperiod}}}%
       }
-      \strng{namehash}{d08609817b0013dd2b97e29d540e4265}
+      \strng{namehash}{a22cc32e22d22959b98e023aaeda8192}
       \strng{fullhash}{6703f93fc2e8a3dd33ee9fa2a47f6f4b}
       \strng{fullhashraw}{6703f93fc2e8a3dd33ee9fa2a47f6f4b}
-      \strng{bibnamehash}{6703f93fc2e8a3dd33ee9fa2a47f6f4b}
-      \strng{authorbibnamehash}{6703f93fc2e8a3dd33ee9fa2a47f6f4b}
-      \strng{authornamehash}{d08609817b0013dd2b97e29d540e4265}
+      \strng{bibnamehash}{a22cc32e22d22959b98e023aaeda8192}
+      \strng{authorbibnamehash}{a22cc32e22d22959b98e023aaeda8192}
+      \strng{authornamehash}{a22cc32e22d22959b98e023aaeda8192}
       \strng{authorfullhash}{6703f93fc2e8a3dd33ee9fa2a47f6f4b}
       \strng{authorfullhashraw}{6703f93fc2e8a3dd33ee9fa2a47f6f4b}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Cross-chain interoperability can expand the ability of data interaction and value circulation between different blockchains, especially the value interaction and information sharing between industry consortium blockchains. However, some current public blockchain cross-chain technologies or data migration schemes between consortium blockchains need help to meet the consortium blockchain requirements for efficient two-way data interaction. The critical issue to solve in cross-chain technology is improving the efficiency of cross-chain exchange while ensuring the security of data transmission outside the consortium blockchain. In this article, we design a cross-chain architecture based on blockchain oracle technology. Then, we propose a bidirectional information cross-chain interaction approach (CCIO) based on the former architecture, we novelly improve three traditional blockchain oracle patterns, and we combine a mixture of symmetric and asymmetric keys to encrypt private information to ensure cross-chain data security. The experimental results demonstrate that the proposed CCIO approach can achieve efficient and secure two-way cross-chain data interactions and better meet the application needs of large-scale consortium blockchains.}
@@ -1096,86 +578,34 @@
       \verb https://www.mdpi.com/1424-8220/23/4/1864
       \endverb
     \endentry
-    \entry{Malik2023}{article}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=8a141cb204b476d73484db77c3604fe1}{%
-           family={{Malik}},
-           familyi={M\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6221d6a70068813c905969a04d3a85ea}{%
-           family={Wei},
-           familyi={W\bibinitperiod},
-           given={Y.\bibnamedelimi "Max"},
-           giveni={Y\bibinitperiod\bibinitdelim "\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2c0f9ed0be7a761a79ba4abd20e8c0bd}{%
-           family={Appel},
-           familyi={A\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0a8268bbdf398efb0752135f9a7d74f6}{%
-           family={Luo},
-           familyi={L\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{8bf6e2b4b4f2c740f2ac6178f0eee50f}
-      \strng{fullhash}{40315bb96be164a23d1db343534dd849}
-      \strng{fullhashraw}{40315bb96be164a23d1db343534dd849}
-      \strng{bibnamehash}{40315bb96be164a23d1db343534dd849}
-      \strng{authorbibnamehash}{40315bb96be164a23d1db343534dd849}
-      \strng{authornamehash}{8bf6e2b4b4f2c740f2ac6178f0eee50f}
-      \strng{authorfullhash}{40315bb96be164a23d1db343534dd849}
-      \strng{authorfullhashraw}{40315bb96be164a23d1db343534dd849}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Research in Marketing}
-      \field{title}{Blockchain technology for creative industries: Current state and research opportunities}
-      \field{year}{2023}
-    \endentry
     \entry{Pillai_Biswas_Muthukkumarasamy_2020}{article}{}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=e605a430e98031f2dd87d8253bf72cf0}{%
+        {{hash=e605a430e98031f2dd87d8253bf72cf0}{%
            family={Pillai},
            familyi={P\bibinitperiod},
            given={Babu},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6f999a71fb0fef3d92a09d6ad8384ac5}{%
+           giveni={B\bibinitperiod}}}%
+        {{hash=6f999a71fb0fef3d92a09d6ad8384ac5}{%
            family={Biswas},
            familyi={B\bibinitperiod},
            given={Kamanashis},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=347fa08ece20bf413f011126870e8a53}{%
+           giveni={K\bibinitperiod}}}%
+        {{hash=347fa08ece20bf413f011126870e8a53}{%
            family={Muthukkumarasamy},
            familyi={M\bibinitperiod},
            given={Vallipuram},
-           giveni={V\bibinitperiod},
-           givenun=0}}%
+           giveni={V\bibinitperiod}}}%
       }
-      \strng{namehash}{5369f4702fc60ba8841e375ba3548770}
+      \strng{namehash}{53270b9416073d43990419835403cb7f}
       \strng{fullhash}{53270b9416073d43990419835403cb7f}
       \strng{fullhashraw}{53270b9416073d43990419835403cb7f}
       \strng{bibnamehash}{53270b9416073d43990419835403cb7f}
       \strng{authorbibnamehash}{53270b9416073d43990419835403cb7f}
-      \strng{authornamehash}{5369f4702fc60ba8841e375ba3548770}
+      \strng{authornamehash}{53270b9416073d43990419835403cb7f}
       \strng{authorfullhash}{53270b9416073d43990419835403cb7f}
       \strng{authorfullhashraw}{53270b9416073d43990419835403cb7f}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Knowledge Engineering Review}
@@ -1187,239 +617,6 @@
       \verb{doi}
       \verb 10.1017/S0269888920000314
       \endverb
-    \endentry
-    \entry{RAY2023213}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=37f6b94ff52303cf740e5df3c9a5f074}{%
-           family={Ray},
-           familyi={R\bibinitperiod},
-           given={Partha\bibnamedelima Pratim},
-           giveni={P\bibinitperiod\bibinitdelim P\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{37f6b94ff52303cf740e5df3c9a5f074}
-      \strng{fullhash}{37f6b94ff52303cf740e5df3c9a5f074}
-      \strng{fullhashraw}{37f6b94ff52303cf740e5df3c9a5f074}
-      \strng{bibnamehash}{37f6b94ff52303cf740e5df3c9a5f074}
-      \strng{authorbibnamehash}{37f6b94ff52303cf740e5df3c9a5f074}
-      \strng{authornamehash}{37f6b94ff52303cf740e5df3c9a5f074}
-      \strng{authorfullhash}{37f6b94ff52303cf740e5df3c9a5f074}
-      \strng{authorfullhashraw}{37f6b94ff52303cf740e5df3c9a5f074}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Web3, the next generation web, promises a decentralized and democratized internet that puts users in control of their data and online identities. However, Web3 faces significant challenges, including scalability, interoperability, regulatory compliance, and energy consumption. To address these challenges, this review paper provides a comprehensive analysis of Web3, including its key advancements and implications, as well as an overview of its major applications in Decentralized Applications (DApps), Decentralized Finance (DeFi), Non-fungible Tokens (NFTs), Decentralized Autonomous Organizations (DAOs), and Supply Chain Management and Provenance Tracking. The paper also discusses the potential social and economic impact of Web3, as well as its integration with emerging technologies such as artificial intelligence (AI), the Internet of Things (IoT), and smart cities. This article then discusses importance of zero-trust architecture for Web3. Ultimately, this review highlights the importance of Web3 in shaping the future of the internet and provides insights into the challenges and opportunities that lie ahead.}
-      \field{issn}{2667-3452}
-      \field{journaltitle}{Internet of Things and Cyber-Physical Systems}
-      \field{title}{Web3: A comprehensive review on background, technologies, applications, zero-trust architectures, challenges and future directions}
-      \field{volume}{3}
-      \field{year}{2023}
-      \field{pages}{213\bibrangedash 248}
-      \range{pages}{36}
-      \verb{doi}
-      \verb https://doi.org/10.1016/j.iotcps.2023.05.003
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S2667345223000305
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S2667345223000305
-      \endverb
-      \keyw{Web3,Decentralization,Blockchain,Digital transformation,DApps,Zero-Trust architecture}
-    \endentry
-    \entry{Steichen18}{article}{}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=6ba51442a63cca29e8ce2fd9eab8b861}{%
-           family={{Steichen}},
-           familyi={S\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c51520c2c9b9c862448a0760178ce8f2}{%
-           family={Fiz},
-           familyi={F\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e4e703e322cbbe1f11098771cc8f83ce}{%
-           family={Norvill},
-           familyi={N\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=83811e582a4a8b94ea460a0c3014cdcf}{%
-           family={Shbair},
-           familyi={S\bibinitperiod},
-           given={W.},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7fcb69e15a31a2b61dc6b381e5bda38d}{%
-           family={State},
-           familyi={S\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{c23c059e97b575dd06d166c7801e55d3}
-      \strng{fullhash}{97b063aa321a672fd4059559c04b18c0}
-      \strng{fullhashraw}{97b063aa321a672fd4059559c04b18c0}
-      \strng{bibnamehash}{97b063aa321a672fd4059559c04b18c0}
-      \strng{authorbibnamehash}{97b063aa321a672fd4059559c04b18c0}
-      \strng{authornamehash}{c23c059e97b575dd06d166c7801e55d3}
-      \strng{authorfullhash}{97b063aa321a672fd4059559c04b18c0}
-      \strng{authorfullhashraw}{97b063aa321a672fd4059559c04b18c0}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{2018 IEEE International Conference on Internet of Things (iThings) and IEEE Green Computing and Communications (GreenCom) and IEEE Cy-ber, Physical and Social Computing (CPSCom) and IEEE Smart Data (SmartData)}
-      \field{title}{Blockchain-Based, Decentralized Access Control for IPFS}
-      \field{year}{2018}
-    \endentry
-    \entry{Tjokrosetio22}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=a99c73e64e3f03d9982b243f93e36ce7}{%
-           family={Tjokrosetio},
-           familyi={T\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{a99c73e64e3f03d9982b243f93e36ce7}
-      \strng{fullhash}{a99c73e64e3f03d9982b243f93e36ce7}
-      \strng{fullhashraw}{a99c73e64e3f03d9982b243f93e36ce7}
-      \strng{bibnamehash}{a99c73e64e3f03d9982b243f93e36ce7}
-      \strng{authorbibnamehash}{a99c73e64e3f03d9982b243f93e36ce7}
-      \strng{authornamehash}{a99c73e64e3f03d9982b243f93e36ce7}
-      \strng{authorfullhash}{a99c73e64e3f03d9982b243f93e36ce7}
-      \strng{authorfullhashraw}{a99c73e64e3f03d9982b243f93e36ce7}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Tempo Publishing}
-      \field{title}{The complete guide to blockchain.}
-      \field{year}{2022}
-    \endentry
-    \entry{Wang2021}{article}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=415d15406f27ab6319fe3dc2d7408598}{%
-           family={{Wang}},
-           familyi={W\bibinitperiod},
-           given={Q.},
-           giveni={Q\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=167a2a4880ce27a4c05cc8c9c9bb68c6}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=415d15406f27ab6319fe3dc2d7408598}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Q.},
-           giveni={Q\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ed4e688b3a13c815213f1ff2acb5d92b}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{9cc71a10b730ae2f62e8a404ed5ab922}
-      \strng{fullhash}{1cdf130674d23bedc0fee080352dd120}
-      \strng{fullhashraw}{1cdf130674d23bedc0fee080352dd120}
-      \strng{bibnamehash}{1cdf130674d23bedc0fee080352dd120}
-      \strng{authorbibnamehash}{1cdf130674d23bedc0fee080352dd120}
-      \strng{authornamehash}{9cc71a10b730ae2f62e8a404ed5ab922}
-      \strng{authorfullhash}{1cdf130674d23bedc0fee080352dd120}
-      \strng{authorfullhashraw}{1cdf130674d23bedc0fee080352dd120}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{NFT's}
-      \field{title}{Non-Fungible Token (NFT): Overview, Evaluation, Opportunities and Challenges.}
-      \field{year}{2021}
-    \endentry
-    \entry{Zheng2020}{article}{}{}
-      \name{author}{7}{}{%
-        {{un=0,uniquepart=base,hash=ca8aba2266d9d0f6fb5d8f38df25be33}{%
-           family={{Zheng}},
-           familyi={Z\bibinitperiod},
-           given={Z.},
-           giveni={Z\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=05914ffc126d0a489a0c1e0de4fa2468}{%
-           family={Xie},
-           familyi={X\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f3beb5fd01338559e2b85adc33098b95}{%
-           family={Dai},
-           familyi={D\bibinitperiod},
-           given={H.-N.},
-           giveni={H\bibinithyphendelim N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2bdd48dc68b3d7c9d63e3844f2459fd6}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={W.},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=581b6aa2244cb0fe26ac5dc5c5b9c7ba}{%
-           family={hen},
-           familyi={h\bibinitperiod},
-           given={X.},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=79f9660a4616bc43a166e9329086be33}{%
-           family={Weng},
-           familyi={W\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ef00d2cd2e23b393bc6ff29747007cce}{%
-           family={Imran},
-           familyi={I\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{824d7a1f91205d4fd323add0d3e9b05a}
-      \strng{fullhash}{967f2a1c91981d435d9da7689ebf938b}
-      \strng{fullhashraw}{967f2a1c91981d435d9da7689ebf938b}
-      \strng{bibnamehash}{967f2a1c91981d435d9da7689ebf938b}
-      \strng{authorbibnamehash}{967f2a1c91981d435d9da7689ebf938b}
-      \strng{authornamehash}{824d7a1f91205d4fd323add0d3e9b05a}
-      \strng{authorfullhash}{967f2a1c91981d435d9da7689ebf938b}
-      \strng{authorfullhashraw}{967f2a1c91981d435d9da7689ebf938b}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{An overview on smart contracts: Challenges, advances and platforms. Future Generation Computer Systems}
-      \field{title}{An overview on smart contracts: Challenges, advances and platforms. Future Generation Computer Systems}
-      \field{year}{2020}
     \endentry
   \enddatalist
 \endrefsection
