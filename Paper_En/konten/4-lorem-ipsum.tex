@@ -1,32 +1,73 @@
 % Change the title and label as desired.
-\section{RESULTS AND DISCUSSION}
+\section{RESULTS}
 \label{sec:results}
 \subsection{Results}
 The overall result of the developed system is a web interface, Non-Fungible Token (NFT), and interoperable smart contract. The following sections detail each result of the developed system.
 
 \subsubsection{Web Interface}
-The initial web interface displays a list of NFT collections available for minting. The NFT can initially be owned by the address that mints it first, and ownership can be transferred to another address.
-At the initial dashboard, users must press the \emph{Connect Wallet} button, which will then connect to the Metamask Wallet account. From this connection, users obtain an address that can be used to mint NFT tokens.
+The initial web interface displays a list of NFT collections that are available for minting. The NFT can initially be owned by the address that mints it first, and ownership can be transferred to another address. At the initial dashboard, users must press the \emph{Connect Wallet} button, which will then connect to the Metamask Wallet account. From this connection, users obtain an address that can be used to mint NFT tokens. This intuitive interface simplifies the process of connecting to the blockchain, ensuring that even users new to the world of NFTs can easily navigate and understand the steps involved in acquiring and managing digital assets. Moreover, the dashboard is designed to be user-friendly, providing clear and concise information, which aids in fostering a seamless interaction between the user and the blockchain technology.
 
 \begin{figure}[H] \centering
   % Name of the image file
-  \includegraphics[scale=0.17]{gambar/tampilan_aplikasi.jpeg}
+  \frame{\includegraphics[scale=0.17]{gambar/tampilan_aplikasi.jpeg}}
   % Caption for the image
   \caption{View of the web interface}
   % Reference label for the image
   \label{fig:web_view}
 \end{figure}
 
+\begin{figure} [H] \centering
+  % Nama dari file gambar yang diinputkan
+  \frame{\includegraphics[scale=0.17]{gambar/home_page.jpg}}
+  % Keterangan gambar yang diinputkan
+  \caption{View of the first appearance of the web}
+  % Label referensi dari gambar yang diinputkan
+  \label{fig:homepage}
+  \end{figure}
+
+  In the image referred to as \ref{fig:homepage}, the initial homepage view is presented when users click the home button on the top navigation bar. This website features several pages accessible through the navigation bar, such as Home, Create, My Listed Items, and My Purchases. These interfaces become available once the user has successfully connected the web to the Metamask Wallet, evidenced by the display of the Metamask Wallet address on the upper right of the navigation bar. On this initial screen, users can view NFTs that have been uploaded for purchase or minting. However, if no NFTs have been uploaded yet, the display will only show the message "\emph{Loading...}".
+   
+  \begin{figure} [H] \centering
+    % Nama dari file gambar yang diinputkan
+    \frame{\includegraphics[scale=0.15]{gambar/create_page.jpeg}}
+    % Keterangan gambar yang diinputkan
+    \caption{View of the create page}
+    % Label referensi dari gambar yang diinputkan
+    \label{fig:createpage}
+    \end{figure}
+
+    In the image referred to as \ref{fig:createpage}, the create page is displayed. This page allows users to upload an NFT in the form of an image to the website. Once uploaded, the NFT will appear on both the home page and the my listed items page. Additionally, any NFT uploaded here will also be directly available for other users to view and interact with, enhancing the visibility and accessibility of newly minted NFTs within the platform. This integration ensures that NFT creators can immediately showcase their digital assets to potential buyers, facilitating a seamless transition from creation to sale.
+
+  \begin{figure} [H] \centering
+    % Nama dari file gambar yang diinputkan
+    \frame{\includegraphics[scale=0.15]{gambar/listing_page.jpg}}
+    % Keterangan gambar yang diinputkan
+    \caption{View of the my listed item page}
+    % Label referensi dari gambar yang diinputkan
+    \label{fig:listingpage}
+    \end{figure}
+  
+    In the image referenced as \ref{fig:listingpage}, the my listed items page is shown. This page allows users to view the NFTs they have uploaded when they used the create function. However, if no NFTs have been uploaded yet, the page will display the message "\emph{There are no listed items yet}". This setup ensures that users can easily track and manage their digital assets directly from their dashboard once they have engaged in creating and listing new NFTs.    
+
+  \begin{figure} [H] \centering
+    % Nama dari file gambar yang diinputkan
+    \frame{\includegraphics[scale=0.15]{gambar/purchase_page.jpg}}
+    % Keterangan gambar yang diinputkan
+    \caption{View of the my purchases page}
+    % Label referensi dari gambar yang diinputkan
+    \label{fig:purchasepage}
+    \end{figure}
+  
+    In the image referenced as \ref{fig:purchasepage}, the display of the my purchase page is shown. This page is designed specifically to allow users to view all NFTs they have acquired through purchases on the main page of the platform. Once a purchase is made, the NFTs are listed on this page, providing a visual display and details of each NFT owned. Additionally, this page offers a transfer ownership function, which enables the owner to transfer the ownership of an NFT to another user with a different address. This feature is crucial for supporting flexibility and liquidity in NFT trading in the market. However, if the user has not made any purchases, the page will display the message "\emph{No purchases}", indicating that there are no NFTs available to display or transfer.
+
 \subsubsection{Smart Contract}
 In the development of blockchain-based applications, integrating the smart contract with user interfaces such as React.js becomes crucial. The smart contract built using Solidity can be deployed on Ethereum testnets, such as the Sepolia Testnet, which provides an environment similar to the Ethereum mainnet but without requiring high transaction fees.
-
-ABI, or Application Binary Interface, is a means that allows functions within an Ethereum smart contract to communicate with external applications, including user interfaces built with frameworks like React.js. ABI acts as a translation layer that outlines how to call functions in the smart contract, the types of parameters it accepts, the expected output types, and the state nature of those functions. ABI is typically generated automatically by the Solidity compiler as part of the smart contract compilation process and is stored in JSON format. Whenever the frontend application sends a transaction or query to the blockchain, it uses the ABI to encode the call data into a format that the Ethereum Virtual Machine (EVM) can understand. Then, when data is returned from the smart contract, ABI is used to decode the response so the React.js application can understand and process it.
 
 The deployment process is carried out where the smart contract will be deployed to several blockchain networks, but for this testing, only the Sepolia testnet is used. During the deployment process, a gas or fee will be charged, which can be paid using Ethereum in the Metamask wallet. Details of this transaction can be seen on Etherscan.
 
 \begin{figure} [H] \centering
   % Name of the image file
-  \includegraphics[scale=0.24]{gambar/etherscan.jpeg}
+  \frame{\includegraphics[scale=0.24]{gambar/etherscan.jpeg}}
   % Caption for the image
   \caption{Transaction details on Etherscan}
   % Reference label for the image
@@ -38,7 +79,7 @@ Non-Fungible Tokens (NFT) also undergo several stages before they can be stored 
 
 \begin{figure} [H] \centering
   % Name of the image file
-  \includegraphics[scale=0.15]{gambar/opensea.jpeg}
+  \frame{\includegraphics[scale=0.15]{gambar/opensea.jpeg}}
   % Caption for the image
   \caption{NFT uploaded on Opensea}
   % Reference label for the image
@@ -57,7 +98,7 @@ Here is the data regarding the wallet used in testing:
 
 \begin{table}[htbp]
   \centering
-  \caption{Volume EDV dan ESV antara ground truth dan prediksi}
+  \caption{Account detail for smart contract testing}
   \label{tab:volume}
   \scalebox{1.2}{
     \begin{tabular}{|c|p{2cm}|p{2cm}|}
@@ -82,7 +123,7 @@ The following are the steps of testing the smart contract system that will be co
 
     \begin{figure} [H] \centering
     % Name of the image file
-    \includegraphics[scale=0.23]{gambar/riwayat_transaksi.jpeg}
+    \frame{\includegraphics[scale=0.23]{gambar/riwayat_transaksi.jpeg}}
     % Caption for the image
     \caption{Minting transaction history on Metamask Wallet}
     % Reference label for the image
@@ -93,7 +134,7 @@ The following are the steps of testing the smart contract system that will be co
 
     \begin{figure} [H] \centering
     % Name of the image file
-    \includegraphics[scale=0.2]{gambar/detail_transaksi_etherscan.jpeg}
+    \frame{\includegraphics[scale=0.2]{gambar/detail_transaksi_etherscan.jpeg}}
     % Caption for the image
     \caption{Transaction details on Etherscan}
     % Reference label for the image
@@ -104,7 +145,7 @@ The following are the steps of testing the smart contract system that will be co
 
     \begin{figure} [H] \centering
     % Name of the image file
-    \includegraphics[scale=0.165]{gambar/detail_nft_etherscan.jpeg}
+    \frame{\includegraphics[scale=0.165]{gambar/detail_nft_etherscan.jpeg}}
     % Caption for the image
     \caption{NFT Details on Etherscan}
     % Reference label for the image
@@ -115,7 +156,7 @@ The following are the steps of testing the smart contract system that will be co
 
     \begin{figure} [H] \centering
     % Name of the image file
-    \includegraphics[scale=0.15]{gambar/nft_pada_opensea.jpeg}
+    \frame{\includegraphics[scale=0.15]{gambar/nft_pada_opensea.jpeg}}
     % Caption for the image
     \caption{NFT on OpenSea}
     % Reference label for the image
@@ -126,7 +167,7 @@ The following are the steps of testing the smart contract system that will be co
 
     \begin{figure} [H] \centering
     % Name of the image file
-    \includegraphics[scale=0.2]{gambar/lock_token.jpeg}
+    \frame{\includegraphics[scale=0.2]{gambar/lock_token.jpeg}}
     % Caption for the image
     \caption{Lock Token function details on Etherscan}
     % Reference label for the image
@@ -137,7 +178,7 @@ The following are the steps of testing the smart contract system that will be co
 
     \begin{figure} [H] \centering
     % Name of the image file
-    \includegraphics[scale=0.5  ]{gambar/bridge_transfer.jpeg}
+    \frame{\includegraphics[scale=0.5  ]{gambar/bridge_transfer.jpeg}}
     % Caption for the image
     \caption{Bridge transfer parameters}
     % Reference label for the image
@@ -148,7 +189,7 @@ The following are the steps of testing the smart contract system that will be co
 
     \begin{figure} [H] \centering
     % Name of the image file
-    \includegraphics[scale=0.2]{gambar/verifikasi_metamask_wallet.jpeg}
+    \frame{\includegraphics[scale=0.2]{gambar/verifikasi_metamask_wallet.jpeg}}
     % Caption for the image
     \caption{Payment on Metamask Wallet}
     % Reference label for the image
@@ -159,7 +200,7 @@ The following are the steps of testing the smart contract system that will be co
 
     \begin{figure} [H] \centering
     % Name of the image file
-    \includegraphics[scale=0.20]{gambar/detail_pada_etherscan.jpeg}
+    \frame{\includegraphics[scale=0.20]{gambar/detail_pada_etherscan.jpeg}}
     % Caption for the image
     \caption{Details on Etherscan}
     % Reference label for the image
@@ -170,7 +211,7 @@ The following are the steps of testing the smart contract system that will be co
 
     \begin{figure} [H] \centering
     % Name of the image file
-    \includegraphics[scale=0.165]{gambar/nft_detail_etherscan2.jpeg}
+    \frame{\includegraphics[scale=0.165]{gambar/nft_detail_etherscan2.jpeg}}
     % Caption for the image
     \caption{NFT details on Etherscan after bridge transfer}
     % Reference label for the image
@@ -181,7 +222,7 @@ The following are the steps of testing the smart contract system that will be co
 
     \begin{figure} [H] \centering
     % Name of the image file
-    \includegraphics[scale=0.15]{gambar/nft_pada_opensea_2.jpeg}
+    \frame{\includegraphics[scale=0.15]{gambar/nft_pada_opensea_2.jpeg}}
     % Caption for the image
     \caption{NFT on OpenSea at the address of B}
     % Reference label for the image

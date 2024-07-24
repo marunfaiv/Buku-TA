@@ -1,55 +1,57 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Struktur dari \emph {Blockchain} \blx@tocontentsinit {0}\cite {Zheng2020}}}{7}{figure.caption.4}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Topology Blockchain \blx@tocontentsinit {0}\cite {Zheng2020}}}{8}{figure.caption.5}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Arsitektur Sistem}}{11}{figure.caption.4}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Flow Pembelian NFT}}{12}{figure.caption.5}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Proses Minting}}{13}{figure.caption.6}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Metodologi Penelitian Yang Digunakan}}{16}{figure.caption.7}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Metodologi Penelitian Yang Digunakan}}{17}{figure.caption.6}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Arsitektur Sistem}}{22}{figure.caption.7}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Flow Pembelian NFT}}{23}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Proses Minting}}{24}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Tampilan interface}}{25}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Tampilan awal dari web}}{25}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Tampilan halaman \emph {create}}}{26}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Tampilan halaman \emph {my listed items}}}{26}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Tampilan halaman \emph {my purchases}}}{27}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Detail transaksi pada etherscan}}{28}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces NFT terunggah pada Opensea}}{29}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Tampilan awal dari web}}{29}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Koneksi Metamask dengan Web}}{30}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Melakukan pengunggahan NFT pada halaman \emph {create}}}{31}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Pembayaran gas IPFS menggunakan Metamask Wallet}}{31}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Data dari NFT ter-\emph {upload} pada platform Pinata}}{32}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Melakukan konfirmasi \emph {minting} NFT pada Metamask Wallet}}{33}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces NFT yang telah di-\emph {minting} terlihat pada halaman \emph {My listed items}}}{34}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces NFT yang telah di-\emph {minting} terlihat pada halaman \emph {home}}}{34}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Akun Metamask kedua}}{35}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Proses pembelian NFT}}{36}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Tampilan \emph {home} setelah NFT dibeli}}{37}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Tampilan \emph {Listed items} ketika melakukan pembelian}}{37}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Tampilan halaman \emph {my purchases} ketika sudah melakukan pembelian}}{38}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Tampilan halaman \emph {my purchases} ketika sudah melakukan pembelian}}{39}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Detail akun ketiga pada Metamask Wallet}}{40}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Tampilan NFT yang siap dilakukan pindah kepemilikan}}{41}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Tampilan NFT yang siap dilakukan pindah kepemilikan}}{42}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.29}{\ignorespaces \emph {Alert} "\emph {NFT transferred successfully!}" ketika NFT berhasil dipindahkan}}{42}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.30}{\ignorespaces \emph {Alert} "\emph {NFT transferred successfully!}" ketika NFT berhasil dipindahkan}}{43}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Console Transaksi Pada \emph {Hardhat Node}}}{43}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.32}{\ignorespaces Tampilan halaman \emph {my purchases} pada akun ketiga}}{44}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.33}{\ignorespaces Detail Akun Untuk Pengujian Lintas Rantai}}{44}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.34}{\ignorespaces Memasukkan \emph {address} tujuan untuk \emph {bridge transfer}}}{45}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.35}{\ignorespaces Konfirmasi pembayaran gas dari fungsi \emph {lock token} di Metamask Wallet}}{46}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.36}{\ignorespaces Konfirmasi pembayaran gas dari fungsi \emph {bridge} transfer di Metamask Wallet}}{46}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.37}{\ignorespaces Kepemilikan NFT "C" Berganti Menjadi Akun \emph {Network BNB Smart Chain}}}{47}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.38}{\ignorespaces Konfirmasi Pembayaran Gas \emph {Unlock} Token}}{47}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.39}{\ignorespaces Hasil Akhir Dari Transfer Lintas Rantai}}{48}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.40}{\ignorespaces \emph {Block Hash} dari setiap transaksi}}{48}{figure.caption.45}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Tampilan interface}}{23}{figure.caption.8}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Tampilan awal dari web}}{24}{figure.caption.9}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Tampilan halaman \emph {create}}}{24}{figure.caption.10}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Tampilan halaman \emph {my listed items}}}{25}{figure.caption.11}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Tampilan halaman \emph {my purchases}}}{25}{figure.caption.12}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Detail transaksi pada etherscan}}{26}{figure.caption.13}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces NFT terunggah pada Opensea}}{27}{figure.caption.14}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Riwayat transaksi minting pada Metamask Wallet}}{28}{figure.caption.17}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Detail transaksi pada Etherscan}}{29}{figure.caption.18}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Detail NFT pada Etherscan}}{30}{figure.caption.19}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces NFT pada OpenSea}}{30}{figure.caption.20}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Detail fungsi \emph {Lock Token} pada Etherscan}}{31}{figure.caption.21}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Parameter \emph {bridge transfer}}}{31}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Pembayaran pada Metamask Wallet}}{32}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Detail pada Etherscan}}{32}{figure.caption.24}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Detail NFT pada Etherscan setelah \emph {bridge transfer}}}{33}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces NFT pada OpenSea \emph {address} B}}{33}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Tampilan awal dari web}}{34}{figure.caption.27}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Koneksi Metamask dengan Web}}{35}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Melakukan pengunggahan NFT pada halaman \emph {create}}}{36}{figure.caption.29}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Pembayaran gas IPFS menggunakan Metamask Wallet}}{36}{figure.caption.30}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Data dari NFT ter-\emph {upload} pada platform Pinata}}{37}{figure.caption.31}%
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Melakukan konfirmasi \emph {minting} NFT pada Metamask Wallet}}{38}{figure.caption.32}%
-\contentsline {figure}{\numberline {4.24}{\ignorespaces NFT yang telah di-\emph {minting} terlihat pada halaman \emph {My listed items}}}{39}{figure.caption.33}%
-\contentsline {figure}{\numberline {4.25}{\ignorespaces NFT yang telah di-\emph {minting} terlihat pada halaman \emph {home}}}{40}{figure.caption.34}%
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Akun Metamask kedua}}{41}{figure.caption.35}%
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Proses pembelian NFT}}{42}{figure.caption.36}%
-\contentsline {figure}{\numberline {4.28}{\ignorespaces Tampilan \emph {home} setelah NFT dibeli}}{42}{figure.caption.37}%
-\contentsline {figure}{\numberline {4.29}{\ignorespaces Tampilan \emph {Listed items} ketika melakukan pembelian}}{43}{figure.caption.38}%
-\contentsline {figure}{\numberline {4.30}{\ignorespaces Tampilan halaman \emph {my purchases} ketika sudah melakukan pembelian}}{44}{figure.caption.39}%
-\contentsline {figure}{\numberline {4.31}{\ignorespaces Tampilan halaman \emph {my purchases} ketika sudah melakukan pembelian}}{45}{figure.caption.40}%
-\contentsline {figure}{\numberline {4.32}{\ignorespaces Detail akun ketiga pada Metamask Wallet}}{46}{figure.caption.41}%
-\contentsline {figure}{\numberline {4.33}{\ignorespaces Tampilan NFT yang siap dilakukan pindah kepemilikan}}{47}{figure.caption.42}%
-\contentsline {figure}{\numberline {4.34}{\ignorespaces Tampilan NFT yang siap dilakukan pindah kepemilikan}}{48}{figure.caption.43}%
-\contentsline {figure}{\numberline {4.35}{\ignorespaces \emph {Alert} "\emph {NFT transferred successfully!}" ketika NFT berhasil dipindahkan}}{48}{figure.caption.44}%
-\contentsline {figure}{\numberline {4.36}{\ignorespaces \emph {Alert} "\emph {NFT transferred successfully!}" ketika NFT berhasil dipindahkan}}{49}{figure.caption.45}%
-\contentsline {figure}{\numberline {4.37}{\ignorespaces Console Transaksi Pada \emph {Hardhat Node}}}{49}{figure.caption.46}%
-\contentsline {figure}{\numberline {4.38}{\ignorespaces Tampilan halaman \emph {my purchases} pada akun ketiga}}{50}{figure.caption.47}%
-\contentsline {figure}{\numberline {4.39}{\ignorespaces Detail Akun Untuk Pengujian Lintas Rantai}}{50}{figure.caption.48}%
-\contentsline {figure}{\numberline {4.40}{\ignorespaces Memasukkan \emph {address} tujuan untuk \emph {bridge transfer}}}{51}{figure.caption.49}%
-\contentsline {figure}{\numberline {4.41}{\ignorespaces Konfirmasi pembayaran gas dari fungsi \emph {lock token} di Metamask Wallet}}{52}{figure.caption.50}%
-\contentsline {figure}{\numberline {4.42}{\ignorespaces Konfirmasi pembayaran gas dari fungsi \emph {bridge} transfer di Metamask Wallet}}{52}{figure.caption.51}%
-\contentsline {figure}{\numberline {4.43}{\ignorespaces Kepemilikan NFT "C" Berganti Menjadi Akun \emph {Network BNB Smart Chain}}}{53}{figure.caption.52}%
-\contentsline {figure}{\numberline {4.44}{\ignorespaces Konfirmasi Pembayaran Gas \emph {Unlock} Token}}{53}{figure.caption.53}%
-\contentsline {figure}{\numberline {4.45}{\ignorespaces Hasil Akhir Dari Transfer Lintas Rantai}}{54}{figure.caption.54}%
-\contentsline {figure}{\numberline {4.46}{\ignorespaces \emph {Block Hash} dari setiap transaksi}}{54}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Riwayat transaksi minting pada Metamask Wallet}}{52}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Detail transaksi pada Etherscan}}{53}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Detail NFT pada Etherscan}}{54}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces NFT pada OpenSea}}{54}{figure.caption.51}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Detail fungsi \emph {Lock Token} pada Etherscan}}{55}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Parameter \emph {bridge transfer}}}{55}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Pembayaran pada Metamask Wallet}}{56}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Detail pada Etherscan}}{57}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Detail NFT pada Etherscan setelah \emph {bridge transfer}}}{57}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces NFT pada OpenSea \emph {address} B}}{58}{figure.caption.57}%
 \addvspace {10\p@ }

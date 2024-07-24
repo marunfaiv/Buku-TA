@@ -3,101 +3,6 @@
 
 % Ubah bagian-bagian berikut dengan isi dari desain dan implementasi
 
-\section{Deskripsi Sistem}
-\subsection{Arsitektur Sistem}
-\begin{figure} [H] \centering
-  % Nama dari file gambar yang diinputkan
-  \includegraphics[scale=0.17]{gambar/desain_sistem_new.png}
-  % Keterangan gambar yang diinputkan
-  \caption{Arsitektur Sistem}
-  % Label referensi dari gambar yang diinputkan
-  \label{fig:flowtransaksi}
-\end{figure}
-
-Dalam pengembangan sistem \emph{smart contract} ini agar berjalan sesuai kehendak penulis untuk memenuhi tugas akhir ini, penulis membuat suatu arsitektur sistem. Pada arsitektur sistem ini, terdapat role \emph{user} yang dapat menjadi \emph{owner} dari suatu \emph{token} dan \emph{user} merupakan pihak yang memiliki akses terbatas terhadap suatu token dalam waktu yang telah ditentukan. Kemudian juga terdapat \emph{front end} untuk melakukan proses minting dari token NFT. Untuk dapat mengakses \emph{front end} baik owner ataupun user harus terhubung menggunakan wallet dari Metamask dalam berinteraksi.
-
-Pada \emph{front end} akan terhubung dengan \emph{smart contract} ketika pengguna melakukan Minting dimana prosesnya pengguna mengunggah aset digital yang dimiliki dan diunggah ke IPFS melakukan aplikasi backend dan akan mengembalikan Content Identifier (CID). CID merupakan sebuah address file dalam IPFS yang digunakan untuk mengakses file tersebut. CID yang diperoleh kemudian akan diunggah ke jaringan \emph{blockchain} dan menjadi suatu token. Data-data mengenai NFT yang tersedia dapat langsung diperoleh \emph{frontend} melalui \emph{smart contract} pada \emph{blockchain}. 
-
-
-\subsection{Flow Pembelian NFT}
-\begin{figure} [H] \centering
-  % Nama dari file gambar yang diinputkan
-  \includegraphics[scale=0.22]{gambar/flow_transaksi_new.png}
-  % Keterangan gambar yang diinputkan
-  \caption{Flow Pembelian NFT}
-  % Label referensi dari gambar yang diinputkan
-  \label{fig:flowtransaksi}
-\end{figure}
-
-Pada sistem ini terdapat juga fitur untuk melakukan pembelian NFT. Pembelian pada \emph{smart contract} yang akan dikembangkan menggunakan fungsi dari \emph{interface} token basis ERC-721. Interface ini memungkinkan token non-fungible diperjual belikan dalam satu kontrak. Kontrak ini akan tereksekusi ketika pengguna kedua (pembeli) melakukan pembelian token milik pengguna pertama (penjual). Kemudian pembeli melakukan minting NFT pada \emph{smart contract} dan juga penjual melakukan pemindahan kepemilikan dari NFT. Setelah proses itu selesai tereksekusi, pembeli mendapatkan NFT dan juga penjual mendapatkan mata uang kripto dari hasil penjualannya.
-
-\subsection{Metadata}
-
-\lstinputlisting[
-  caption={Metadata pada NFT},
-  label={lst:metadatanft}
-]{program/A.json}
-
-Dalam standar ERC-721, setiap NFT diwakili oleh metadata, yang merupakan kumpulan data mendetail mengenai konten Naturretnya dalam format JSON (JavaScript Object Notation). Metadata ini biasanya berisi informasi seperti nama, deskripsi, dan sebuah tautan ke gambar, yang semua dapat disesuaikan sesuai dengan kebutuhan aplikasi desentralisasi yang sedang dikembangkan. Struktur data ini disimpan dalam bentuk \emph{array} yang berisi objek-objek dalam format JSON, memungkinkan fleksibilitas tinggi dalam menyesuaikan data yang terkait dengan masing-masing NFT.
-
-\subsection{Minting}
-\begin{figure} [H] \centering
-  % Nama dari file gambar yang diinputkan
-  \includegraphics[scale=0.25]{gambar/proses_minting.png}
-  % Keterangan gambar yang diinputkan
-  \caption{Proses Minting}
-  % Label referensi dari gambar yang diinputkan
-  \label{fig:prosesminting}
-\end{figure}
-
-
-Proses \emph{minting} adalah langkah awal di mana sebuah NFT baru dibuat di dalam sebuah \emph{platform}. Selama proses ini, berbagai informasi penting tentang NFT tersebut harus ditentukan, termasuk nama, deskripsi, kategori, jumlah suplai yang tersedia, dan aset visual yang mewakili NFT, yang bisa berupa gambar 2D, model 3D, atau video. Harga awal, koleksi yang termasuk NFT, serta atribut lainnya juga perlu ditetapkan. Setelah proses minting selesai, data dari NFT yang baru dibuat ini akan disimpan dalam InterPlanetary File System (IPFS), yang memungkinkan penyimpanan dan akses data yang terdesentralisasi. Penyimpanan ini memastikan bahwa semua informasi terkait, seperti kepemilikan yang tercatat dalam atribut NFT, dapat diakses secara permanen dan aman.
-
-\vspace{0.5 cm}
-
-\section{Tools yang digunakan}
-\label{sec:tools}
-\subsection{Solidity}
-
-Solidity adalah bahasa pemrograman tingkat tinggi yang secara khusus dirancang untuk mengembangkan \emph{smart contracts} pada platform \emph{blockchain} Ethereum. Bahasa ini menawarkan sintaks yang dioptimalkan untuk menangani operasi kontrak cerdas, termasuk dukungan untuk variabel, fungsi, dan struktur kontrol yang kompleks, yang semuanya vital dalam menciptakan aplikasi terdesentralisasi yang efisien dan aman. Selain itu, Solidity dilengkapi dengan berbagai fitur keamanan yang mencegah kerentanan umum seperti serangan \emph{reentrancy} dan \emph{overflows}. Keunggulan utama dari Solidity adalah kemampuannya untuk dijalankan di atas Ethereum Virtual Machine (EVM), lingkungan runtime yang menjadikannya kompatibel dengan berbagai jenis \emph{blockchain} yang mengadopsi standar EVM. Penggunaan Solidity membuka peluang bagi pengembang untuk menerapkan logika kontrak yang rumit yang bisa interaksi langsung dengan \emph{blockchain}, memberikan tingkat transparansi dan keandalan yang tinggi dalam transaksi digital.
-
-\subsection{Metamask}
-
-MetaMask adalah dompet digital yang dirancang khusus untuk memudahkan pengguna dalam mengelola aset kripto seperti Ether (ETH) dan berinteraksi dengan aplikasi terdesentralisasi (dApps) pada jaringan Ethereum. Fungsinya tidak hanya terbatas pada penyimpanan dan pengelolaan kripto, tetapi juga sebagai jembatan yang menghubungkan pengguna dengan ekosistem Ethereum. Sebagai ekstensi browser, MetaMask memungkinkan pengguna untuk melakukan transaksi kripto secara langsung dari browser web mereka tanpa perlu menggunakan perangkat lunak tambahan. MetaMask juga mendukung jaringan \emph{blockchain} lain yang kompatibel dengan Ethereum, memungkinkan pengguna untuk berpartisipasi dalam berbagai aktivitas \emph{blockchain} seperti game berbasis \emph{blockchain}, pasar seni digital, dan platform keuangan terdesentralisasi (DeFi). Dengan MetaMask, pengguna dapat dengan mudah beralih antara jaringan ini, menjelajahi dunia kripto dengan lebih aman dan nyaman.
-
-\subsection{Hardhat}
-Hardhat adalah kerangka kerja pengembangan \emph{smart contract} yang dirancang khusus untuk memudahkan proses pengembangan, pengujian, dan penyebaran \emph{smart contract}. Alat ini menyediakan serangkaian fitur yang memungkinkan pengembang \emph{blockchain} untuk bekerja lebih efisien. Dengan menggunakan Hardhat, pengembang dapat menjalankan lingkungan Ethereum lokal yang memudahkan proses pengujian dan debugging. Hardhat mendukung tugas otomatisasi yang kompleks dan mengintegrasikan stack perangkat lunak yang luas, termasuk plugin dan skrip yang dapat disesuaikan untuk meningkatkan fungsionalitas dan efisiensi. Framework ini juga memfasilitasi interaksi yang lebih mulus dengan jaringan Ethereum publik dan testnet, memungkinkan pengembang untuk memperoleh feedback yang cepat dan efektif tentang cara kerja \emph{smart contract} mereka di dalam kondisi jaringan yang sebenarnya.
-
-\subsection{Ganache}
-
-Ganache adalah alat simulasi \emph{blockchain} Ethereum yang digunakan secara luas dalam pengembangan dan pengujian \emph{smart contracts} dan aplikasi berbasis Ethereum. Ini memungkinkan pengembang untuk membuat jaringan \emph{blockchain} lokal yang dapat dijalankan di komputer mereka sendiri, mirip dengan jaringan Ethereum nyata, tetapi tanpa memerlukan sumber daya yang besar atau biaya transaksi yang sebenarnya.
-
-\subsection{InterPlanetary File System}
-InterPlanetary File System (IPFS) adalah protokol \emph{hypermedia} terdistribusi yang bertujuan untuk membuat web lebih cepat, aman, dan terbuka. IPFS telah menjadi populer di kalangan pengembang, terutama dalam pengembangan \emph{smart contract} untuk Non-Fungible Tokens (NFTs). Pada dasarnya, IPFS memungkinkan penyimpanan dan berbagi data dalam jaringan terdistribusi yang mirip dengan sistem peer-to-peer. Setiap file dan semua blok dalamnya diberi \emph{hash kriptografis} yang unik, yang bertindak sebagai alamat unik di jaringan.
-
-Dalam konteks NFT, IPFS sangat berguna karena menyediakan solusi untuk tidak tergantung pada server tunggal atau lokasi penyimpanan yang bisa menjadi titik kegagalan. Misalnya, jika \emph{metadata} atau aset digital NFT seperti gambar, video, atau file audio disimpan hanya di server terpusat, ada risiko bahwa data tersebut bisa hilang atau dihapus. Menggunakan IPFS, file tersebut disimpan di beberapa node dalam jaringan, meningkatkan ketahanan dan ketersediaan data. Setiap kali file diminta, IPFS mengambil beberapa potongan dari banyak node, bukan mengambil seluruh file dari satu lokasi, mempercepat waktu pemuatan dan mengurangi beban pada jaringan.
-
-\subsection{React.js}
-React.js adalah sebuah pustaka JavaScript yang populer dan kuat untuk membangun antarmuka pengguna, atau lebih dikenal dengan istilah UI (\emph{User Interface}). Keunggulan React.js terletak pada kemampuannya untuk membangun aplikasi web yang dinamis dengan cara yang efisien dan mudah. React.js memungkinkan pengembang untuk membuat komponen UI yang besar dan kompleks, yang dapat dikelola dengan baik melalui penggunaan state dan props yang memberikan cara untuk \emph{data flow} dan \emph{re-rendering} yang efisien. 
-
-Menggunakan React.js, pengembang dapat memanfaatkan library seperti Web3.js atau Ethers.js untuk berinteraksi langsung dengan \emph{blockchain Ethereum}, tempat \emph{smart contract} di-\emph{deploy}. Hal ini memungkinkan aplikasi untuk melakukan \emph{query} dan memperbarui \emph{blockchain} dengan transparan, menampilkan informasi seperti kepemilikan NFT, sejarah transaksi, dan \emph{metadata} NFT secara \emph{real-time}. 
-
-\subsection{Web3.js}
-Web3.js adalah sebuah pustaka JavaScript yang sangat penting untuk pengembangan aplikasi web yang berinteraksi dengan \emph{blockchain} Ethereum, khususnya dalam ekosistem Web 3.0. Library ini memungkinkan pengembang \emph{frontend} untuk berkomunikasi langsung dengan \emph{node} Ethereum, memanfaatkan fungsionalitas \emph{blockchain} seperti \emph{smart contracts}, transaksi, dan manajemen akun langsung dari browser pengguna.
-
-Integrasi Web3.js dalam aplikasi React.js memungkinkan pengembang untuk memanfaatkan \emph{hook} dan komponen React untuk merespons perubahan \emph{state} pada \emph{blockchain} secara \emph{real-time}. Ini termasuk pembaruan saldo, perubahan status transaksi, dan pembaruan pada data \emph{smart contract}. Fungsi ini memperkuat pengalaman pengguna dengan memberikan tampilan yang konsisten dan \emph{up-to-date} dari status \emph{blockchain}, yang sangat penting dalam aplikasi yang menuntut keandalan dan transparansi tinggi.
-
-\subsection{Ethers.js}
-Ethers.js adalah sebuah \emph{library} JavaScript ringan yang dirancang untuk berinteraksi dengan Ethereum \emph{blockchain}. \emph{Library} ini sangat cocok untuk digunakan dalam pengembangan aplikasi \emph{frontend} dengan React.js karena menawarkan API yang sederhana dan modular, memudahkan pengembangan aplikasi desentralisasi (DApps) yang efisien. Ethers.js menyediakan fungsi-fungsi penting seperti penyambungan dengan \emph{wallet} pengguna, pembuatan dan pengiriman transaksi, serta interaksi dengan \emph{smart contract}.
-
-Dalam pengembangan dengan React.js, Ethers.js membantu mengintegrasikan fungsi \emph{blockchain} ke dalam komponen React dengan cara yang bersih dan efektif. Misalnya, dengan menggunakan React \emph{hooks} seperti \emph{useState} dan \emph{useEffect}, pengembang dapat dengan mudah mengintegrasikan status dari \emph{Ethereum blockchain} ke dalam UI aplikasi, memperbarui UI secara \emph{real-time} ketika ada perubahan pada \emph{blockchain} seperti konfirmasi transaksi atau perubahan pada data \emph{contract}.
-
-\subsection{Etherscan}
-Etherscan adalah platform analitis berbasis web yang memungkinkan pengguna untuk melacak transaksi Ethereum, \emph{smart contract}, dan status \emph{blockchain} secara real-time. Platform ini memberikan wawasan mendetail tentang semua aktivitas yang terjadi di jaringan Ethereum, termasuk informasi tentang blok terbaru, transaksi yang sedang berlangsung, dan token yang beredar. Etherscan juga digunakan secara luas oleh pengembang untuk memeriksa dan memverifikasi kode sumber \emph{smart contract}, yang merupakan aspek penting dalam memastikan transparansi dan keamanan dalam ekosistem Ethereum. Dengan antarmuka yang mudah digunakan, Etherscan telah menjadi alat esensial bagi siapa saja yang terlibat dalam industri \emph{blockchain} Ethereum untuk memonitor, memverifikasi, dan menganalisis transaksi dan kontrak.
-
-\subsection{Token ERC-721}
-ERC-721 adalah standar untuk mewakili aset non-fungible (NFT) di \emph{blockchain} Ethereum. Standar ini memungkinkan representasi unik dari aset digital seperti karya seni, barang koleksi, dan item dalam game dalam bentuk token digital. Setiap token ERC-721 memiliki identifikasi unik dan dapat memiliki metadata yang terkait dengannya, yang membedakannya dari token lain di \emph{blockchain}. Fitur ini memfasilitasi pembuatan, perdagangan, dan penjualan aset digital dengan cara yang terdesentralisasi dan transparan. ERC-721 juga mendukung fungsi yang memungkinkan pemilik token untuk mentransfer, menyetujui, atau mengakses informasi tentang kepemilikan token, yang krusial untuk aplikasi di ekosistem Web3 dan ekonomi digital.
-
 \section{Metode Yang Digunakan}
 
 % Contoh input gambar dengan format *.jpg
@@ -249,4 +154,518 @@ Pada tahap ini terdapat beberapa langkah pengujian \emph{smart contract} yaitu p
 
     \item Pengujian Integrasi
     Setelah pengujian unit, langkah berikutnya adalah pengujian integrasi, yang memastikan bahwa semua komponen dalam aplikasi bekerja dengan baik saat digabungkan. Dalam konteks integrasi smart contract, ini melibatkan menguji interaksi antara frontend React.js dan smart contract melalui ethers.js atau web3.js. Pengujian integrasi membantu mendeteksi masalah pada alur data antara frontend dan blockchain, termasuk validasi transaksi dan pembaruan state yang benar.
+\end{itemize}
+
+\section{Deskripsi Sistem}
+\subsection{Arsitektur Sistem}
+\begin{figure} [H] \centering
+  % Nama dari file gambar yang diinputkan
+  \includegraphics[scale=0.17]{gambar/desain_sistem_new.png}
+  % Keterangan gambar yang diinputkan
+  \caption{Arsitektur Sistem}
+  % Label referensi dari gambar yang diinputkan
+  \label{fig:flowtransaksi}
+\end{figure}
+
+Dalam pengembangan sistem \emph{smart contract} ini agar berjalan sesuai kehendak penulis untuk memenuhi tugas akhir ini, penulis membuat suatu arsitektur sistem. Pada arsitektur sistem ini, terdapat role \emph{user} yang dapat menjadi \emph{owner} dari suatu \emph{token} dan \emph{user} merupakan pihak yang memiliki akses terbatas terhadap suatu token dalam waktu yang telah ditentukan. Kemudian juga terdapat \emph{front end} untuk melakukan proses minting dari token NFT. Untuk dapat mengakses \emph{front end} baik owner ataupun user harus terhubung menggunakan wallet dari Metamask dalam berinteraksi.
+
+Pada \emph{front end} akan terhubung dengan \emph{smart contract} ketika pengguna melakukan Minting dimana prosesnya pengguna mengunggah aset digital yang dimiliki dan diunggah ke IPFS melakukan aplikasi backend dan akan mengembalikan Content Identifier (CID). CID merupakan sebuah address file dalam IPFS yang digunakan untuk mengakses file tersebut. CID yang diperoleh kemudian akan diunggah ke jaringan \emph{blockchain} dan menjadi suatu token. Data-data mengenai NFT yang tersedia dapat langsung diperoleh \emph{frontend} melalui \emph{smart contract} pada \emph{blockchain}. 
+
+
+\subsection{Flow Pembelian NFT}
+\begin{figure} [H] \centering
+  % Nama dari file gambar yang diinputkan
+  \includegraphics[scale=0.20]{gambar/flow_transaksi_new.png}
+  % Keterangan gambar yang diinputkan
+  \caption{Flow Pembelian NFT}
+  % Label referensi dari gambar yang diinputkan
+  \label{fig:flowtransaksi}
+\end{figure}
+
+Pada sistem ini terdapat juga fitur untuk melakukan pembelian NFT. Pembelian pada \emph{smart contract} yang akan dikembangkan menggunakan fungsi dari \emph{interface} token basis ERC-721. Interface ini memungkinkan token non-fungible diperjual belikan dalam satu kontrak. Kontrak ini akan tereksekusi ketika pengguna kedua (pembeli) melakukan pembelian token milik pengguna pertama (penjual). Kemudian pembeli melakukan minting NFT pada \emph{smart contract} dan juga penjual melakukan pemindahan kepemilikan dari NFT. Setelah proses itu selesai tereksekusi, pembeli mendapatkan NFT dan juga penjual mendapatkan mata uang kripto dari hasil penjualannya.
+
+\subsection{Metadata}
+
+\lstinputlisting[
+  caption={Metadata pada NFT},
+  label={lst:metadatanft}
+]{program/A.json}
+
+Dalam standar ERC-721, setiap NFT diwakili oleh metadata, yang merupakan kumpulan data mendetail mengenai konten Naturretnya dalam format JSON (JavaScript Object Notation). Metadata ini biasanya berisi informasi seperti nama, deskripsi, dan sebuah tautan ke gambar, yang semua dapat disesuaikan sesuai dengan kebutuhan aplikasi desentralisasi yang sedang dikembangkan. Struktur data ini disimpan dalam bentuk \emph{array} yang berisi objek-objek dalam format JSON, memungkinkan fleksibilitas tinggi dalam menyesuaikan data yang terkait dengan masing-masing NFT.
+
+\subsection{Minting}
+\begin{figure} [H] \centering
+  % Nama dari file gambar yang diinputkan
+  \includegraphics[scale=0.25]{gambar/proses_minting.png}
+  % Keterangan gambar yang diinputkan
+  \caption{Proses Minting}
+  % Label referensi dari gambar yang diinputkan
+  \label{fig:prosesminting}
+\end{figure}
+
+Proses \emph{minting} adalah langkah awal di mana sebuah NFT baru dibuat di dalam sebuah \emph{platform}. Selama proses ini, berbagai informasi penting tentang NFT tersebut harus ditentukan, termasuk nama, deskripsi, kategori, jumlah suplai yang tersedia, dan aset visual yang mewakili NFT, yang bisa berupa gambar 2D, model 3D, atau video. Harga awal, koleksi yang termasuk NFT, serta atribut lainnya juga perlu ditetapkan. Setelah proses minting selesai, data dari NFT yang baru dibuat ini akan disimpan dalam InterPlanetary File System (IPFS), yang memungkinkan penyimpanan dan akses data yang terdesentralisasi. Penyimpanan ini memastikan bahwa semua informasi terkait, seperti kepemilikan yang tercatat dalam atribut NFT, dapat diakses secara permanen dan aman.
+\vspace{0.5 cm}
+
+\section{Web Interface}
+Tampilan awal web \emph{interface}, menampilkan daftar koleksi NFT yang dapat di-\emph{minting}. Nantinya NFT tersebut dapat dimiliki oleh \emph{address} yang melakukan pertama kali \emph{minting} dan juga kepemilikan dari NFT tersebut dapat diberikan ke \emph{address} lain.
+\begin{figure} [H] \centering
+  % Nama dari file gambar yang diinputkan
+  \frame{\includegraphics[scale=0.30]{gambar/tampilan_aplikasi.jpeg}}
+  % Keterangan gambar yang diinputkan
+  \caption{Tampilan interface}
+  % Label referensi dari gambar yang diinputkan
+  \label{fig:interface}
+\end{figure}
+
+Pada halaman dashboard awal, pengguna diharuskan untuk menekan tombol Connect Wallet, yang akan memicu proses koneksi dengan Metamask Wallet. Setelah berhasil terhubung, pengguna akan mendapatkan address yang bersifat unik. Alamat ini tidak hanya penting untuk keperluan identifikasi pengguna di dalam jaringan, tetapi juga berfungsi sebagai kunci akses untuk melakukan minting token NFT. Dengan demikian, address tersebut menjadi sangat krusial karena merupakan representasi digital dari identitas pengguna dalam ekosistem blockchain, memungkinkan mereka untuk bertransaksi, mengakses, dan mengelola aset digital mereka dengan aman. Proses ini memastikan bahwa setiap interaksi yang dilakukan melalui smart contract untuk NFT tercatat secara transparan dan dapat diverifikasi, memberikan keamanan dan kepercayaan dalam setiap transaksi.
+
+  \begin{figure} [H] \centering
+  % Nama dari file gambar yang diinputkan
+  \frame{\includegraphics[scale=0.3]{gambar/home_page.jpg}}
+  % Keterangan gambar yang diinputkan
+  \caption{Tampilan awal dari web}
+  % Label referensi dari gambar yang diinputkan
+  \label{fig:homepage}
+  \end{figure}
+
+  Pada gambar \ref{fig:homepage} adalah tampilan dari \emph{homepage} awal ketika pengguna menekan tombol \emph{home} pada \emph{navigation bar} atas. Pada web ini terdapat beberapa halaman yang dapat diakses dengan menekan tombol pada \emph{navigation bar}, seperti \emph{Home}, \emph{Create}, \emph{My Listed Items}, dan \emph{My Purchase}. Tampilan-tampilan ini dapat diakses ketika pengguna telah melakukan koneksi web dengan Metamask Wallet, hal ini dapat dilihat pada \emph{navigation bar} atas kanan terdapat \emph{address} dari akun Metamask Wallet. Pada tampilan awal ini, pengguna dapat melihat NFT yang telah diunggah untuk dapat dilakukan pembelian atau \emph{minting}. Tetapi karena belum terdapat NFT yang diunggah maka hanya akan menampilkan tulisan "\emph{Loading...}".
+   
+  \begin{figure} [H] \centering
+    % Nama dari file gambar yang diinputkan
+    \frame{\includegraphics[scale=0.3]{gambar/create_page.jpeg}}
+    % Keterangan gambar yang diinputkan
+    \caption{Tampilan halaman \emph{create}}
+    % Label referensi dari gambar yang diinputkan
+    \label{fig:createpage}
+    \end{figure}
+
+  Pada gambar \ref{fig:createpage} adalah tampilan dari \emph{create page}. Pada halaman ini pengguna dapat mengunggah sebuah NFT berupa gambar ke web yang kemudian jika diunggah akan muncul pada halaman \emph{home} dan juga akan muncul pada halaman \emph{my listed items}.
+
+  \begin{figure} [H] \centering
+    % Nama dari file gambar yang diinputkan
+    \frame{\includegraphics[scale=0.30]{gambar/listing_page.jpg}}
+    % Keterangan gambar yang diinputkan
+    \caption{Tampilan halaman \emph{my listed items}}
+    % Label referensi dari gambar yang diinputkan
+    \label{fig:listingpage}
+    \end{figure}
+  
+  Pada gambar \ref{fig:listingpage} adalah tampilan dari \emph{my listed items page}. Pada halaman ini pengguna dapat melihat NFT kepemilikannya yang telah diunggah pada ketika dia melakukan \emph{create}. Tetapi dikarenakan belum melakukan pengunggahan NFT, maka halaman ini hanya akan memunculkan tulisan "\emph{There are no listed item yet}".
+
+  \begin{figure} [H] \centering
+    % Nama dari file gambar yang diinputkan
+    \frame{\includegraphics[scale=0.30]{gambar/purchase_page.jpg}}
+    % Keterangan gambar yang diinputkan
+    \caption{Tampilan halaman \emph{my purchases}}
+    % Label referensi dari gambar yang diinputkan
+    \label{fig:purchasepage}
+    \end{figure}
+  
+  Pada gambar \ref{fig:purchasepage}, terlihat tampilan dari \emph{my purchase page} yang dirancang khusus untuk memungkinkan pengguna melihat semua NFT yang telah mereka peroleh melalui pembelian di halaman utama platform. Setelah melakukan pembelian, NFT tersebut akan terdaftar di halaman ini, memberikan tampilan visual serta detail dari setiap NFT yang dimiliki. Lebih lanjut, halaman ini juga menyediakan fungsi \emph{transfer ownership}, yang memungkinkan pemilik untuk mengalihkan kepemilikan NFT kepada pengguna lain dengan \emph{address} yang berbeda. Fungsi ini sangat penting untuk mendukung fleksibilitas dan likuiditas dalam perdagangan NFT di pasar. Namun, jika pengguna belum melakukan pembelian apapun, halaman ini akan menampilkan pesan "\emph{No purchases}", yang menandakan bahwa tidak ada NFT yang dapat ditampilkan atau ditransfer.
+
+\section{\emph{Smart Contract}}
+  Dalam pengembangan aplikasi berbasis \emph{blockchain}, pengintegrasian \emph{smart contract} dengan antarmuka pengguna seperti React.js menjadi krusial. \emph{Smart contract} yang dibangun menggunakan Solidity dapat di-\emph{deploy} di \emph{testnet} Ethereum, seperti Sepolia Testnet, yang menyediakan lingkungan yang hampir mirip dengan mainnet Ethereum namun tanpa memerlukan biaya transaksi yang besar. 
+  
+  ABI atau \emph{Application Binary Interface}, adalah cara yang memungkinkan fungsi dalam \emph{smart contract} Ethereum untuk berkomunikasi dengan aplikasi eksternal, termasuk antarmuka pengguna yang dibangun dengan kerangka kerja seperti React.js. ABI berperan sebagai lapisan translasi yang menguraikan cara memanggil fungsi dalam smart contract, jenis parameter yang diterima, jenis keluaran yang diharapkan, serta sifat state dari fungsi tersebut. ABI biasanya dihasilkan secara otomatis oleh \emph{compiler} Solidity sebagai bagian dari proses kompilasi \emph{smart contract} dan disimpan dalam format JSON. Setiap kali aplikasi \emph{frontend} mengirimkan transaksi atau \emph{query} ke \emph{blockchain}, ia menggunakan ABI untuk mengkodekan data panggilan ke dalam format yang dapat dipahami oleh \emph{Ethereum Virtual Machine} (EVM). Kemudian, saat data dikembalikan dari \emph{smart contract}, ABI digunakan untuk mendekode balasan sehingga aplikasi React.js dapat memahami dan memprosesnya.
+  
+  Proses \emph{deploy} dilakukan \emph{smart contract} akan di-\emph{deploy} ke beberapa jaringan \emph{blockchain} namun dikarenakan dalam pengujian ini yang digunakan adalah sepolia \emph{testnet} maka yang digunakan hanyalah dari jaringan sepolia \emph{testnet}. Ketika melakukan proses \emph{deployment} akan dikenakan \emph{gas} atau fee yang dapat dibayar menggunakan \emph{ethereum} yang terdapat pada \emph{wallet} Metamask. Yang kemudian detail dari transaksi tersebut dapat dilihat pada Etherscan.
+  
+  \begin{figure} [H] \centering
+    % Nama dari file gambar yang diinputkan
+    \frame{\includegraphics[scale=0.45]{gambar/etherscan.jpeg}}
+    % Keterangan gambar yang diinputkan
+    \caption{Detail transaksi pada etherscan}
+    % Label referensi dari gambar yang diinputkan
+    \label{fig:transaction}
+  \end{figure}
+  
+\section{\emph{Non-Fungible Token} (NFT)}
+\emph{Non-Fungible Token} (NFT) merupakan aset digital yang tidak dapat dipertukarkan secara langsung dengan objek serupa karena memiliki identitas dan atribut unik. Agar NFT dapat disimpan dalam \emph{The Interplanetary File System} (IPFS) dan kemudian dipublikasikan pada platform seperti OpenSea test net, terdapat beberapa tahapan yang harus dilalui. Pertama, menggunakan Pinata sebagai platform untuk mengunggah gambar NFT dan data \emph{JavaScript Object Notation} (JSON) yang mengandung informasi tentang NFT tersebut. Data ini nantinya akan di-\emph{mint} sebagai \emph{Uniform Resource Identifier} (URI) dalam \emph{smart contract} yang terkait dengan blockchain. Proses ini esensial agar gambar dan detail dari NFT yang di-mint dapat ditampilkan secara akurat pada platform OpenSea, yang merupakan pasar terkemuka untuk membeli, menjual, dan menjelajahi NFT digital unik \cite{YourCitationHere}.
+
+Tahapan ini tidak hanya penting untuk memastikan bahwa NFT dapat diakses dan diperdagangkan di platform pasar digital, tetapi juga memainkan peran kritis dalam memastikan bahwa NFT tersebut tetap aman dan tidak dapat diubah tanpa izin dari pemiliknya. Melalui penggunaan IPFS, data terkait NFT disimpan dalam jaringan peer-to-peer yang terdesentralisasi, yang meningkatkan keamanan dan ketahanan terhadap kehilangan data atau manipulasi data.
+  
+  \begin{figure} [H] \centering
+    % Nama dari file gambar yang diinputkan
+    \frame{\includegraphics[scale=0.28]{gambar/opensea.jpeg}}
+    % Keterangan gambar yang diinputkan
+    \caption{NFT terunggah pada Opensea}
+    % Label referensi dari gambar yang diinputkan
+    \label{fig:opensea}
+  \end{figure}
+  
+\section{Fitur Pengunggahan atau \emph{Minting} Pada Web3.0}
+\emph{User} akan mengakses web dengan menggunakan link yang dimunculkan secara lokal dengan melakukan run program lalu akan memunculkan link berupa \emph{localhost} yang dapat diakses pada platform seperti Google Chrome, Mozilla Firefox, atau Microsoft Edge, dan platform pengakses website lainnya.
+
+\begin{figure} [H] \centering
+  % Nama dari file gambar yang diinputkan
+  \frame{\includegraphics[scale=0.26]{gambar/login_page.jpg}}
+  % Keterangan gambar yang diinputkan
+  \caption{Tampilan awal dari web}
+  % Label referensi dari gambar yang diinputkan
+  \label{fig:web_interface}
+  \end{figure}
+
+Pada gambar \ref{fig:web_interface} merupakan tampilan utama dari web, sebelum dapat melakukan \emph{load} data pengguna harus melakukan koneksi dengan akun Metamask Wallet. Integrasi harus dilakukan agar pengguna dapat mengakses tampilan lanjutan pada web. Integrasi tersebut dapat dilakukan dengan menekan tombol \emph{Connect Wallet} pada \emph{navigation bar} di pojok kanan atas.
+
+\begin{figure} [H] \centering
+  \centering
+  \begin{subfigure}{0.45\textwidth}
+      \includegraphics[scale=0.35]{gambar/integrasi_metamask.jpg}
+      \caption{}
+      \label{fig:intg_a}
+  \end{subfigure}
+  \hspace{5pt}
+  \begin{subfigure}{0.45\textwidth}
+    \includegraphics[scale=0.35]{gambar/metamask_konek.jpeg}
+    \caption{}
+    \label{fig:intg_b}
+\end{subfigure}
+  \caption{Koneksi Metamask dengan Web}
+  \label{fig:koneksi_web_metamask}
+  \end{figure}
+
+  Pada gambar \ref{fig:koneksi_web_metamask} adalah proses ketika melakukan integrasi dengan Metamask Wallet pada web. Ketika pengguna menekan tombol \emph{Connect Wallet} maka akan diarahkan kepada Metamask. Jika pengguna belum melakukan login pada Metamask maka pengguna akan disuruh login terlebih dahulu pada Metamask seperti pada gambar \ref{fig:intg_a}. Jika pengguna telah melakukan login ke akun Metamask, maka tampilannya akan seperti gambar \ref{fig:intg_b} yang di mana tampilan dari Metamask Wallet terdapat informasi \emph{address} dari akun dan juga \emph{balance} dari akun tersebut. Dikarenakan pada pengujian ini masih menggunakan \emph{localhost} maka \emph{balance} dari akun tersebut menggunakan milik Hardhat.
+    
+    Kemudian, kita akan menguji fungsionalitas sistem dengan fokus pada proses pengunggahan NFT, melakukan transaksi pembelian, serta mengirim NFT ke \emph{address} lain. Dalam skenario pengujian ini, seluruh aktivitas akan dilakukan dalam jaringan yang sama, yakni \emph{localhost}. Hal ini bertujuan untuk memastikan bahwa interaksi antar fungsi dalam \emph{smart contract} berjalan dengan lancar dan tanpa adanya gangguan eksternal yang mungkin terjadi dalam jaringan publik. Pengujian di \emph{localhost} memungkinkan kita untuk mengisolasi dan mengidentifikasi masalah fungsi dalam kondisi yang terkontrol sebelum memindahkannya ke jaringan tes yang lebih besar atau ke jaringan Ethereum utama. Selama proses ini, kita akan mengamati bagaimana sistem menangani proses-proses seperti penentuan kepemilikan, transaksi pembayaran, dan transfer kepemilikan antar pengguna, yang semuanya merupakan komponen penting dari aplikasi berbasis NFT. Pengujian ini juga mencakup verifikasi keamanan dan integritas data untuk memastikan bahwa tidak ada celah yang dapat dimanfaatkan oleh pengguna jahat dalam ekosistem.
+  
+  \begin{figure} [H] \centering
+    % Nama dari file gambar yang diinputkan
+    \frame{\includegraphics[scale=0.27]{gambar/create_nft.jpg}}
+    % Keterangan gambar yang diinputkan
+    \caption{Melakukan pengunggahan NFT pada halaman \emph{create}}
+    % Label referensi dari gambar yang diinputkan
+    \label{fig:createnft}
+    \end{figure}
+
+  Pada tahap awal ini pengguna melakukan pengunggahan NFT pada halaman \emph{create}. Pengguna memasukkan detail-detail dari NFT yang ingin diunggah seperti gambar, nama, deskripsi, dan juga harga dalam mata uang \emph{ethereum}. Pada pengujian ini pengguna memasukkan NFT gambar "A" seperti pada pengujian \emph{smart contract} sebelumnya. Setelah pengguna menekan tombol "\emph{Create \& List NFT!}" maka akan muncul \emph{pop up window} dari Metamask Wallet yang digunakan untuk membayar \emph{gas} atau fee dari melakukan eksekusi kode \emph{smart contract}. 
+  
+   \begin{figure} [H] \centering
+  \centering
+  \begin{subfigure}{0.45\textwidth}
+      \includegraphics[scale=0.32]{gambar/confirm_create.jpg}
+      \caption{}
+      \label{fig:payipfs-a}
+  \end{subfigure}
+  \hspace{5pt}
+  \begin{subfigure}{0.45\textwidth}
+    \includegraphics[scale=0.32]{gambar/confirm_upload.jpg}
+    \caption{}
+    \label{fig:payipfs-b}
+\end{subfigure}
+  \caption{Pembayaran gas IPFS menggunakan Metamask Wallet}
+  \label{fig:koneksi_web_metamask}
+  \end{figure}
+  
+    Gambar \ref{fig:payipfs-a} adalah pembayaran \emph{gas} dari metamask wallet. Pembayaran \emph{gas} tersebut terjadi karena pada \emph{smart contract} terjadi proses pengunggahan gambar NFT ke platform penyedia IPFS. Pada web ini kita mengintegrasikan dengan platform bernama Pinata. Pinata sendiri merupakan platform penyedia servis IPFS. Kemudian juga terdapat konfirmasi pada gambar \ref{fig:payipfs-b}, konfirmasi ini dilakukan karena melakukan integrasi dengan platform Pinata yang kita gunakan sebagai penyedia servis IPFS. 
+    
+    Setelah berhasil melakukan konfirmasi pembayaran gas melalui MetaMask, NFT yang telah dibuat melalui halaman "Create" pada aplikasi akan diunggah ke platform Pinata. Platform Pinata ini berfungsi sebagai penyedia layanan penyimpanan dan pengelolaan file berbasis teknologi blockchain, yang menggunakan sistem InterPlanetary File System (IPFS) untuk memastikan keamanan dan ketahanan data.
+    
+    \begin{figure} [H] \centering
+      % Nama dari file gambar yang diinputkan
+      \includegraphics[scale=0.25]{gambar/pinata.jpeg}
+      % Keterangan gambar yang diinputkan
+      \caption{Data dari NFT ter-\emph{upload} pada platform Pinata}
+      % Label referensi dari gambar yang diinputkan
+      \label{fig:pinata}
+      \end{figure}
+
+    Dalam platform Pinata seperti pada gambar \ref{fig:pinata}, setiap file yang diunggah, termasuk gambar untuk NFT, akan diberikan Content Identifier (CID) unik yang memudahkan pelacakan dan akses tanpa perlu mengkhawatirkan perubahan isi file, karena CID ini akan berubah jika konten file berubah. Hal ini sangat penting dalam ekosistem NFT di mana keaslian dan keunikan konten harus terjamin. Di Pinata, pengguna dapat dengan mudah melihat semua file yang telah diunggah, mengatur akses, dan memantau penggunaan dan analisis lalu lintas file. Fitur ini memungkinkan pembuat konten NFT untuk tidak hanya menyimpan aset digital mereka dengan aman tetapi juga mengelola distribusi mereka dengan lebih efektif dalam pasar digital. Keseluruhan proses ini mengintegrasikan teknologi blockchain dengan aplikasi web, memastikan bahwa setiap pembelian dan transfer NFT dapat dilacak dan diverifikasi secara transparan dan aman. Pinata tidak hanya menyediakan solusi penyimpanan yang efisien dan aman tetapi juga menawarkan antarmuka yang ramah pengguna, memudahkan para pengguna, terutama para pembuat NFT, untuk mengunggah dan mengelola aset digital mereka dengan mudah. Fitur pencarian dan pengelolaan file yang intuitif memungkinkan pengguna untuk mengakses dan mengatur koleksi NFT mereka tanpa hambatan, memastikan bahwa aset digital dapat dikelola dan diakses dengan cepat sesuai kebutuhan. Lebih lanjut, Pinata mendukung integrasi dengan berbagai platform dan marketplace NFT, sehingga memperluas jangkauan dan visibilitas aset digital yang disimpan di dalamnya. Hal ini memberikan nilai tambah bagi para pembuat dan kolektor NFT dalam mendistribusikan dan memperdagangkan karya mereka di berbagai platform dengan mudah dan aman. Melalui Pinata, pembuat NFT dapat memastikan bahwa setiap aset digital tidak hanya aman tetapi juga siap untuk diintegrasikan dan digunakan dalam ekosistem blockchain yang lebih luas.
+  
+    \begin{figure} [H] \centering
+      % Nama dari file gambar yang diinputkan
+      \includegraphics[scale=0.43]{gambar/confirm_create.jpg}
+      % Keterangan gambar yang diinputkan
+      \caption{Melakukan konfirmasi \emph{minting} NFT pada Metamask Wallet}
+      % Label referensi dari gambar yang diinputkan
+      \label{fig:makenft}
+      \end{figure}
+  
+  
+  Pada gambar \ref{fig:makenft}, ditampilkan jendela konfirmasi MetaMask yang digunakan untuk memberikan persetujuan atas transaksi minting NFT. Dalam jendela ini, pengguna diminta untuk mengkonfirmasi atau menolak transaksi yang sedang diinisiasi dari aplikasi yang dihosting pada localhost:3000. Proses ini memastikan bahwa pengguna memahami dan menyetujui semua detail transaksi sebelum melanjutkan. Di dalam jendela konfirmasi, jumlah ETH yang akan ditransfer adalah 0, yang menandakan bahwa transaksi ini mungkin hanya melibatkan biaya gas, tanpa ada transfer dana tambahan yang terlibat. "Estimated fee" atau perkiraan biaya gas untuk transaksi ini ditampilkan, dengan jumlah minimal yang ditetapkan serta maksimum yang mungkin diperlukan, memberikan transparansi tentang biaya yang dapat dikeluarkan untuk memproses transaksi ini. Selain itu, MetaMask juga menyediakan informasi mengenai durasi estimasi untuk penyelesaian transaksi di pasar yang ditandai dengan "+30 sec", yang berarti transaksi diharapkan terjadi dalam waktu sekitar 30 detik.
+
+  
+  \begin{figure} [H] \centering
+    % Nama dari file gambar yang diinputkan
+    \frame{\includegraphics[scale=0.25]{gambar/listed_nft.jpeg}}
+    % Keterangan gambar yang diinputkan
+    \caption{NFT yang telah di-\emph{minting} terlihat pada halaman \emph{My listed items}}
+    % Label referensi dari gambar yang diinputkan
+    \label{fig:listeditem}
+  \end{figure}
+
+  Setelah pengguna menyelesaikan proses minting NFT dan melakukan konfirmasi melalui MetaMask seperti yang dijelaskan sebelumnya, NFT yang baru dibuat akan muncul pada halaman "My Listed Items" dalam aplikasi. Halaman ini berfungsi sebagai galeri pribadi pengguna dimana semua NFT yang telah mereka buat dan daftarkan untuk dijual ditampilkan. Dalam contoh yang ditampilkan pada gambar, NFT dengan desain huruf "A" yang telah berhasil di-\emph{list} tampak dengan harga yang tertera di bawah gambar yaitu 0.0101 ETH. Kemudian juga terdapat NFT dengan desain huruf "B" yang berhasil di-\emph{list} dengan harga yang tertera di gambar yaitu 0.0505 ETH, dan juga NFT dengan desain huruf "C" yang berhasil di-\emph{list} dengan harga yang tertera di gambar yaitu 0.0707 ETH. Hal ini menandakan bahwa NFT ini siap untuk dibeli oleh pengguna lain. Setiap NFT yang terdaftar di halaman ini akan menampilkan gambar yang berkaitan dengan NFT tersebut, yang merupakan hasil unggahan pengguna ke IPFS, dan metadata lainnya seperti nama dan deskripsi juga akan ditampilkan jika pengguna telah menyertakannya saat proses minting.
+
+  \begin{figure} [H] \centering
+    % Nama dari file gambar yang diinputkan
+    \frame{\includegraphics[scale=0.25]{gambar/nft_listed_home.jpeg}}
+    % Keterangan gambar yang diinputkan
+    \caption{NFT yang telah di-\emph{minting} terlihat pada halaman \emph{home}}
+    % Label referensi dari gambar yang diinputkan
+    \label{fig:listhome}
+    \end{figure}
+
+    Pada gambar \ref{fig:listhome} ketika tombol tersebut diklik, transaksi akan diproses melalui MetaMask atau wallet digital lainnya yang telah disinkronkan dengan aplikasi. Halaman ini dirancang untuk memberikan pengalaman pengguna yang intuitif dan efisien, di mana pembeli dapat dengan cepat mengakses NFT yang mereka inginkan dan melihat informasi penting seperti nama, deskripsi, dan harga NFT. Ini tidak hanya memperkuat transparansi dan aksesibilitas dalam pasar NFT tetapi juga mendorong interaksi langsung dan spontan antara pembeli dan aset digital.
+
+\section{Fitur Pembelian NFT pada Web3.0}
+Sebelum melakukan pembelian NFT, pengguna harus mengganti akun yang aktif pada Metamask Wallet ke "Account 4", yang telah disiapkan khusus sebagai akun kedua. Akun ini berfungsi sebagai platform untuk melakukan transaksi pembelian, memungkinkan pengguna untuk menguji proses pembelian NFT yang telah diunggah oleh akun pertama. Penggunaan akun kedua ini sangat penting dalam pengujian fungsionalitas transfer kepemilikan, memastikan bahwa seluruh proses berjalan lancar dan tanpa hambatan. 
+      
+      \begin{figure} [H] \centering
+        % Nama dari file gambar yang diinputkan
+        \includegraphics[scale=0.47]{gambar/metamask_akun_2.jpeg}
+        % Keterangan gambar yang diinputkan
+        \caption{Akun Metamask kedua}
+        % Label referensi dari gambar yang diinputkan
+        \label{fig:akun2}
+        \end{figure} 
+Pada gambar \ref{fig:makeitem} ketika pengguna memilih untuk membeli sebuah NFT yang ditampilkan pada halaman utama aplikasi, mereka akan mengklik tombol "Buy" yang berada di bawah item yang diinginkan. Langkah ini memicu proses transaksi, di mana Metamask Wallet secara otomatis terbuka, meminta pengguna untuk mengonfirmasi pembelian. Layar Metamask yang muncul merupakan jendela penting yang menampilkan detail transaksi yang harus diperiksa pengguna sebelum mereka melanjutkan. Dalam jendela konfirmasi ini, pengguna akan melihat jumlah total Ethereum (ETH) yang harus dibayarkan, yang sudah termasuk estimasi biaya gas. Biaya gas ini adalah biaya yang dibutuhkan untuk memproses transaksi di jaringan Ethereum, dan nilainya dapat berfluktuasi berdasarkan kepadatan trafik jaringan saat itu. Metamask memberikan dua estimasi: "Estimated fee" yang merupakan perkiraan biaya gas yang akan dikenakan, dan "Max fee" yang menunjukkan batas maksimal biaya yang mungkin ditarik jika kondisi jaringan berubah secara signifikan selama transaksi diproses. Proses ini tidak hanya memindahkan kepemilikan NFT dari penjual ke pembeli, tetapi juga memperbarui semua record yang berkaitan di \emph{blockchain}. Setelah konfirmasi berhasil, NFT akan muncul dalam koleksi pengguna di aplikasi, dan item tersebut akan dihapus dari daftar yang tersedia untuk dijual, menandakan bahwa transaksi telah selesai secara resmi dan NFT kini memiliki pemilik baru. Proses ini menunjukkan integrasi yang mulus antara platform NFT berbasis web dengan teknologi wallet \emph{blockchain} seperti Metamask, menawarkan pengalaman pengguna yang aman dan efisien.
+    
+      \begin{figure} [H] \centering
+        % Nama dari file gambar yang diinputkan
+        \includegraphics[scale=0.45]{gambar/make_item.jpeg}
+        % Keterangan gambar yang diinputkan
+        \caption{Proses pembelian NFT}
+        % Label referensi dari gambar yang diinputkan
+        \label{fig:makeitem}
+        \end{figure}
+      
+
+    \begin{figure} [H] \centering
+    % Nama dari file gambar yang diinputkan
+    \frame{\includegraphics[scale=0.25]{gambar/home_setelah_nft_dibeli.jpg}}
+    % Keterangan gambar yang diinputkan
+    \caption{Tampilan \emph{home} setelah NFT dibeli}
+    % Label referensi dari gambar yang diinputkan
+    \label{fig:home_setelah_dibeli}
+    \end{figure}
+    
+   Pada gambar \ref{fig:home_setelah_dibeli}, NFT B telah berhasil dibeli oleh \emph{user} B. Proses pembelian ini menyebabkan perubahan langsung pada tampilan halaman \emph{home}, di mana sistem secara otomatis melakukan pembaruan atau \emph{refresh}. Sebelum transaksi, seperti yang terlihat pada gambar \ref{fig:listhome}, ada tiga NFT yang tersedia untuk dibeli. Namun, setelah NFT B dibeli, jumlah NFT yang ditampilkan berkurang menjadi dua. Hal ini menunjukkan bahwa sistem berhasil memperbarui daftar NFT yang tersedia sesuai dengan status penjualan terkini. Proses otomatis ini memastikan bahwa informasi yang disajikan kepada pengguna selalu akurat dan terkini, mencerminkan perubahan real-time pada inventori NFT yang ada dalam platform. Perubahan ini tidak hanya memudahkan pengguna dalam melihat NFT yang masih tersedia tetapi juga meningkatkan pengalaman pengguna dengan menampilkan data yang akurat dan responsif terhadap interaksi pengguna di platform.
+    
+      \begin{figure} [H] \centering
+        % Nama dari file gambar yang diinputkan
+        \frame{\includegraphics[scale=0.25]{gambar/tampilan_pada_listed_items.jpeg}}
+        % Keterangan gambar yang diinputkan
+        \caption{Tampilan \emph{Listed items} ketika melakukan pembelian}
+        % Label referensi dari gambar yang diinputkan
+        \label{fig:new_listed_item}
+        \end{figure}
+
+     Pada gambar \ref{fig:new_listed_item} di atas, tampilan menunjukkan NFT 'B' yang telah berhasil dibeli oleh pengguna dari akun kedua, sebagaimana terlihat dari pergantian address pemilik ('Owner') pada NFT tersebut dari \emph{address} akun 1 ke alamat \emph{address} dari akun 2. Proses pembelian NFT ini diawali ketika pengguna mengklik tombol pembelian pada salah satu item NFT yang terdaftar di halaman utama, yang kemudian memicu interaksi dengan MetaMask wallet. Pengguna kemudian diminta untuk mengonfirmasi dan menyelesaikan pembayaran melalui wallet tersebut. Setelah transaksi berhasil diverifikasi dan konfirmasi pembayaran diterima, sistem otomatis mengubah status item di halaman "My Listed Items" menjadi "Sold", yang menandakan bahwa item tersebut telah sukses terjual dan tidak lagi tersedia untuk pembelian oleh pengguna lain. Perubahan status ini tidak hanya memastikan transparansi dalam status ketersediaan NFT tetapi juga menunjukkan pembaruan real-time dari kepemilikan aset di platform.
+      
+     Pada gambar \ref{fig:new_listed_item} juga setelah pengguna berhasil menyelesaikan pembelian NFT dari halaman utama, sistem akan memperbarui status NFT tersebut di halaman "My Listed Items" untuk menunjukkan bahwa item telah terjual. Bagian "Sold" di halaman ini akan menampilkan NFT yang telah dibeli, memberikan informasi bahwa NFT tersebut tidak lagi tersedia untuk dibeli oleh pengguna lain. Tampilan ini mencakup gambar NFT, harga jual, serta indikasi bahwa transaksi telah berhasil dengan menunjukkan jumlah ETH yang diterima. Proses ini memastikan bahwa semua pengguna aplikasi dapat melihat secara jelas item yang telah terjual, meningkatkan transparansi dan memudahkan pelacakan kepemilikan NFT. Fungsi ini sangat penting dalam ekosistem NFT, di mana verifikasi kepemilikan dan status penjualan harus diperbarui secara real-time untuk mencegah penjualan ganda dan memastikan integritas platform.
+    
+      \begin{figure} [H] \centering
+        % Nama dari file gambar yang diinputkan
+        \frame{\includegraphics[scale=0.25]{gambar/my_purchases_akun2.jpg}}
+        % Keterangan gambar yang diinputkan
+        \caption{Tampilan halaman \emph{my purchases} ketika sudah melakukan pembelian}
+        % Label referensi dari gambar yang diinputkan
+        \label{fig:my_purchases}
+        \end{figure}
+       Lalu pada gambar \ref{fig:my_purchases} adalah tampilan dari halaman \emph{my purchases} di address akun kedua. Pada tampilan ini pemilik dari NFT dapat melihat dari koleksi NFT yang telah dibeli dan juga NFT yang telah dibeli dapat dilakukan hal yaitu \emph{transfer ownership}. \emph{Transfer ownership} yang dapat dilakukan ada dua hal, yaitu \emph{transfer} pada \emph{network} atau \emph{blockchain} yang sama dan juga ada \emph{transfer} pada \emph{network} atau \emph{blockchain} yang berbeda. Kedua fungsi tersebut berbeda karena untuk lintas \emph{blockchain} diperlukan beberapa tahapan atau protokol yaitu terdapat protokol \emph{lock} dan \emph{unlock}. Pada tahapan selanjutnya yang akan dilakukan adalah bagaimana cara melakukan \emph{transfer} dalam satu network yang sama.
+
+\section{Fitur Transfer \emph{Ownership} Secara \emph{Localholst} Dan Secara Lintas \emph{Blockchain}}
+\begin{figure} [H] \centering
+  % Nama dari file gambar yang diinputkan
+  \frame{\includegraphics[scale=0.8]{gambar/address_akun_kedua_nft_b.jpeg}}
+  % Keterangan gambar yang diinputkan
+  \caption{Tampilan halaman \emph{my purchases} ketika sudah melakukan pembelian}
+  % Label referensi dari gambar yang diinputkan
+  \label{fig:address_nft_b_1}
+  \end{figure}
+
+Sebelum melakukan pengujian pemindahan kepemilikan NFT, penggunaan akun ketiga dengan \emph{address} "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC" sangat krusial. Akun ini secara khusus disiapkan untuk menangani proses transfer kepemilikan NFT dari akun kedua. Seperti yang terlihat pada gambar \ref*{fig:listeditem}, awalnya NFT diunggah melalui halaman \emph{create} dan secara otomatis, \emph{owner} pertama NFT adalah \emph{address} dari \emph{smart contract} yang melakukan \emph{minting}. Hal ini berubah setelah NFT dibeli, sebagaimana ditunjukkan dalam gambar \ref{fig:address_nft_b_1} di mana \emph{address} akun kedua menjadi pemilik baru. Perpindahan kepemilikan ini terjadi melalui transaksi yang tercatat dan diverifikasi dalam blockchain, memastikan bahwa NFT berpindah tangan dari akun pencipta ke pembeli dengan aman dan terdokumentasi dengan jelas, menunjukkan kekuatan dan fleksibilitas teknologi \emph{smart contract} dalam mengelola aset digital dalam ekosistem blockchain.
+
+\begin{figure} [H] \centering
+  % Nama dari file gambar yang diinputkan
+  \frame{\includegraphics[scale=0.4]{gambar/metamask_akun_3.jpg}}
+  % Keterangan gambar yang diinputkan
+  \caption{Detail akun ketiga pada Metamask Wallet}
+  % Label referensi dari gambar yang diinputkan
+  \label{fig:detail_akun_3}
+  \end{figure}
+
+Pada gambar \ref*{fig:detail_akun_3}, terlihat tampilan akun MetaMask yang disebut "Account 7" dengan saldo yang menonjol sebanyak 1472200 ETC, yang menunjukkan jumlah Ethereum Classic di dalam wallet. Akun ini, yang beralamat di 0x3C44CdDdB6a900fa2b585dd299e03d12FA4293
+BC, belum memiliki catatan transaksi apapun, menandakan bahwa belum ada aktivitas jual beli, pengiriman, penukaran, atau transaksi lainnya yang dilakukan. Hal ini juga memperlihatkan bahwa akun ini adalah akun baru atau belum digunakan untuk transaksi. Akun ini didapatkan dari kunci privat yang berasal dari node Hardhat, sering digunakan dalam pengembangan dan pengujian smart contract di lingkungan lokal. Akun ini direncanakan akan digunakan sebagai penerima dalam proses transfer kepemilikan NFT, memanfaatkan fasilitas yang disediakan MetaMask untuk mengelola aset kripto dan interaksi dengan \emph{blockchain}.
+
+Ekspektasi dari pengujian fitur \emph{transfer ownership} pada web3.0 yang telah dibuat lain adalah sebagai berikut:
+\begin{itemize}
+    \item Pengguna dari pemilik NFT yang sekarang (pengguna \emph{address} kedua) dapat melakukan pemindahan kepemilikan NFT yang telah dimiliki menjadi kepemilikan pengguna \emph{address} ketiga yang berada dalam \emph{network} yang sama yaitu \emph{localhost}.
+
+    \item Pengguna dari pemilik NFT yang sekarang (pengguna pertama) dapat melakukan pemindahan kepemilikan NFT yang telah dimiliki menjadi kepemilikan pengguna pengguna kedua berada dalam \emph{network} yang berbeda yaitu \emph{Sepolia Testnet} pada pengguna pertama dan \emph{BNB Chain Testnet} pada pengguna kedua.
+
+    \item Pada halaman \emph{my listed item} pembuat dar NFT awal (pengguna \emph{address} pertama) \emph{owner} dari NFT yang telah dilakukan \emph{transfer ownership} secara \emph{localhost} maupun lintas \emph{blockchain} itu alamatnya berganti dari \emph{address} pemilik lama menjadi \emph{address} pemilik baru. 
+    
+\end{itemize}
+
+Berikut ini merupakan langkah pengujian beserta dengan pembahasan dari pengujian fitur transfer \emph{ownership} Secara \emph{Localhost} Dan Secara Lintas \emph{Blockchain}:
+
+\begin{itemize}
+  \item Pada gambar \ref*{fig:my_purchases}, dapat dilihat pada halaman \emph{my purchases} milik \emph{address} akun kedua terdapat NFT "B".  Setelah transaksi pembelian NFT ini, platform menyediakan opsi untuk mengelola NFT tersebut, termasuk kemampuan untuk melakukan transfer kepemilikan atau memblokirnya untuk transaksi lebih lanjut. Pengguna dapat memasukkan alamat penerima untuk transfer normal atau transfer lintas rantai, memanfaatkan fungsionalitas yang memudahkan transfer NFT antara berbagai blockchain atau dalam jaringan yang sama.
+  
+  \begin{figure} [H] \centering
+    % Nama dari file gambar yang diinputkan
+    \frame{\includegraphics[scale=0.6]{gambar/normal_transfer.jpg}}
+    % Keterangan gambar yang diinputkan
+    \caption{Tampilan NFT yang siap dilakukan pindah kepemilikan}
+    % Label referensi dari gambar yang diinputkan
+    \label{fig:normal_transfer}
+    \end{figure}
+
+  \item Pada pengujian ini, digunakan NFT "B" yang akan dilakukan transfer \emph{ownership} dalam satu \emph{network}, pada kolom pertama yang bertuliskan "Enter recipient address for normal transfer \emph{ownership}" akan dimasukkan \emph{address} dari akun ketiga yang berupa "\emph{0x3C44CdD dB6a900fa2b585dd299e03d12FA4293BC}". Setelah dimasukkan \emph{address} tersebut maka akan langsung saja ditekannya tombol "\emph{Normal Transfer}". Tombol "\emph{Normal Transfer}" tersebut lalu akan membuat pengguna langsung membuka window dari Metamask Wallet untuk melakukan transaksi pembayaran dari "\emph{gas}" atau fee yang harus dibayarkan setiap kali kode dari \emph{smart contract} tereksekusi. Setiap aksi yang dilakukan oleh \emph{smart contract} seperti transaksi, perubahan data, atau eksekusi fungsi—memerlukan gas tertentu.
+  
+  \begin{figure} [H] \centering
+  % Nama dari file gambar yang diinputkan
+  \frame{\includegraphics[scale=0.45]{gambar/my_nft_b.jpg}}
+  % Keterangan gambar yang diinputkan
+  \caption{Tampilan NFT yang siap dilakukan pindah kepemilikan}
+  % Label referensi dari gambar yang diinputkan
+  \label{fig:nft_b}
+  \end{figure}
+  
+  \item Gambar \ref*{fig:nft_b} ini menunjukkan tampilan antarmuka Metamask saat pengguna kedua siap melakukan transaksi transfer dari NFT bernama "MyNFT" dengan nomor \#2. Nomor \#2 ditunjukkan bahwa NFT itu memiliki indeks urutan kedua. Pada tampilan ini, pengguna diberi informasi mengenai jumlah ETH yang akan ditransfer sebesar 0.02 ETH dan biaya transaksi yang diperkirakan. Biaya ini terbagi menjadi dua, yaitu biaya perkiraan (estimated fee) sebesar 0.00010757 ETH dan biaya maksimal (\emph{max fee}) sebesar 0.00010995 ETH, yang memberikan kejelasan tentang berapa banyak gas yang mungkin diperlukan untuk menyelesaikan transaksi tersebut dalam waktu kurang lebih 30 detik. Fitur ini memfasilitasi pengguna dalam memastikan bahwa mereka memiliki cukup saldo untuk menutupi biaya transaksi saat melakukan transfer NFT. Tampilan juga menawarkan pilihan untuk menyetujui atau menolak transaksi yang akan dilakukan.
+  
+  \begin{figure} [H] \centering
+  % Nama dari file gambar yang diinputkan
+  \frame{\includegraphics[scale=0.70]{gambar/transfer_berhasil.jpg}}
+  % Keterangan gambar yang diinputkan
+  \caption{\emph{Alert} "\emph{NFT transferred successfully!}" ketika NFT berhasil dipindahkan}
+  % Label referensi dari gambar yang diinputkan
+  \label{fig:alert}
+  \end{figure}
+
+  \item Setelah pengguna melakukan konfirmasi transaksi pada Metamask Wallet seperti pada gambar \ref*{fig:normal_transfer} dan transaksi berhasil, maka akan muncul \emph{alert} berupa "\emph{NFT transferred successfully!}".
+  
+  \begin{figure} [H] \centering
+    % Nama dari file gambar yang diinputkan
+    \frame{\includegraphics[scale=0.25]{gambar/letter_b_to_akun3.jpg}}
+    % Keterangan gambar yang diinputkan
+    \caption{\emph{Alert} "\emph{NFT transferred successfully!}" ketika NFT berhasil dipindahkan}
+    % Label referensi dari gambar yang diinputkan
+    \label{fig:letter_b_akun3}
+    \end{figure}
+
+  \item Dapat dilihat pada gambar \ref*{fig:letter_b_akun3} pada halaman \emph{my listed items} milik pengguna \emph{address} pertama yang me-\emph{minting} NFT B, jika dibandingkan dengan gambar \ref*{fig:address_nft_b_1}, \emph{owner} dari NFT B telah berganti menjadi \emph{address} milik akun ketiga. Ini membuktikan bahwa NFT B kepemilikannya berhasil dipindahkan dari \emph{address} pengguna kedua menjadi \emph{address} pengguna ketiga.
+
+  \begin{figure} [H] \centering
+    % Nama dari file gambar yang diinputkan
+    \frame{\includegraphics[scale=0.27]{gambar/hardhat_transaction.jpg}}
+    % Keterangan gambar yang diinputkan
+    \caption{Console Transaksi Pada \emph{Hardhat Node}}
+    % Label referensi dari gambar yang diinputkan
+    \label{fig:hardhat}
+    \end{figure}
+
+    \item Pada gambar \ref*{fig:hardhat} adalah detail transaksi yang terjadi pada \emph{smart contract} ketika ada fungsi yang tersekekusi. Dikarenakan pengembangan web3.0 dan juga sistem \emph{smart contract} ini dilakukan secara lokal, maka \emph{contract call} dan juga detail dari \emph{hash block} hanya dapat dilihat pada \emph{node} yang berada pada EVM milik Hardhat.
+    
+    \begin{figure} [H] \centering
+      % Nama dari file gambar yang diinputkan
+      \frame{\includegraphics[scale=0.27]{gambar/letter_b_akun3.jpg}}
+      % Keterangan gambar yang diinputkan
+      \caption{Tampilan halaman \emph{my purchases} pada akun ketiga}
+      % Label referensi dari gambar yang diinputkan
+      \label{fig:akunketiga}
+      \end{figure}
+
+    \item Lalu selain dari \ref*{fig:letter_b_akun3} juga terdapat hasil bahwa NFT telah berpindah pada akun ketiga. Hal ini dapat dilihat pada \emph{box} kanan atas menunjukkan \emph{address} dari akun ketiga yang berarti ini adalah halaman \emph{my purchases} milik akun ketiga. Lalu akun ketiga ini juga yang memiliki wewenang penuh dalam kepemilikan NFT yang sebelumnya dimiliki oleh akun kedua.
+    
+    \begin{figure} [H] \centering
+      \centering
+      \begin{subfigure}{0.45\textwidth}
+          \includegraphics[scale=0.32]{gambar/sepolia_akun.jpg}
+          \caption{}
+          \label{fig:sepolia}
+      \end{subfigure}
+      \hspace{5pt}
+      \begin{subfigure}{0.45\textwidth}
+        \includegraphics[scale=0.32]{gambar/btc_akun.jpg}
+        \caption{}
+        \label{fig:binance}
+    \end{subfigure}
+      \caption{Detail Akun Untuk Pengujian Lintas Rantai}
+      \label{fig:detail_akun}
+      \end{figure}
+
+    \item Gambar pertama menggambarkan akun di Sepolia Ethereum Testnet dengan saldo SepoliaETH yang ditampilkan secara jelas. Ini termasuk aktivitas terkini yang mencakup penerimaan SepoliaETH, memperlihatkan aktivitas yang dikonfirmasi dalam jaringan. Akun pada gambar pertama ini akan digunakan sebagai \emph{address} penerima dari NFT yang dikirimkan dari \emph{network} yang berbeda. Akun ini memiliki \emph{address} "0x6A1B77e82b61D54C4
+    F1A27cd00A27325EBf361eD"
+    
+    \item Gambar kedua menampilkan BinanceTestNet Wallet dalam mode testnet, yang memungkinkan pengguna untuk mengirim, menerima, bertukar, dan membeli aset kripto seperti AVAX, BNB, DEV, dan ETH dalam lingkungan tes. Akun pada gambar kedua ini akan digunakan sebagai \emph{address} penerima dari NFT yang dikirimkan dari \emph{network} yang berbeda. Akun ini memiliki \emph{address} "0xD066d6576D9485Eb2c2a41BB8B52EcE17a0557d6"
+    
+    \begin{figure} [H] \centering
+      % Nama dari file gambar yang diinputkan
+      \frame{\includegraphics[scale=0.5]{gambar/interoperability_1.jpg}}
+      % Keterangan gambar yang diinputkan
+      \caption{Memasukkan \emph{address} tujuan untuk \emph{bridge transfer}}
+      % Label referensi dari gambar yang diinputkan
+      \label{fig:bridge_transfer}
+      \end{figure}
+
+    \item Pengujian untuk melakukan tes interoperabilitas atau transfer \emph{ownership} lintas \emph{blockchain} dilakukan dengan prosedur yang terstruktur. Pertama, akun pengirim yang beroperasi di jaringan \emph{localhost} akan memilih NFT yang ingin ditransfer. Kemudian, alamat tujuan dari akun yang berjalan di jaringan Sepolia diisi ke dalam sistem. Proses transfer diawali dengan penguncian (\emph{lock}) NFT untuk memastikan keamanan selama transisi. Fungsi \emph{lock} ini penting untuk mencegah transaksi atau interaksi lain yang mungkin mempengaruhi NFT selama proses transfer belum selesai. Setelah NFT terkunci, barulah transfer ownership akan dijalankan melalui fungsi \emph{bridge transfer}.
+    
+    \begin{figure} [H] \centering
+      % Nama dari file gambar yang diinputkan
+      \frame{\includegraphics[scale=0.4]{gambar/fungsi_lock.jpg}}
+      % Keterangan gambar yang diinputkan
+      \caption{Konfirmasi pembayaran gas dari fungsi \emph{lock token} di Metamask Wallet}
+      % Label referensi dari gambar yang diinputkan
+      \label{fig:lock_token}
+      \end{figure}
+    
+    \item Setelah melakukan konfirmasi pembayaran gas dari fungsi \emph{lock} token, kondisi NFT berubah menjadi \emph{locked}. Setelah NFT menjadi \emph{locked} maka NFT sudah aman untuk dilakukan transaksi lintas \emph{blockchain}. 
+    
+    \begin{figure} [H] \centering
+      % Nama dari file gambar yang diinputkan
+      \frame{\includegraphics[scale=0.4]{gambar/bridge.jpg}}
+      % Keterangan gambar yang diinputkan
+      \caption{Konfirmasi pembayaran gas dari fungsi \emph{bridge} transfer di Metamask Wallet}
+      % Label referensi dari gambar yang diinputkan
+      \label{fig:bridge_transfer}
+      \end{figure}
+    
+      \item Setelah melakukan konfirmasi pembayaran gas dari fungsi \emph{bridge} transfer, kepemilikan dari NFT "C" berpindah dari akun pertama yang memiliki \emph{address} "0xf39Fd6e51aad88F6
+      F4ce6aB8827279cffFb92266" yang berjalan pada \emph{network localhost} menjadi kepemilikan akun yang berjalan pada \emph{network BNB Smart Chain} dengan alamat "0xD066d657
+      6D9485Eb2c2a41BB8B52EcE17a0557d6". Hal ini dapat dibuktikan pada gambar di bawah ini.
+
+      \begin{figure} [H] \centering
+        % Nama dari file gambar yang diinputkan
+        \frame{\includegraphics[scale=0.45]{gambar/smart_chain.jpg}}
+        % Keterangan gambar yang diinputkan
+        \caption{Kepemilikan NFT "C" Berganti Menjadi Akun \emph{Network BNB Smart Chain}}
+        % Label referensi dari gambar yang diinputkan
+        \label{fig:bridge_transfer}
+        \end{figure}
+      
+      \item Kemudian hal yang perlu dilakukan yang terakhir adalah mengubah \emph{state} dari NFT tersebut yang awalnya "\emph{locked}" menjadi "\emph{unlocked}". Hal ini harus dilakukan agar NFT tersebut dapat digunakan untuk transaksi lagi pada \emph{network} tersebut.
+      
+      \begin{figure} [H] \centering
+        % Nama dari file gambar yang diinputkan
+        \frame{\includegraphics[scale=0.4]{gambar/unlock_token.jpg}}
+        % Keterangan gambar yang diinputkan
+        \caption{Konfirmasi Pembayaran Gas \emph{Unlock} Token}
+        % Label referensi dari gambar yang diinputkan
+        \label{fig:unlock_token}
+        \end{figure}
+      
+    \item Setelah melakukan penguncian NFT, langkah berikutnya adalah membuka kunci atau "unlock" NFT tersebut agar dapat kembali digunakan dalam transaksi. Proses ini melibatkan interaksi dengan sistem \emph{blockchain} yang tercatat sebagai transaksi dengan estimasi biaya yang diperlihatkan dalam gambar. Di sini, biaya transaksi atau '\emph{gas fee}' yang diperkirakan untuk membuka kunci token ditampilkan, menekankan pentingnya memperhatikan biaya transaksi yang harus dibayar untuk memproses kegiatan ini di \emph{blockchain}. Proses membuka kunci ini tidak hanya mengizinkan pemilik untuk memindahkan atau menjual NFT tersebut, tetapi juga penting untuk memastikan fleksibilitas dan likuiditas NFT di pasar.
+    
+    \begin{figure} [H] \centering
+    % Nama dari file gambar yang diinputkan
+    \frame{\includegraphics[scale=0.4]{gambar/interoperabilitas_2.jpg}}
+    % Keterangan gambar yang diinputkan
+    \caption{Hasil Akhir Dari Transfer Lintas Rantai}
+    % Label referensi dari gambar yang diinputkan
+    \label{fig:lintas_rantai}
+    \end{figure}
+
+    \item Setelah dilakukan pengujian yang sama tetapi memasukkan \emph{address} dari akun yang berada pada \emph{network sepolia ethereum}, untuk transfer \emph{ownership} NFT B dapat dilihat di gambar \ref*{fig:lintas_rantai} kepemilikan atau \emph{owner} dari NFT B juga berubah menjadi \emph{address} dari akun \emph{sepolia}. 
+    
+    \begin{figure} [H] \centering
+      % Nama dari file gambar yang diinputkan
+      \frame{\includegraphics[scale=0.7]{gambar/block_hash.jpg}}
+      % Keterangan gambar yang diinputkan
+      \caption{\emph{Block Hash} dari setiap transaksi}
+      % Label referensi dari gambar yang diinputkan
+      \label{fig:hash_block}
+      \end{figure}
+
+    \item Pada gambar \ref*{fig:hash_block}, merupakan \emph{block hash} dari transaksi yang telah terjadi. \emph{Hash Blocks} ini didapatkan dari Hardhat. \emph{Block hash} adalah nilai unik yang dihasilkan dari \emph{blok} data dalam \emph{blockchain}, yang bertindak sebagai identitas digital \emph{blok} tersebut. Hash ini dihasilkan menggunakan algoritma hash kriptografi, yang mengubah informasi \emph{blok} menjadi string karakter tetap panjang yang kompleks dan unik. Proses ini memastikan keamanan dan integritas data dalam \emph{blockchain} karena setiap perubahan kecil pada \emph{blok} akan menghasilkan hash yang sangat berbeda, sehingga mudah untuk mendeteksi perubahan atau manipulasi data. Hash \emph{blok} juga digunakan untuk menghubungkan \emph{blok}-\emph{blok} dalam \emph{blockchain} \emph{hash} dari \emph{blok} sebelumnya dimasukkan ke dalam \emph{blok} berikutnya, menciptakan rantai data yang terkait dan aman.
 \end{itemize}

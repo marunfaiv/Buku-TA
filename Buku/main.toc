@@ -1,7 +1,7 @@
 \contentsline {chapter}{ABSTRAK}{i}{Doc-Start}%
 \contentsline {chapter}{ABSTRACT}{iii}{Doc-Start}%
 \contentsline {chapter}{KATA PENGANTAR}{v}{Doc-Start}%
-\contentsline {chapter}{DAFTAR ISI}{vii}{Item.3}%
+\contentsline {chapter}{DAFTAR ISI}{vii}{Item.8}%
 \contentsline {chapter}{DAFTAR GAMBAR}{xi}{chapter*.1}%
 \contentsline {chapter}{DAFTAR TABEL}{xiii}{chapter*.2}%
 \contentsline {chapter}{\numberline {1}PENDAHULUAN}{1}{chapter.1}%
@@ -17,52 +17,57 @@
 \contentsline {subsection}{\numberline {2.0.4}Blockchain for the metaverse: A Review}{6}{subsection.2.0.4}%
 \contentsline {section}{\numberline {2.1}Dasar Teori}{6}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}\emph {Blockchain}}{6}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Ethereum}{6}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}\emph {Ethereum Virtual Machine} (EVM)}{7}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Token}{7}{subsection.2.1.4}%
-\contentsline {subsection}{\numberline {2.1.5}\emph {Non-Fungible Token} (NFT)}{7}{subsection.2.1.5}%
-\contentsline {subsection}{\numberline {2.1.6}\emph {Minting}}{8}{subsection.2.1.6}%
-\contentsline {subsection}{\numberline {2.1.7}\emph {Smart Contracts}}{8}{subsection.2.1.7}%
-\contentsline {subsection}{\numberline {2.1.8}\emph {InterPlanetary File System} (IPFS)}{9}{subsection.2.1.8}%
-\contentsline {subsection}{\numberline {2.1.9}Web 3.0}{9}{subsection.2.1.9}%
-\contentsline {subsection}{\numberline {2.1.10}\emph {Cross-chain Interoperability Protocol}}{10}{subsection.2.1.10}%
-\contentsline {chapter}{\numberline {3}METODOLOGI}{11}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Deskripsi Sistem}{11}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Arsitektur Sistem}{11}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Flow Pembelian NFT}{12}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Metadata}{12}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Minting}{13}{subsection.3.1.4}%
-\contentsline {section}{\numberline {3.2}Tools yang digunakan}{13}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Solidity}{13}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Metamask}{14}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Hardhat}{14}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Ganache}{14}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}InterPlanetary File System}{14}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6}React.js}{15}{subsection.3.2.6}%
-\contentsline {subsection}{\numberline {3.2.7}Web3.js}{15}{subsection.3.2.7}%
-\contentsline {subsection}{\numberline {3.2.8}Ethers.js}{15}{subsection.3.2.8}%
-\contentsline {subsection}{\numberline {3.2.9}Etherscan}{15}{subsection.3.2.9}%
-\contentsline {subsection}{\numberline {3.2.10}Token ERC-721}{16}{subsection.3.2.10}%
-\contentsline {section}{\numberline {3.3}Metode Yang Digunakan}{16}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Smart Contract dan Interoperabilitas}{16}{subsection.3.3.1}%
-\contentsline {subsubsection}{Fungsi Mint}{17}{subsection.3.3.1}%
-\contentsline {subsubsection}{Fungsi \emph {lockToken}}{18}{lstnumber.3.2.6}%
-\contentsline {subsubsection}{Fungsi \emph {unlockToken}}{18}{lstnumber.3.3.5}%
-\contentsline {subsubsection}{Fungsi \emph {bridgeTransfer}}{19}{lstnumber.3.4.5}%
-\contentsline {subsection}{\numberline {3.3.2}Pengembangan Frontend}{20}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Integrasi Smart Contract dengan Frontend}{20}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Pengujian}{21}{subsection.3.3.4}%
-\contentsline {chapter}{\numberline {4}HASIL DAN PEMBAHASAN}{23}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Hasil}{23}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Web Interface}{23}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}\emph {Smart Contract}}{26}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}\emph {Non-Fungible Token} (NFT)}{27}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Pengujian}{27}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Pengujian Fitur \emph {Smart Contract}}{27}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Pengujian Integrasi \emph {Smart Contract} Dengan Web3.0}{33}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Pengujian Fitur Transfer \emph {Ownership} Secara \emph {Localhost} Dan Secara Lintas \emph {Blockchain}}{45}{subsection.4.2.3}%
-\contentsline {chapter}{\numberline {5}PENUTUP}{57}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Kesimpulan}{57}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Saran}{57}{section.5.2}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{59}{chapter*.56}%
-\contentsline {chapter}{BIOGRAFI PENULIS}{61}{chapter*.56}%
+\contentsline {subsection}{\numberline {2.1.2}Mekanisme \emph {Blockchain}}{7}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Ethereum}{8}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}\emph {Ethereum Virtual Machine} (EVM)}{9}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Token}{9}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.6}\emph {Non-Fungible Token} (NFT)}{10}{subsection.2.1.6}%
+\contentsline {subsection}{\numberline {2.1.7}\emph {Minting}}{10}{subsection.2.1.7}%
+\contentsline {subsection}{\numberline {2.1.8}\emph {Smart Contracts}}{11}{subsection.2.1.8}%
+\contentsline {subsection}{\numberline {2.1.9}\emph {InterPlanetary File System} (IPFS)}{11}{subsection.2.1.9}%
+\contentsline {subsection}{\numberline {2.1.10}Web 3.0}{11}{subsection.2.1.10}%
+\contentsline {subsection}{\numberline {2.1.11}Evolusi Web 3.0}{12}{subsection.2.1.11}%
+\contentsline {subsection}{\numberline {2.1.12}Topologi Jaringan \emph {Blockchain} pada Web 3.0}{12}{subsection.2.1.12}%
+\contentsline {subsection}{\numberline {2.1.13}\emph {Cross-chain Interoperability Protocol}}{13}{subsection.2.1.13}%
+\contentsline {subsection}{\numberline {2.1.14}Solidity}{13}{subsection.2.1.14}%
+\contentsline {subsection}{\numberline {2.1.15}Metamask}{13}{subsection.2.1.15}%
+\contentsline {subsection}{\numberline {2.1.16}Hardhat}{14}{subsection.2.1.16}%
+\contentsline {subsection}{\numberline {2.1.17}Ganache}{14}{subsection.2.1.17}%
+\contentsline {subsection}{\numberline {2.1.18}InterPlanetary File System}{14}{subsection.2.1.18}%
+\contentsline {subsection}{\numberline {2.1.19}React.js}{14}{subsection.2.1.19}%
+\contentsline {subsection}{\numberline {2.1.20}Web3.js}{15}{subsection.2.1.20}%
+\contentsline {subsection}{\numberline {2.1.21}Ethers.js}{15}{subsection.2.1.21}%
+\contentsline {subsection}{\numberline {2.1.22}Etherscan}{15}{subsection.2.1.22}%
+\contentsline {subsection}{\numberline {2.1.23}Token ERC-721}{16}{subsection.2.1.23}%
+\contentsline {chapter}{\numberline {3}METODOLOGI}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Metode Yang Digunakan}{17}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Smart Contract dan Interoperabilitas}{17}{subsection.3.1.1}%
+\contentsline {subsubsection}{Fungsi Mint}{17}{subsection.3.1.1}%
+\contentsline {subsubsection}{Fungsi \emph {lockToken}}{18}{lstnumber.3.1.6}%
+\contentsline {subsubsection}{Fungsi \emph {unlockToken}}{19}{lstnumber.3.2.5}%
+\contentsline {subsubsection}{Fungsi \emph {bridgeTransfer}}{20}{lstnumber.3.3.5}%
+\contentsline {subsection}{\numberline {3.1.2}Pengembangan Frontend}{21}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Integrasi Smart Contract dengan Frontend}{21}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Pengujian}{22}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Deskripsi Sistem}{22}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Arsitektur Sistem}{22}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Flow Pembelian NFT}{23}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Metadata}{23}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Minting}{24}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Web Interface}{24}{section.3.3}%
+\contentsline {section}{\numberline {3.4}\emph {Smart Contract}}{27}{section.3.4}%
+\contentsline {section}{\numberline {3.5}\emph {Non-Fungible Token} (NFT)}{28}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Fitur Pengunggahan atau \emph {Minting} Pada Web3.0}{29}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Fitur Pembelian NFT pada Web3.0}{35}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Fitur Transfer \emph {Ownership} Secara \emph {Localholst} Dan Secara Lintas \emph {Blockchain}}{39}{section.3.8}%
+\contentsline {chapter}{\numberline {4}HASIL DAN PEMBAHASAN}{51}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Hasil}{51}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Pengujian}{51}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Pengujian \emph {Smart Contract}}{51}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Hasil Pengujian \emph {Minting} NFT}{58}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Hasil Pengujian Transfer \emph {Ownership}}{60}{subsection.4.2.3}%
+\contentsline {chapter}{\numberline {5}PENUTUP}{63}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{63}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Saran}{63}{section.5.2}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{65}{chapter*.58}%
+\contentsline {chapter}{BIOGRAFI PENULIS}{67}{chapter*.58}%

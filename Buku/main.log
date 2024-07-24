@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.9)  14 JUL 2024 17:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.9)  22 JUL 2024 12:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -709,6 +709,9 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 13
 File: ot1txr.fd 2000/12/15 v3.1
 ) (./main.aux
 
+LaTeX Warning: Label `fig:blockchain' multiply defined.
+
+
 LaTeX Warning: Label `fig:flowtransaksi' multiply defined.
 
 
@@ -831,7 +834,15 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (./main.bbl)
+ (./main.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                YourCitationHere
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 131.
 Package biblatex Info: Reference segment=0 on input line 131.
 Package caption Info: Begin \AtBeginDocument code.
@@ -894,7 +905,7 @@ LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 13.67995pt on input line 17.
 )
 
-<sampul/gambar/sampul-luar.png, id=258, 2107.875pt x 2981.1375pt>
+<sampul/gambar/sampul-luar.png, id=278, 2107.875pt x 2981.1375pt>
 File: sampul/gambar/sampul-luar.png Graphic file (type png)
 <use sampul/gambar/sampul-luar.png>
 Package pdftex.def Info: sampul/gambar/sampul-luar.png  used on input line 41.
@@ -943,7 +954,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.38 \restoregeometry
                      
-<sampul/gambar/sampul-luar-tipis.png, id=265, 2107.875pt x 2981.1375pt>
+<sampul/gambar/sampul-luar-tipis.png, id=285, 2107.875pt x 2981.1375pt>
 File: sampul/gambar/sampul-luar-tipis.png Graphic file (type png)
 <use sampul/gambar/sampul-luar-tipis.png>
 Package pdftex.def Info: sampul/gambar/sampul-luar-tipis.png  used on input line 38.
@@ -1088,6 +1099,9 @@ Overfull \hbox (2.99861pt too wide) in paragraph at lines 19--20
 [7
 
 ]
+Underfull \vbox (badness 5711) has occurred while \output is active []
+
+
 
 [8])
 \tf@toc=\write5
@@ -1201,16 +1215,6 @@ l.19
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <14.4> not available
 (Font)              Font shape `OT1/txr/bx/it' tried instead on input line 22.
 
-Overfull \hbox (1.47516pt too wide) in paragraph at lines 33--34
-\OT1/txr/m/n/12 jaringan Ethereum memi-liki EVM yang memu-ngkinkan-nya un-tuk men-jalankan kode yang sama,
- []
-
-
-Overfull \hbox (5.14787pt too wide) in paragraph at lines 33--34
-\OT1/txr/m/n/12 memas-tikan bahwa se-tiap smart con-tract meng-hasilkan out-put yang kon-sis-ten di selu-ruh jaringan.
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1219,73 +1223,66 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 
+l.33 
       [6]
-Overfull \hbox (9.58788pt too wide) in paragraph at lines 36--39
-\OT1/txr/m/n/12 Dalam eko-sis-tem \OT1/txr/m/it/12 blockchain\OT1/txr/m/n/12 , to-ken da-pat dik-lasi-fikasikan ke dalam be-ragam kat-e-gori berdasarkan
- []
+<gambar/blockchain_sequence.png, id=641, 507.39563pt x 335.75438pt>
+File: gambar/blockchain_sequence.png Graphic file (type png)
+<use gambar/blockchain_sequence.png>
+Package pdftex.def Info: gambar/blockchain_sequence.png  used on input line 36.
+(pdftex.def)             Requested size: 380.54579pt x 251.81516pt.
+<gambar/topology_blockchain.png, id=645, 4667.4375pt x 3964.8125pt>
+File: gambar/topology_blockchain.png Graphic file (type png)
+<use gambar/topology_blockchain.png>
+Package pdftex.def Info: gambar/topology_blockchain.png  used on input line 53.
+(pdftex.def)             Requested size: 350.04271pt x 297.34811pt.
 
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 39.
-(c:/texlive/2024/texmf-dist/tex/latex/txfonts/ts1txr.fd
-File: ts1txr.fd 2000/12/15 v3.1
-)
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.49 
-      [7]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+l.58     \end{figure}
+                      [7 <./gambar/blockchain_sequence.png>]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.61 
-      [8]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+l.67 
+      [8 <./gambar/topology_blockchain.png>]
+Overfull \hbox (1.47516pt too wide) in paragraph at lines 70--71
+\OT1/txr/m/n/12 jaringan Ethereum memi-liki EVM yang memu-ngkinkan-nya un-tuk men-jalankan kode yang sama,
+ []
 
 
+Overfull \hbox (5.14787pt too wide) in paragraph at lines 70--71
+\OT1/txr/m/n/12 memas-tikan bahwa se-tiap smart con-tract meng-hasilkan out-put yang kon-sis-ten di selu-ruh jaringan.
+ []
+
+
+Overfull \hbox (9.58788pt too wide) in paragraph at lines 73--76
+\OT1/txr/m/n/12 Dalam eko-sis-tem \OT1/txr/m/it/12 blockchain\OT1/txr/m/n/12 , to-ken da-pat dik-lasi-fikasikan ke dalam be-ragam kat-e-gori berdasarkan
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 76.
+(c:/texlive/2024/texmf-dist/tex/latex/txfonts/ts1txr.fd
+File: ts1txr.fd 2000/12/15 v3.1
+)
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.75 
-      [9]
-Overfull \hbox (5.07588pt too wide) in paragraph at lines 77--78
-[]\OT1/txr/m/n/12 Konsep \OT1/txr/m/it/12 cross-chain in-ter-op-er-abil-ity \OT1/txr/m/n/12 men-jadi se-makin pent-ing karena memu-ngkinkan berba-
- []
-
-)
+l.80     \item E
+                RC-4907, \emph{interface} standar yang memperkenalkan peran ... [9]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.215 \cleardoublepage
-                       [10] (./bab/3-metodologi.tex
-Chapter 3.
-<gambar/desain_sistem_new.png, id=637, 1671.99657pt x 1443.14156pt>
-File: gambar/desain_sistem_new.png Graphic file (type png)
-<use gambar/desain_sistem_new.png>
-Package pdftex.def Info: gambar/desain_sistem_new.png  used on input line 10.
-(pdftex.def)             Requested size: 284.23566pt x 245.33081pt.
-<gambar/flow_transaksi_new.png, id=638, 2211.76312pt x 953.81343pt>
-File: gambar/flow_transaksi_new.png Graphic file (type png)
-<use gambar/flow_transaksi_new.png>
-Package pdftex.def Info: gambar/flow_transaksi_new.png  used on input line 25.
-(pdftex.def)             Requested size: 486.5894pt x 209.8396pt.
-
-Overfull \hbox (31.34529pt too wide) in paragraph at lines 25--27
- [][] 
- []
-
-
-Underfull \vbox (badness 3623) has occurred while \output is active []
+l.96 
+      [10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -1293,27 +1290,9 @@ Underfull \vbox (badness 3623) has occurred while \output is active []
 pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.31 
-      [11
-
-
- <./gambar/desain_sistem_new.png>]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 39.
-LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 39.
- (c:/texlive/2024/texmf-dist/tex/latex/txfonts/ot1txtt.fd
-File: ot1txtt.fd 2000/12/15 v3.1
-) (./program/A.json
-LaTeX Font Info:    Trying to load font information for TS1+txtt on input line 3.
- (c:/texlive/2024/texmf-dist/tex/latex/txfonts/ts1txtt.fd
-File: ts1txtt.fd 2000/12/15 v3.1
-))
-<gambar/proses_minting.png, id=642, 1458.19781pt x 883.04906pt>
-File: gambar/proses_minting.png Graphic file (type png)
-<use gambar/proses_minting.png>
-Package pdftex.def Info: gambar/proses_minting.png  used on input line 46.
-(pdftex.def)             Requested size: 364.54855pt x 220.76172pt.
-
-Underfull \vbox (badness 7099) has occurred while \output is active []
+l.109 W
+       eb 3.0 tidak hanya mengubah cara kita berinteraksi dengan web melalui... [11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -1321,14 +1300,19 @@ Underfull \vbox (badness 7099) has occurred while \output is active []
 pdfTeX warning (ext4): destination with the same identifier (name{page.12}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.52 
-      [12 <./gambar/flow_transaksi_new.png (PNG copy)>]
-Underfull \vbox (badness 2205) has occurred while \output is active []
+l.123 J
+       aringan topologi blockchain juga mendorong inovasi dalam cara aplikas... [12]
+Overfull \hbox (5.07588pt too wide) in paragraph at lines 126--127
+[]\OT1/txr/m/n/12 Konsep \OT1/txr/m/it/12 cross-chain in-ter-op-er-abil-ity \OT1/txr/m/n/12 men-jadi se-makin pent-ing karena memu-ngkinkan berba-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[13 <./gambar/proses_minting.png>]
-Overfull \hbox (20.41193pt too wide) in paragraph at lines 69--70
+[13]
+Overfull \hbox (20.41193pt too wide) in paragraph at lines 139--140
 \OT1/txr/m/n/12 lebih efisien. Den-gan meng-gu-nakan Hard-hat, pengem-bang da-pat men-jalankan lingkun-gan Ethereum
  []
 
@@ -1338,504 +1322,552 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [14]
-Overfull \hbox (6.33589pt too wide) in paragraph at lines 88--89
+Overfull \hbox (6.33589pt too wide) in paragraph at lines 158--159
 []\OT1/txr/m/n/12 Integrasi Web3.js dalam ap-likasi Re-act.js memu-ngkinkan pengem-bang un-tuk me-man-faatkan
  []
 
 
-Overfull \hbox (27.34789pt too wide) in paragraph at lines 93--94
+Overfull \hbox (27.34789pt too wide) in paragraph at lines 163--164
 []\OT1/txr/m/n/12 Dalam pengem-ban-gan den-gan Re-act.js, Ethers.js mem-bantu meng-in-te-grasikan fungsi \OT1/txr/m/it/12 blockchain
  []
 
 
-Overfull \hbox (13.2839pt too wide) in paragraph at lines 96--97
+Overfull \hbox (13.2839pt too wide) in paragraph at lines 166--167
 \OT1/txr/m/n/12 i-fikasi kode sum-ber \OT1/txr/m/it/12 smart con-tract\OT1/txr/m/n/12 , yang meru-pakan as-pek pent-ing dalam memas-tikan transparansi
  []
 
-
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 [15]
-<gambar/metodologi_new_2.png, id=667, 1023.07219pt x 448.67625pt>
+
+[16] (./bab/3-metodologi.tex
+Chapter 3.
+<gambar/metodologi_new_2.png, id=713, 1023.07219pt x 448.67625pt>
 File: gambar/metodologi_new_2.png Graphic file (type png)
 <use gambar/metodologi_new_2.png>
-Package pdftex.def Info: gambar/metodologi_new_2.png  used on input line 106.
+Package pdftex.def Info: gambar/metodologi_new_2.png  used on input line 11.
 (pdftex.def)             Requested size: 358.08063pt x 157.03903pt.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 24.
+LaTeX Font Info:    Trying to load font information for OT1+txtt on input line 24.
+(c:/texlive/2024/texmf-dist/tex/latex/txfonts/ot1txtt.fd
+File: ot1txtt.fd 2000/12/15 v3.1
+)
 
-Underfull \vbox (badness 6032) has occurred while \output is active []
+[17
 
 
-
-[16 <./gambar/metodologi_new_2.png (PNG copy)>]
+ <./gambar/metodologi_new_2.png (PNG copy)>]
 LaTeX Font Info:    Font shape `OT1/txtt/m/it' in size <12> not available
-(Font)              Font shape `OT1/txtt/m/sl' tried instead on input line 135.
+(Font)              Font shape `OT1/txtt/m/sl' tried instead on input line 40.
 
-Overfull \hbox (3.6946pt too wide) in paragraph at lines 135--136
+Overfull \hbox (3.6946pt too wide) in paragraph at lines 40--41
 \OT1/txr/m/n/12 pen-cip-taan to-ken sebe-narnya. Ini mene-tap-kan kepemi-likan to-ken yang baru dic-etak kepada
  []
 
 
-Overfull \hbox (15.8145pt too wide) in paragraph at lines 139--140
+Overfull \hbox (15.8145pt too wide) in paragraph at lines 44--45
 []\OT1/txr/m/n/12 Setelah menc-etak to-ken, fungsi mem-per-barui meta-data to-ken den-gan me-mang-gil []\OT1/txtt/m/sl/12 tokenURI\OT1/txr/m/n/12 .
  []
 
 
 
-[17]
-Overfull \hbox (2.08656pt too wide) in paragraph at lines 168--169
+[18]
+Overfull \hbox (2.08656pt too wide) in paragraph at lines 73--74
 []\OT1/txr/m/n/12 Setelah to-ken berhasil dikunci, fungsi ke-mu-dian memicu event To-ken-Locked yang menan-
  []
 
 
 
-[18]
-
 [19]
-Overfull \hbox (1.11461pt too wide) in paragraph at lines 222--223
+Overfull \hbox (1.11461pt too wide) in paragraph at lines 127--128
 \OT1/txr/m/n/12 pent-ing un-tuk au-dit dan pe-man-tauan, memu-ngkinkan ap-likasi dan layanan yang ter-hubung
- []
-
-
-Overfull \hbox (7.85988pt too wide) in paragraph at lines 232--233
-\OT1/txr/m/n/12 modul yang lebih kom-pre-hen-sif dan men-dukung in-ter-aksi yang lebih be-ragam den-gan blockchain,
  []
 
 
 
 [20]
-Overfull \hbox (0.5519pt too wide) in paragraph at lines 239--240
+Overfull \hbox (7.85988pt too wide) in paragraph at lines 137--138
+\OT1/txr/m/n/12 modul yang lebih kom-pre-hen-sif dan men-dukung in-ter-aksi yang lebih be-ragam den-gan blockchain,
+ []
+
+
+Overfull \hbox (0.5519pt too wide) in paragraph at lines 144--145
 []\OT1/txr/m/n/12 Dalam ap-likasi, kami men-gon-fig-urasi ethers.js un-tuk ter-hubung den-gan provider Ethereum,
  []
 
 
-Overfull \hbox (6.9466pt too wide) in paragraph at lines 247--249
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[21]
+Overfull \hbox (6.9466pt too wide) in paragraph at lines 152--154
 \OT1/txr/m/n/12 cara in-di-vid-ual. Dalam kon-teks fron-tend Re-act.js, ini be-rarti men-guji komponen-komponen
  []
 
+<gambar/desain_sistem_new.png, id=764, 1671.99657pt x 1443.14156pt>
+File: gambar/desain_sistem_new.png Graphic file (type png)
+<use gambar/desain_sistem_new.png>
+Package pdftex.def Info: gambar/desain_sistem_new.png  used on input line 163.
+(pdftex.def)             Requested size: 284.23566pt x 245.33081pt.
+
+
+[22 <./gambar/desain_sistem_new.png>]
+<gambar/flow_transaksi_new.png, id=770, 2211.76312pt x 953.81343pt>
+File: gambar/flow_transaksi_new.png Graphic file (type png)
+<use gambar/flow_transaksi_new.png>
+Package pdftex.def Info: gambar/flow_transaksi_new.png  used on input line 178.
+(pdftex.def)             Requested size: 442.34479pt x 190.75931pt.
+ (./program/A.json
+LaTeX Font Info:    Trying to load font information for TS1+txtt on input line 3.
+ (c:/texlive/2024/texmf-dist/tex/latex/txfonts/ts1txtt.fd
+File: ts1txtt.fd 2000/12/15 v3.1
 )
 
-[21]
-
-[22
-
-] (./bab/4-pengujian-analisis.tex
-Chapter 4.
-<gambar/tampilan_aplikasi.jpeg, id=726, 1507.6325pt x 657.45625pt>
+[23 <./gambar/flow_transaksi_new.png (PNG copy)>])
+<gambar/proses_minting.png, id=780, 1458.19781pt x 883.04906pt>
+File: gambar/proses_minting.png Graphic file (type png)
+<use gambar/proses_minting.png>
+Package pdftex.def Info: gambar/proses_minting.png  used on input line 199.
+(pdftex.def)             Requested size: 364.54855pt x 220.76172pt.
+<gambar/tampilan_aplikasi.jpeg, id=781, 1507.6325pt x 657.45625pt>
 File: gambar/tampilan_aplikasi.jpeg Graphic file (type jpg)
 <use gambar/tampilan_aplikasi.jpeg>
-Package pdftex.def Info: gambar/tampilan_aplikasi.jpeg  used on input line 11.
+Package pdftex.def Info: gambar/tampilan_aplikasi.jpeg  used on input line 213.
 (pdftex.def)             Requested size: 452.29324pt x 197.23839pt.
 
 
-[23
-
- <./gambar/tampilan_aplikasi.jpeg>]
-<gambar/home_page.jpg, id=732, 1463.4675pt x 724.7075pt>
+[24 <./gambar/proses_minting.png>]
+<gambar/home_page.jpg, id=788, 1463.4675pt x 724.7075pt>
 File: gambar/home_page.jpg Graphic file (type jpg)
 <use gambar/home_page.jpg>
-Package pdftex.def Info: gambar/home_page.jpg  used on input line 22.
-(pdftex.def)             Requested size: 395.14151pt x 195.67363pt.
-<gambar/create_page.jpeg, id=734, 1548.78625pt x 780.9175pt>
+Package pdftex.def Info: gambar/home_page.jpg  used on input line 224.
+(pdftex.def)             Requested size: 439.04364pt x 217.41393pt.
+
+
+[25 <./gambar/tampilan_aplikasi.jpeg> <./gambar/home_page.jpg>]
+<gambar/create_page.jpeg, id=794, 1548.78625pt x 780.9175pt>
 File: gambar/create_page.jpeg Graphic file (type jpg)
 <use gambar/create_page.jpeg>
-Package pdftex.def Info: gambar/create_page.jpeg  used on input line 33.
-(pdftex.def)             Requested size: 418.17789pt x 210.85054pt.
-<gambar/listing_page.jpg, id=736, 1522.68875pt x 697.60625pt>
+Package pdftex.def Info: gambar/create_page.jpeg  used on input line 235.
+(pdftex.def)             Requested size: 464.63947pt x 234.27705pt.
+
+Overfull \hbox (9.39536pt too wide) in paragraph at lines 235--237
+ [][] 
+ []
+
+<gambar/listing_page.jpg, id=796, 1522.68875pt x 697.60625pt>
 File: gambar/listing_page.jpg Graphic file (type jpg)
 <use gambar/listing_page.jpg>
-Package pdftex.def Info: gambar/listing_page.jpg  used on input line 44.
-(pdftex.def)             Requested size: 411.13147pt x 188.3562pt.
+Package pdftex.def Info: gambar/listing_page.jpg  used on input line 246.
+(pdftex.def)             Requested size: 456.81015pt x 209.28348pt.
 
-
-[24 <./gambar/home_page.jpg> <./gambar/create_page.jpeg>]
-<gambar/purchase_page.jpg, id=742, 1499.6025pt x 658.46pt>
-File: gambar/purchase_page.jpg Graphic file (type jpg)
-<use gambar/purchase_page.jpg>
-Package pdftex.def Info: gambar/purchase_page.jpg  used on input line 55.
-(pdftex.def)             Requested size: 404.89809pt x 177.78658pt.
-
-
-[25 <./gambar/listing_page.jpg> <./gambar/purchase_page.jpg>]
-<gambar/etherscan.jpeg, id=748, 1054.94125pt x 613.29124pt>
-File: gambar/etherscan.jpeg Graphic file (type jpg)
-<use gambar/etherscan.jpeg>
-Package pdftex.def Info: gambar/etherscan.jpeg  used on input line 73.
-(pdftex.def)             Requested size: 474.71918pt x 275.9785pt.
-
-Overfull \hbox (19.47507pt too wide) in paragraph at lines 73--75
+Overfull \hbox (1.56604pt too wide) in paragraph at lines 246--248
  [][] 
  []
 
 
-Overfull \hbox (8.06317pt too wide) in paragraph at lines 81--82
-\OT1/txr/m/n/12 im-pan dalam \OT1/txr/m/it/12 The In-ter-plan-e-tary File Sys-tem \OT1/txr/m/n/12 (IPFS) dan ke-mu-dian da-pat di-\OT1/txr/m/it/12 publish \OT1/txr/m/n/12 pada OpenSea
+
+[26 <./gambar/create_page.jpeg> <./gambar/listing_page.jpg>]
+<gambar/purchase_page.jpg, id=802, 1499.6025pt x 658.46pt>
+File: gambar/purchase_page.jpg Graphic file (type jpg)
+<use gambar/purchase_page.jpg>
+Package pdftex.def Info: gambar/purchase_page.jpg  used on input line 257.
+(pdftex.def)             Requested size: 449.88422pt x 197.53952pt.
+
+
+[27 <./gambar/purchase_page.jpg>]
+<gambar/etherscan.jpeg, id=808, 1054.94125pt x 613.29124pt>
+File: gambar/etherscan.jpeg Graphic file (type jpg)
+<use gambar/etherscan.jpeg>
+Package pdftex.def Info: gambar/etherscan.jpeg  used on input line 275.
+(pdftex.def)             Requested size: 474.71918pt x 275.9785pt.
+
+Overfull \hbox (19.47507pt too wide) in paragraph at lines 275--277
+ [][] 
  []
 
 
+LaTeX Warning: Citation 'YourCitationHere' on page 28 undefined on input line 283.
 
-[26 <./gambar/etherscan.jpeg>]
-<gambar/opensea.jpeg, id=753, 1606.0pt x 781.92125pt>
+<gambar/opensea.jpeg, id=809, 1606.0pt x 781.92125pt>
 File: gambar/opensea.jpeg Graphic file (type jpg)
 <use gambar/opensea.jpeg>
-Package pdftex.def Info: gambar/opensea.jpeg  used on input line 85.
+Package pdftex.def Info: gambar/opensea.jpeg  used on input line 289.
 (pdftex.def)             Requested size: 449.67694pt x 218.93645pt.
 
 
-[27 <./gambar/opensea.jpeg>]
-Overfull \hbox (2.34386pt too wide) in paragraph at lines 109--121
- [][] 
- []
-
-<gambar/riwayat_transaksi.jpeg, id=758, 414.54875pt x 692.5875pt>
-File: gambar/riwayat_transaksi.jpeg Graphic file (type jpg)
-<use gambar/riwayat_transaksi.jpeg>
-Package pdftex.def Info: gambar/riwayat_transaksi.jpeg  used on input line 152.
-(pdftex.def)             Requested size: 145.09422pt x 242.40926pt.
-
-
-[28 <./gambar/riwayat_transaksi.jpeg>]
-<gambar/detail_transaksi_etherscan.jpeg, id=764, 1100.11pt x 706.64pt>
-File: gambar/detail_transaksi_etherscan.jpeg Graphic file (type jpg)
-<use gambar/detail_transaksi_etherscan.jpeg>
-Package pdftex.def Info: gambar/detail_transaksi_etherscan.jpeg  used on input line 166.
-(pdftex.def)             Requested size: 352.04239pt x 226.12941pt.
-
-
-[29 <./gambar/detail_transaksi_etherscan.jpeg>]
-<gambar/detail_nft_etherscan.jpeg, id=769, 1571.8725pt x 568.1225pt>
-File: gambar/detail_nft_etherscan.jpeg Graphic file (type jpg)
-<use gambar/detail_nft_etherscan.jpeg>
-Package pdftex.def Info: gambar/detail_nft_etherscan.jpeg  used on input line 177.
-(pdftex.def)             Requested size: 471.5654pt x 170.43805pt.
-
-Overfull \hbox (16.32129pt too wide) in paragraph at lines 177--179
- [][] 
- []
-
-<gambar/nft_pada_opensea.jpeg, id=770, 1276.77pt x 944.52875pt>
-File: gambar/nft_pada_opensea.jpeg Graphic file (type jpg)
-<use gambar/nft_pada_opensea.jpeg>
-Package pdftex.def Info: gambar/nft_pada_opensea.jpeg  used on input line 186.
-(pdftex.def)             Requested size: 383.03395pt x 283.36081pt.
-
-
-[30 <./gambar/detail_nft_etherscan.jpeg> <./gambar/nft_pada_opensea.jpeg>]
-<gambar/lock_token.jpeg, id=775, 1120.185pt x 596.2275pt>
-File: gambar/lock_token.jpeg Graphic file (type jpg)
-<use gambar/lock_token.jpeg>
-Package pdftex.def Info: gambar/lock_token.jpeg  used on input line 200.
-(pdftex.def)             Requested size: 392.07062pt x 208.68274pt.
-<gambar/bridge_transfer.jpeg, id=776, 351.3125pt x 170.6375pt>
-File: gambar/bridge_transfer.jpeg Graphic file (type jpg)
-<use gambar/bridge_transfer.jpeg>
-Package pdftex.def Info: gambar/bridge_transfer.jpeg  used on input line 211.
-(pdftex.def)             Requested size: 263.48372pt x 127.9778pt.
-
-
-[31 <./gambar/lock_token.jpeg> <./gambar/bridge_transfer.jpeg>]
-<gambar/verifikasi_metamask_wallet.jpeg, id=782, 462.72874pt x 835.12pt>
-File: gambar/verifikasi_metamask_wallet.jpeg Graphic file (type jpg)
-<use gambar/verifikasi_metamask_wallet.jpeg>
-Package pdftex.def Info: gambar/verifikasi_metamask_wallet.jpeg  used on input line 222.
-(pdftex.def)             Requested size: 148.07622pt x 267.24385pt.
-<gambar/detail_pada_etherscan.jpeg, id=783, 1106.1325pt x 689.57625pt>
-File: gambar/detail_pada_etherscan.jpeg Graphic file (type jpg)
-<use gambar/detail_pada_etherscan.jpeg>
-Package pdftex.def Info: gambar/detail_pada_etherscan.jpeg  used on input line 233.
-(pdftex.def)             Requested size: 387.15218pt x 241.3553pt.
-
-
-[32 <./gambar/verifikasi_metamask_wallet.jpeg> <./gambar/detail_pada_etherscan.jpeg>]
-<gambar/nft_detail_etherscan2.jpeg, id=789, 1546.77875pt x 546.04pt>
-File: gambar/nft_detail_etherscan2.jpeg Graphic file (type jpg)
-<use gambar/nft_detail_etherscan2.jpeg>
-Package pdftex.def Info: gambar/nft_detail_etherscan2.jpeg  used on input line 244.
-(pdftex.def)             Requested size: 464.03722pt x 163.81326pt.
-
-Overfull \hbox (8.7931pt too wide) in paragraph at lines 244--246
- [][] 
- []
-
-<gambar/nft_pada_opensea_2.jpeg, id=790, 1179.40625pt x 901.3675pt>
-File: gambar/nft_pada_opensea_2.jpeg Graphic file (type jpg)
-<use gambar/nft_pada_opensea_2.jpeg>
-Package pdftex.def Info: gambar/nft_pada_opensea_2.jpeg  used on input line 255.
-(pdftex.def)             Requested size: 318.44394pt x 243.37247pt.
-
-
-[33 <./gambar/nft_detail_etherscan2.jpeg> <./gambar/nft_pada_opensea_2.jpeg>]
-Overfull \hbox (8.12183pt too wide) in paragraph at lines 273--274
-[]\OT1/txr/m/it/12 User \OT1/txr/m/n/12 yang memi-liki NFT terse-but da-pat me-la-ku-kan \OT1/txr/m/it/12 trans-fer own-er-ship \OT1/txr/m/n/12 atau pin-dah kepemi-
- []
-
-
-Overfull \hbox (4.36787pt too wide) in paragraph at lines 278--279
-[]\OT1/txr/m/n/12 Berikut meru-pakan langkah-langkah dari pen-gu-jian in-te-grasi \OT1/txr/m/it/12 smart con-tract \OT1/txr/m/n/12 den-gan Web3.0
- []
-
-<gambar/login_page.jpg, id=795, 1545.775pt x 946.53625pt>
+[28 <./gambar/etherscan.jpeg>]
+<gambar/login_page.jpg, id=815, 1545.775pt x 946.53625pt>
 File: gambar/login_page.jpg Graphic file (type jpg)
 <use gambar/login_page.jpg>
-Package pdftex.def Info: gambar/login_page.jpg  used on input line 285.
+Package pdftex.def Info: gambar/login_page.jpg  used on input line 301.
 (pdftex.def)             Requested size: 401.89203pt x 246.09361pt.
-<gambar/integrasi_metamask.jpg, id=797, 440.64626pt x 766.865pt>
+
+
+[29 <./gambar/opensea.jpeg> <./gambar/login_page.jpg>]
+<gambar/integrasi_metamask.jpg, id=821, 440.64626pt x 766.865pt>
 File: gambar/integrasi_metamask.jpg Graphic file (type jpg)
 <use gambar/integrasi_metamask.jpg>
-Package pdftex.def Info: gambar/integrasi_metamask.jpg  used on input line 297.
+Package pdftex.def Info: gambar/integrasi_metamask.jpg  used on input line 313.
 (pdftex.def)             Requested size: 154.22849pt x 268.40677pt.
-<gambar/metamask_konek.jpeg, id=798, 443.6575pt x 751.80875pt>
+<gambar/metamask_konek.jpeg, id=822, 443.6575pt x 751.80875pt>
 File: gambar/metamask_konek.jpeg Graphic file (type jpg)
 <use gambar/metamask_konek.jpeg>
-Package pdftex.def Info: gambar/metamask_konek.jpeg  used on input line 303.
+Package pdftex.def Info: gambar/metamask_konek.jpeg  used on input line 319.
 (pdftex.def)             Requested size: 155.28244pt x 263.137pt.
-
-
-[34 <./gambar/login_page.jpg>]
-Overfull \hbox (1.5226pt too wide) in paragraph at lines 311--312
-\OT1/txr/m/n/12 pada web. Ketika peng-guna menekan tombol \OT1/txr/m/it/12 Con-nect Wal-let \OT1/txr/m/n/12 maka akan di-arahkan kepada
- []
-
-<gambar/create_nft.jpg, id=807, 1524.69624pt x 850.17625pt>
+<gambar/create_nft.jpg, id=826, 1524.69624pt x 850.17625pt>
 File: gambar/create_nft.jpg Graphic file (type jpg)
 <use gambar/create_nft.jpg>
-Package pdftex.def Info: gambar/create_nft.jpg  used on input line 317.
+Package pdftex.def Info: gambar/create_nft.jpg  used on input line 333.
 (pdftex.def)             Requested size: 411.6735pt x 229.55066pt.
 
-Underfull \vbox (badness 5050) has occurred while \output is active []
 
-
-
-[35 <./gambar/integrasi_metamask.jpg> <./gambar/metamask_konek.jpeg>]
-Overfull \hbox (0.33388pt too wide) in paragraph at lines 324--325
-[]\OT1/txr/m/n/12 Pada tahap awal ini peng-guna me-la-ku-kan pen-gung-ga-han NFT pada ha-la-man \OT1/txr/m/it/12 cre-ate\OT1/txr/m/n/12 . Peng-
- []
-
-<gambar/confirm_create.jpg, id=812, 437.635pt x 767.86874pt>
+[30 <./gambar/integrasi_metamask.jpg> <./gambar/metamask_konek.jpeg>]
+<gambar/confirm_create.jpg, id=831, 437.635pt x 767.86874pt>
 File: gambar/confirm_create.jpg Graphic file (type jpg)
 <use gambar/confirm_create.jpg>
-Package pdftex.def Info: gambar/confirm_create.jpg  used on input line 329.
+Package pdftex.def Info: gambar/confirm_create.jpg  used on input line 345.
 (pdftex.def)             Requested size: 140.04605pt x 245.723pt.
-<gambar/confirm_upload.jpg, id=813, 433.62pt x 766.865pt>
+<gambar/confirm_upload.jpg, id=832, 433.62pt x 766.865pt>
 File: gambar/confirm_upload.jpg Graphic file (type jpg)
 <use gambar/confirm_upload.jpg>
-Package pdftex.def Info: gambar/confirm_upload.jpg  used on input line 335.
+Package pdftex.def Info: gambar/confirm_upload.jpg  used on input line 351.
 (pdftex.def)             Requested size: 138.76123pt x 245.40181pt.
 
 
-[36 <./gambar/create_nft.jpg> <./gambar/confirm_create.jpg> <./gambar/confirm_upload.jpg>]
-<gambar/pinata.jpeg, id=820, 1606.0pt x 796.9775pt>
+[31 <./gambar/create_nft.jpg> <./gambar/confirm_create.jpg> <./gambar/confirm_upload.jpg>]
+<gambar/pinata.jpeg, id=839, 1606.0pt x 796.9775pt>
 File: gambar/pinata.jpeg Graphic file (type jpg)
 <use gambar/pinata.jpeg>
-Package pdftex.def Info: gambar/pinata.jpeg  used on input line 349.
+Package pdftex.def Info: gambar/pinata.jpeg  used on input line 365.
 (pdftex.def)             Requested size: 401.49902pt x 199.24388pt.
 
 
-[37 <./gambar/pinata.jpeg>]
+[32 <./gambar/pinata.jpeg>]
 File: gambar/confirm_create.jpg Graphic file (type jpg)
 <use gambar/confirm_create.jpg>
-Package pdftex.def Info: gambar/confirm_create.jpg  used on input line 360.
+Package pdftex.def Info: gambar/confirm_create.jpg  used on input line 376.
 (pdftex.def)             Requested size: 188.17938pt x 330.17712pt.
-<gambar/listed_nft.jpeg, id=827, 1556.81625pt x 876.27374pt>
+<gambar/listed_nft.jpeg, id=846, 1556.81625pt x 876.27374pt>
 File: gambar/listed_nft.jpeg Graphic file (type jpg)
 <use gambar/listed_nft.jpeg>
-Package pdftex.def Info: gambar/listed_nft.jpeg  used on input line 373.
-(pdftex.def)             Requested size: 404.76268pt x 227.82579pt.
+Package pdftex.def Info: gambar/listed_nft.jpeg  used on input line 389.
+(pdftex.def)             Requested size: 389.20311pt x 219.06789pt.
 
-Underfull \vbox (badness 5022) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[38]
-<gambar/nft_listed_home.jpeg, id=832, 1564.84625pt x 806.01125pt>
+[33]
+<gambar/nft_listed_home.jpeg, id=851, 1564.84625pt x 806.01125pt>
 File: gambar/nft_listed_home.jpeg Graphic file (type jpg)
 <use gambar/nft_listed_home.jpeg>
-Package pdftex.def Info: gambar/nft_listed_home.jpeg  used on input line 386.
-(pdftex.def)             Requested size: 406.85043pt x 209.55798pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Package pdftex.def Info: gambar/nft_listed_home.jpeg  used on input line 400.
+(pdftex.def)             Requested size: 391.2106pt x 201.50232pt.
 
 
-
-[39 <./gambar/listed_nft.jpeg>]
-<gambar/metamask_akun_2.jpeg, id=838, 446.66875pt x 747.79375pt>
+[34 <./gambar/listed_nft.jpeg> <./gambar/nft_listed_home.jpeg>]
+<gambar/metamask_akun_2.jpeg, id=859, 446.66875pt x 747.79375pt>
 File: gambar/metamask_akun_2.jpeg Graphic file (type jpg)
 <use gambar/metamask_akun_2.jpeg>
-Package pdftex.def Info: gambar/metamask_akun_2.jpeg  used on input line 399.
+Package pdftex.def Info: gambar/metamask_akun_2.jpeg  used on input line 414.
 (pdftex.def)             Requested size: 209.93433pt x 351.4631pt.
+
+
+[35 <./gambar/metamask_akun_2.jpeg>]
+<gambar/make_item.jpeg, id=865, 435.6275pt x 769.87625pt>
+File: gambar/make_item.jpeg Graphic file (type jpg)
+<use gambar/make_item.jpeg>
+Package pdftex.def Info: gambar/make_item.jpeg  used on input line 424.
+(pdftex.def)             Requested size: 196.03056pt x 346.44112pt.
+<gambar/home_setelah_nft_dibeli.jpg, id=866, 1550.79375pt x 841.1425pt>
+File: gambar/home_setelah_nft_dibeli.jpg Graphic file (type jpg)
+<use gambar/home_setelah_nft_dibeli.jpg>
+Package pdftex.def Info: gambar/home_setelah_nft_dibeli.jpg  used on input line 434.
+(pdftex.def)             Requested size: 387.6975pt x 210.28511pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[40 <./gambar/nft_listed_home.jpeg>]
-Overfull \hbox (0.90984pt too wide) in paragraph at lines 406--407
-[]\OT1/txr/m/n/12 Pada gam-bar []4.27[] ketika peng-guna memilih un-tuk mem-beli se-buah NFT yang di-ta-mpilkan
- []
-
-<gambar/make_item.jpeg, id=846, 435.6275pt x 769.87625pt>
-File: gambar/make_item.jpeg Graphic file (type jpg)
-<use gambar/make_item.jpeg>
-Package pdftex.def Info: gambar/make_item.jpeg  used on input line 410.
-(pdftex.def)             Requested size: 196.03056pt x 346.44112pt.
-
-
-[41 <./gambar/metamask_akun_2.jpeg>]
-<gambar/home_setelah_nft_dibeli.jpg, id=851, 1550.79375pt x 841.1425pt>
-File: gambar/home_setelah_nft_dibeli.jpg Graphic file (type jpg)
-<use gambar/home_setelah_nft_dibeli.jpg>
-Package pdftex.def Info: gambar/home_setelah_nft_dibeli.jpg  used on input line 420.
-(pdftex.def)             Requested size: 387.6975pt x 210.28511pt.
-
-
-[42 <./gambar/make_item.jpeg> <./gambar/home_setelah_nft_dibeli.jpg>]
-<gambar/tampilan_pada_listed_items.jpeg, id=858, 1527.7075pt x 943.525pt>
+[36 <./gambar/make_item.jpeg>]
+<gambar/tampilan_pada_listed_items.jpeg, id=873, 1527.7075pt x 943.525pt>
 File: gambar/tampilan_pada_listed_items.jpeg Graphic file (type jpg)
 <use gambar/tampilan_pada_listed_items.jpeg>
-Package pdftex.def Info: gambar/tampilan_pada_listed_items.jpeg  used on input line 431.
+Package pdftex.def Info: gambar/tampilan_pada_listed_items.jpeg  used on input line 445.
 (pdftex.def)             Requested size: 381.92593pt x 235.88066pt.
 
 
-[43 <./gambar/tampilan_pada_listed_items.jpeg>]
-<gambar/my_purchases_akun2.jpg, id=865, 1551.7975pt x 887.315pt>
+[37 <./gambar/home_setelah_nft_dibeli.jpg> <./gambar/tampilan_pada_listed_items.jpeg>]
+<gambar/my_purchases_akun2.jpg, id=880, 1551.7975pt x 887.315pt>
 File: gambar/my_purchases_akun2.jpg Graphic file (type jpg)
 <use gambar/my_purchases_akun2.jpg>
-Package pdftex.def Info: gambar/my_purchases_akun2.jpg  used on input line 444.
+Package pdftex.def Info: gambar/my_purchases_akun2.jpg  used on input line 458.
 (pdftex.def)             Requested size: 387.94843pt x 221.8282pt.
 
 
-[44 <./gambar/my_purchases_akun2.jpg>]
-<gambar/address_akun_kedua_nft_b.jpeg, id=871, 268.00125pt x 446.41782pt>
+[38 <./gambar/my_purchases_akun2.jpg>]
+Overfull \hbox (19.56644pt too wide) in paragraph at lines 466--466
+|[]\OT1/txr/bx/n/14.4 Fitur Trans-fer \OT1/txr/bx/it/14.4 Own-er-ship \OT1/txr/bx/n/14.4 Se-cara \OT1/txr/bx/it/14.4 Lo-cal-holst \OT1/txr/bx/n/14.4 Dan Se-cara Lin-tas \OT1/txr/bx/it/14.4 Blockchain| 
+ []
+
+<gambar/address_akun_kedua_nft_b.jpeg, id=886, 268.00125pt x 446.41782pt>
 File: gambar/address_akun_kedua_nft_b.jpeg Graphic file (type jpg)
 <use gambar/address_akun_kedua_nft_b.jpeg>
-Package pdftex.def Info: gambar/address_akun_kedua_nft_b.jpeg  used on input line 459.
+Package pdftex.def Info: gambar/address_akun_kedua_nft_b.jpeg  used on input line 469.
 (pdftex.def)             Requested size: 214.40128pt x 357.13474pt.
-<gambar/metamask_akun_3.jpg, id=873, 445.665pt x 753.81625pt>
+<gambar/metamask_akun_3.jpg, id=888, 445.665pt x 753.81625pt>
 File: gambar/metamask_akun_3.jpg Graphic file (type jpg)
 <use gambar/metamask_akun_3.jpg>
-Package pdftex.def Info: gambar/metamask_akun_3.jpg  used on input line 470.
+Package pdftex.def Info: gambar/metamask_akun_3.jpg  used on input line 480.
 (pdftex.def)             Requested size: 178.26283pt x 301.52116pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[45 <./gambar/address_akun_kedua_nft_b.jpeg>]
-Overfull \hbox (13.32983pt too wide) in paragraph at lines 486--487
+[39 <./gambar/address_akun_kedua_nft_b.jpeg>]
+Overfull \hbox (13.32983pt too wide) in paragraph at lines 496--497
 \OT1/txr/m/n/12 dari NFT yang telah di-lakukan \OT1/txr/m/it/12 trans-fer own-er-ship \OT1/txr/m/n/12 se-cara \OT1/txr/m/it/12 lo-cal-host \OT1/txr/m/n/12 maupun lin-tas \OT1/txr/m/it/12 blockchain
  []
 
 
 
-[46 <./gambar/metamask_akun_3.jpg>]
-<gambar/normal_transfer.jpg, id=883, 242.40562pt x 542.77782pt>
+[40 <./gambar/metamask_akun_3.jpg>]
+<gambar/normal_transfer.jpg, id=898, 242.40562pt x 542.77782pt>
 File: gambar/normal_transfer.jpg Graphic file (type jpg)
 <use gambar/normal_transfer.jpg>
-Package pdftex.def Info: gambar/normal_transfer.jpg  used on input line 497.
+Package pdftex.def Info: gambar/normal_transfer.jpg  used on input line 507.
 (pdftex.def)             Requested size: 145.44447pt x 325.6692pt.
-<gambar/my_nft_b.jpg, id=884, 443.6575pt x 748.7975pt>
+<gambar/my_nft_b.jpg, id=899, 443.6575pt x 748.7975pt>
 File: gambar/my_nft_b.jpg Graphic file (type jpg)
 <use gambar/my_nft_b.jpg>
-Package pdftex.def Info: gambar/my_nft_b.jpg  used on input line 508.
+Package pdftex.def Info: gambar/my_nft_b.jpg  used on input line 518.
 (pdftex.def)             Requested size: 199.64401pt x 336.95576pt.
 
 
-[47 <./gambar/normal_transfer.jpg>]
-<gambar/transfer_berhasil.jpg, id=889, 557.08125pt x 149.55875pt>
+[41 <./gambar/normal_transfer.jpg>]
+<gambar/transfer_berhasil.jpg, id=904, 557.08125pt x 149.55875pt>
 File: gambar/transfer_berhasil.jpg Graphic file (type jpg)
 <use gambar/transfer_berhasil.jpg>
-Package pdftex.def Info: gambar/transfer_berhasil.jpg  used on input line 519.
+Package pdftex.def Info: gambar/transfer_berhasil.jpg  used on input line 529.
 (pdftex.def)             Requested size: 389.95422pt x 104.6904pt.
 
 
-[48 <./gambar/my_nft_b.jpg> <./gambar/transfer_berhasil.jpg>]
-<gambar/letter_b_to_akun3.jpg, id=894, 1549.79pt x 756.8275pt>
+[42 <./gambar/my_nft_b.jpg> <./gambar/transfer_berhasil.jpg>]
+<gambar/letter_b_to_akun3.jpg, id=909, 1549.79pt x 756.8275pt>
 File: gambar/letter_b_to_akun3.jpg Graphic file (type jpg)
 <use gambar/letter_b_to_akun3.jpg>
-Package pdftex.def Info: gambar/letter_b_to_akun3.jpg  used on input line 530.
+Package pdftex.def Info: gambar/letter_b_to_akun3.jpg  used on input line 540.
 (pdftex.def)             Requested size: 387.44655pt x 189.2064pt.
-<gambar/hardhat_transaction.jpg, id=895, 1411.2725pt x 876.27374pt>
+<gambar/hardhat_transaction.jpg, id=910, 1411.2725pt x 876.27374pt>
 File: gambar/hardhat_transaction.jpg Graphic file (type jpg)
 <use gambar/hardhat_transaction.jpg>
-Package pdftex.def Info: gambar/hardhat_transaction.jpg  used on input line 541.
+Package pdftex.def Info: gambar/hardhat_transaction.jpg  used on input line 551.
 (pdftex.def)             Requested size: 381.04868pt x 236.59706pt.
-<gambar/letter_b_akun3.jpg, id=896, 1556.81625pt x 893.3375pt>
+<gambar/letter_b_akun3.jpg, id=911, 1556.81625pt x 893.3375pt>
 File: gambar/letter_b_akun3.jpg Graphic file (type jpg)
 <use gambar/letter_b_akun3.jpg>
-Package pdftex.def Info: gambar/letter_b_akun3.jpg  used on input line 552.
+Package pdftex.def Info: gambar/letter_b_akun3.jpg  used on input line 562.
 (pdftex.def)             Requested size: 420.34601pt x 241.20435pt.
 
 
-[49 <./gambar/letter_b_to_akun3.jpg> <./gambar/hardhat_transaction.jpg>]
-<gambar/sepolia_akun.jpg, id=901, 440.64626pt x 752.8125pt>
+[43 <./gambar/letter_b_to_akun3.jpg> <./gambar/hardhat_transaction.jpg>]
+<gambar/sepolia_akun.jpg, id=916, 440.64626pt x 752.8125pt>
 File: gambar/sepolia_akun.jpg Graphic file (type jpg)
 <use gambar/sepolia_akun.jpg>
-Package pdftex.def Info: gambar/sepolia_akun.jpg  used on input line 564.
+Package pdftex.def Info: gambar/sepolia_akun.jpg  used on input line 574.
 (pdftex.def)             Requested size: 141.00967pt x 240.90492pt.
-<gambar/btc_akun.jpg, id=902, 467.7475pt x 716.6775pt>
+<gambar/btc_akun.jpg, id=917, 467.7475pt x 716.6775pt>
 File: gambar/btc_akun.jpg Graphic file (type jpg)
 <use gambar/btc_akun.jpg>
-Package pdftex.def Info: gambar/btc_akun.jpg  used on input line 570.
+Package pdftex.def Info: gambar/btc_akun.jpg  used on input line 580.
 (pdftex.def)             Requested size: 149.68225pt x 229.34149pt.
 
 
-[50 <./gambar/letter_b_akun3.jpg> <./gambar/sepolia_akun.jpg> <./gambar/btc_akun.jpg>]
-<gambar/interoperability_1.jpg, id=907, 336.25626pt x 732.7375pt>
+[44 <./gambar/letter_b_akun3.jpg> <./gambar/sepolia_akun.jpg> <./gambar/btc_akun.jpg>]
+<gambar/interoperability_1.jpg, id=922, 336.25626pt x 732.7375pt>
 File: gambar/interoperability_1.jpg Graphic file (type jpg)
 <use gambar/interoperability_1.jpg>
-Package pdftex.def Info: gambar/interoperability_1.jpg  used on input line 585.
+Package pdftex.def Info: gambar/interoperability_1.jpg  used on input line 595.
 (pdftex.def)             Requested size: 168.12772pt x 366.36786pt.
-<gambar/fungsi_lock.jpg, id=908, 426.59375pt x 590.205pt>
+<gambar/fungsi_lock.jpg, id=923, 426.59375pt x 590.205pt>
 File: gambar/fungsi_lock.jpg Graphic file (type jpg)
 <use gambar/fungsi_lock.jpg>
-Package pdftex.def Info: gambar/fungsi_lock.jpg  used on input line 596.
+Package pdftex.def Info: gambar/fungsi_lock.jpg  used on input line 606.
 (pdftex.def)             Requested size: 170.63446pt x 236.0778pt.
 
 
-[51 <./gambar/interoperability_1.jpg>]
-Overfull \hbox (7.83385pt too wide) in paragraph at lines 603--604
+[45 <./gambar/interoperability_1.jpg>]
+Overfull \hbox (7.83385pt too wide) in paragraph at lines 613--614
 []\OT1/txr/m/n/12 Setelah me-la-ku-kan kon-fir-masi pem-ba-yaran gas dari fungsi \OT1/txr/m/it/12 lock \OT1/txr/m/n/12 to-ken, kon-disi NFT berubah
  []
 
-<gambar/bridge.jpg, id=913, 432.61626pt x 590.205pt>
+<gambar/bridge.jpg, id=928, 432.61626pt x 590.205pt>
 File: gambar/bridge.jpg Graphic file (type jpg)
 <use gambar/bridge.jpg>
-Package pdftex.def Info: gambar/bridge.jpg  used on input line 607.
+Package pdftex.def Info: gambar/bridge.jpg  used on input line 617.
 (pdftex.def)             Requested size: 173.04343pt x 236.0778pt.
 
 
-[52 <./gambar/fungsi_lock.jpg> <./gambar/bridge.jpg>]
-<gambar/smart_chain.jpg, id=919, 340.27126pt x 578.16pt>
+[46 <./gambar/fungsi_lock.jpg> <./gambar/bridge.jpg>]
+<gambar/smart_chain.jpg, id=934, 340.27126pt x 578.16pt>
 File: gambar/smart_chain.jpg Graphic file (type jpg)
 <use gambar/smart_chain.jpg>
-Package pdftex.def Info: gambar/smart_chain.jpg  used on input line 620.
+Package pdftex.def Info: gambar/smart_chain.jpg  used on input line 630.
 (pdftex.def)             Requested size: 153.12064pt x 260.16959pt.
-<gambar/unlock_token.jpg, id=920, 438.63875pt x 579.16376pt>
+<gambar/unlock_token.jpg, id=935, 438.63875pt x 579.16376pt>
 File: gambar/unlock_token.jpg Graphic file (type jpg)
 <use gambar/unlock_token.jpg>
-Package pdftex.def Info: gambar/unlock_token.jpg  used on input line 631.
+Package pdftex.def Info: gambar/unlock_token.jpg  used on input line 641.
 (pdftex.def)             Requested size: 175.45238pt x 231.66139pt.
 
 
-[53 <./gambar/smart_chain.jpg> <./gambar/unlock_token.jpg>]
-<gambar/interoperabilitas_2.jpg, id=925, 1071.00125pt x 592.2125pt>
+[47 <./gambar/smart_chain.jpg> <./gambar/unlock_token.jpg>]
+<gambar/interoperabilitas_2.jpg, id=940, 1071.00125pt x 592.2125pt>
 File: gambar/interoperabilitas_2.jpg Graphic file (type jpg)
 <use gambar/interoperabilitas_2.jpg>
-Package pdftex.def Info: gambar/interoperabilitas_2.jpg  used on input line 642.
+Package pdftex.def Info: gambar/interoperabilitas_2.jpg  used on input line 652.
 (pdftex.def)             Requested size: 428.39291pt x 236.8808pt.
-<gambar/block_hash.jpg, id=926, 631.60968pt x 174.6525pt>
+<gambar/block_hash.jpg, id=941, 631.60968pt x 174.6525pt>
 File: gambar/block_hash.jpg Graphic file (type jpg)
 <use gambar/block_hash.jpg>
-Package pdftex.def Info: gambar/block_hash.jpg  used on input line 653.
+Package pdftex.def Info: gambar/block_hash.jpg  used on input line 663.
 (pdftex.def)             Requested size: 442.12376pt x 122.2559pt.
 
 
-[54 <./gambar/interoperabilitas_2.jpg> <./gambar/block_hash.jpg>])
+[48 <./gambar/interoperabilitas_2.jpg> <./gambar/block_hash.jpg>])
 
-[55]
+[49]
 
-[56
+[50
+
+] (./bab/4-pengujian-analisis.tex
+Chapter 4.
+
+Overfull \hbox (2.34386pt too wide) in paragraph at lines 31--43
+ [][] 
+ []
+
+
+
+[51
+
+]
+<gambar/riwayat_transaksi.jpeg, id=961, 414.54875pt x 692.5875pt>
+File: gambar/riwayat_transaksi.jpeg Graphic file (type jpg)
+<use gambar/riwayat_transaksi.jpeg>
+Package pdftex.def Info: gambar/riwayat_transaksi.jpeg  used on input line 74.
+(pdftex.def)             Requested size: 145.09422pt x 242.40926pt.
+
+
+[52 <./gambar/riwayat_transaksi.jpeg>]
+<gambar/detail_transaksi_etherscan.jpeg, id=967, 1100.11pt x 706.64pt>
+File: gambar/detail_transaksi_etherscan.jpeg Graphic file (type jpg)
+<use gambar/detail_transaksi_etherscan.jpeg>
+Package pdftex.def Info: gambar/detail_transaksi_etherscan.jpeg  used on input line 88.
+(pdftex.def)             Requested size: 352.04239pt x 226.12941pt.
+
+
+[53 <./gambar/detail_transaksi_etherscan.jpeg>]
+<gambar/detail_nft_etherscan.jpeg, id=972, 1571.8725pt x 568.1225pt>
+File: gambar/detail_nft_etherscan.jpeg Graphic file (type jpg)
+<use gambar/detail_nft_etherscan.jpeg>
+Package pdftex.def Info: gambar/detail_nft_etherscan.jpeg  used on input line 99.
+(pdftex.def)             Requested size: 471.5654pt x 170.43805pt.
+
+Overfull \hbox (16.32129pt too wide) in paragraph at lines 99--101
+ [][] 
+ []
+
+<gambar/nft_pada_opensea.jpeg, id=973, 1276.77pt x 944.52875pt>
+File: gambar/nft_pada_opensea.jpeg Graphic file (type jpg)
+<use gambar/nft_pada_opensea.jpeg>
+Package pdftex.def Info: gambar/nft_pada_opensea.jpeg  used on input line 108.
+(pdftex.def)             Requested size: 383.03395pt x 283.36081pt.
+
+
+[54 <./gambar/detail_nft_etherscan.jpeg> <./gambar/nft_pada_opensea.jpeg>]
+<gambar/lock_token.jpeg, id=979, 1120.185pt x 596.2275pt>
+File: gambar/lock_token.jpeg Graphic file (type jpg)
+<use gambar/lock_token.jpeg>
+Package pdftex.def Info: gambar/lock_token.jpeg  used on input line 122.
+(pdftex.def)             Requested size: 392.07062pt x 208.68274pt.
+<gambar/bridge_transfer.jpeg, id=980, 351.3125pt x 170.6375pt>
+File: gambar/bridge_transfer.jpeg Graphic file (type jpg)
+<use gambar/bridge_transfer.jpeg>
+Package pdftex.def Info: gambar/bridge_transfer.jpeg  used on input line 133.
+(pdftex.def)             Requested size: 263.48372pt x 127.9778pt.
+
+
+[55 <./gambar/lock_token.jpeg> <./gambar/bridge_transfer.jpeg>]
+<gambar/verifikasi_metamask_wallet.jpeg, id=986, 462.72874pt x 835.12pt>
+File: gambar/verifikasi_metamask_wallet.jpeg Graphic file (type jpg)
+<use gambar/verifikasi_metamask_wallet.jpeg>
+Package pdftex.def Info: gambar/verifikasi_metamask_wallet.jpeg  used on input line 144.
+(pdftex.def)             Requested size: 175.83875pt x 317.34889pt.
+<gambar/detail_pada_etherscan.jpeg, id=987, 1106.1325pt x 689.57625pt>
+File: gambar/detail_pada_etherscan.jpeg Graphic file (type jpg)
+<use gambar/detail_pada_etherscan.jpeg>
+Package pdftex.def Info: gambar/detail_pada_etherscan.jpeg  used on input line 155.
+(pdftex.def)             Requested size: 387.15218pt x 241.3553pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[56 <./gambar/verifikasi_metamask_wallet.jpeg>]
+<gambar/nft_detail_etherscan2.jpeg, id=993, 1546.77875pt x 546.04pt>
+File: gambar/nft_detail_etherscan2.jpeg Graphic file (type jpg)
+<use gambar/nft_detail_etherscan2.jpeg>
+Package pdftex.def Info: gambar/nft_detail_etherscan2.jpeg  used on input line 166.
+(pdftex.def)             Requested size: 464.03722pt x 163.81326pt.
+
+Overfull \hbox (8.7931pt too wide) in paragraph at lines 166--168
+ [][] 
+ []
+
+<gambar/nft_pada_opensea_2.jpeg, id=994, 1179.40625pt x 901.3675pt>
+File: gambar/nft_pada_opensea_2.jpeg Graphic file (type jpg)
+<use gambar/nft_pada_opensea_2.jpeg>
+Package pdftex.def Info: gambar/nft_pada_opensea_2.jpeg  used on input line 177.
+(pdftex.def)             Requested size: 412.79837pt x 315.48334pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[57 <./gambar/detail_pada_etherscan.jpeg> <./gambar/nft_detail_etherscan2.jpeg>] [58 <./gambar/nft_pada_opensea_2.jpeg>]
+Overfull \hbox (23.9039pt too wide) in paragraph at lines 260--261
+\OT1/txr/m/n/12 "Mint" dalam kon-trak pin-tar, yang telah di-ten-tukan oleh akun den-gan ala-mat "0x6A1B77e...36b1eD"
+ []
+
+
+Overfull \hbox (32.89119pt too wide) in paragraph at lines 260--261
+\OT1/txr/m/n/12 di Se-po-lia. Se-lama transaksi, ERC-721 to-ken den-gan ID 4 dipin-dahkan dari akun "0x000000...000000"
+ []
+
+
+Overfull \hbox (17.86787pt too wide) in paragraph at lines 260--261
+\OT1/txr/m/n/12 Bi-aya transaksi yang san-gat ren-dah juga meny-oroti efisiensi dan keefek-ti-fan peng-gu-naan blockchain
+ []
+
+
+
+[59] [60]
+Overfull \hbox (4.4032pt too wide) in paragraph at lines 325--329
+[]\OT1/txr/m/n/12 Dari hasil pen-gu-jian yang telah di-lakukan, proses trans-fer \OT1/txr/m/it/12 own-er-ship \OT1/txr/m/n/12 dari NFT telah berhasil
+ []
+
+)
+
+[61]
+
+[62
 
 ] (./bab/5-penutup.tex
 Chapter 5.
@@ -1850,17 +1882,21 @@ Overfull \hbox (13.04185pt too wide) in paragraph at lines 12--13
  []
 
 )
-Overfull \hbox (23.8079pt too wide) in paragraph at lines 16--227
+Overfull \hbox (23.8079pt too wide) in paragraph at lines 17--227
 \OT1/txr/m/n/12 mekanisme kea-manan yang da-pat melin-dungi pri-vasi peng-guna sam-bil mem-per-ta-hankan transparansi
  []
 
 
 
-[57
+[63
 
 ]
 
-[58
+[64
+
+]
+
+[65
 
 ]
 Overfull \hbox (11.41954pt too wide) in paragraph at lines 237--237
@@ -1869,12 +1905,8 @@ Overfull \hbox (11.41954pt too wide) in paragraph at lines 237--237
 
 
 
-[59
-
-]
-
-[60] (./lainnya/biografi-penulis.tex
-<gambar/foto_biografi.jpg, id=967, 1204.5pt x 1606.0pt>
+[66] (./lainnya/biografi-penulis.tex
+<gambar/foto_biografi.jpg, id=1053, 1204.5pt x 1606.0pt>
 File: gambar/foto_biografi.jpg Graphic file (type jpg)
 <use gambar/foto_biografi.jpg>
 Package pdftex.def Info: gambar/foto_biografi.jpg  used on input line 14.
@@ -1891,11 +1923,11 @@ Overfull \hbox (5.78392pt too wide) in paragraph at lines 25--26
 
 )
 
-[61
+[67
 
  <./gambar/foto_biografi.jpg>]
 
-[62
+[68
 
 ] (./main.aux)
  ***********
@@ -1907,24 +1939,24 @@ L3 programming layer <2024-05-27>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FA9BAD7BD67ACEE4DEBA5F0CFB951FA6;11788.
+(rerunfilecheck)             Checksum: A472389CECB473CBEE3ECF27A6D97B0A;12932.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24357 strings out of 473600
- 421718 string characters out of 5732738
- 2014894 words of memory out of 5000000
- 46571 multiletter control sequences out of 15000+600000
+ 24419 strings out of 473600
+ 423181 string characters out of 5732738
+ 1985894 words of memory out of 5000000
+ 46608 multiletter control sequences out of 15000+600000
  615910 words of font info for 163 fonts, out of 8000000 for 9000
  1147 hyphenation exceptions out of 8191
- 75i,12n,81p,2022b,1968s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,81p,2004b,2003s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/tcxtt.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/txsy.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/txtt.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/txtt.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (89 pages, 4427407 bytes).
+Output written on main.pdf (95 pages, 4756432 bytes).
 PDF statistics:
- 1104 PDF objects out of 1200 (max. 8388607)
- 915 compressed objects within 10 object streams
- 252 named destinations out of 1000 (max. 500000)
- 788 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1196 PDF objects out of 1200 (max. 8388607)
+ 995 compressed objects within 10 object streams
+ 277 named destinations out of 1000 (max. 500000)
+ 838 words of extra memory for PDF output out of 10000 (max. 10000000)
 

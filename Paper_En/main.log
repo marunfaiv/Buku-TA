@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.9)  26 JUN 2024 14:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.9)  22 JUL 2024 13:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**e:/TUGAS_AKHIR/Paper/main.tex
-(e:/TUGAS_AKHIR/Paper/main.tex
+**e:/TUGAS_AKHIR/Pembukuan/Paper_En/main.tex
+(e:/TUGAS_AKHIR/Pembukuan/Paper_En/main.tex
 LaTeX2e <2024-06-01>
 L3 programming layer <2024-05-27>
 (c:/texlive/2024/texmf-dist/tex/latex/cmap/cmap.sty
@@ -501,19 +501,19 @@ LaTeX Warning: Reference `sec:hasil' on page 1 undefined on input line 12.
 
 
 ]
-<gambar/desain_sistem_new.png, id=100, 1671.99657pt x 1443.14156pt>
+<gambar/desain_sistem_new.png, id=98, 1671.99657pt x 1443.14156pt>
 File: gambar/desain_sistem_new.png Graphic file (type png)
 <use gambar/desain_sistem_new.png>
 Package pdftex.def Info: gambar/desain_sistem_new.png  used on input line 8.
 (pdftex.def)             Requested size: 234.07793pt x 202.03844pt.
-
-
-<gambar/proses_minting.png, id=101, 1458.19781pt x 883.04906pt>
+<gambar/proses_minting.png, id=99, 1458.19781pt x 883.04906pt>
 File: gambar/proses_minting.png Graphic file (type png)
 <use gambar/proses_minting.png>
 Package pdftex.def Info: gambar/proses_minting.png  used on input line 24.
 (pdftex.def)             Requested size: 247.89035pt x 150.11635pt.
-<gambar/metodologi_new.png, id=102, 1023.07219pt x 448.67625pt>
+
+
+<gambar/metodologi_new.png, id=100, 1023.07219pt x 448.67625pt>
 File: gambar/metodologi_new.png Graphic file (type png)
 <use gambar/metodologi_new.png>
 Package pdftex.def Info: gambar/metodologi_new.png  used on input line 36.
@@ -524,45 +524,45 @@ Package pdftex.def Info: gambar/metodologi_new.png  used on input line 36.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.45 
+l.48 
      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.45 
+l.48 
      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.45 
-      <./gambar/desain_sistem_new.png> <./gambar/proses_minting.png> <./gambar/metodologi_new.png>]<<oml.cmap>><<oms.cmap>>
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 58.
-<<omx.cmap>>
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 58.
-) (./konten/4-lorem-ipsum.tex
-
-<gambar/tampilan_aplikasi.jpeg, id=116, 1507.6325pt x 657.45625pt>
+l.48 
+      <./gambar/desain_sistem_new.png> <./gambar/proses_minting.png> <./gambar/metodologi_new.png>]) (./konten/4-lorem-ipsum.tex
+<gambar/tampilan_aplikasi.jpeg, id=110, 1507.6325pt x 657.45625pt>
 File: gambar/tampilan_aplikasi.jpeg Graphic file (type jpg)
 <use gambar/tampilan_aplikasi.jpeg>
-Package pdftex.def Info: gambar/tampilan_aplikasi.jpeg  used on input line 13.
+Package pdftex.def Info: gambar/tampilan_aplikasi.jpeg  used on input line 12.
 (pdftex.def)             Requested size: 256.29413pt x 111.76608pt.
 
-Overfull \hbox (4.29413pt too wide) in paragraph at lines 13--15
+Overfull \hbox (4.29413pt too wide) in paragraph at lines 12--14
  [][] 
  []
 
-<gambar/etherscan.jpeg, id=117, 1054.94125pt x 613.29124pt>
-File: gambar/etherscan.jpeg Graphic file (type jpg)
-<use gambar/etherscan.jpeg>
-Package pdftex.def Info: gambar/etherscan.jpeg  used on input line 29.
-(pdftex.def)             Requested size: 253.19107pt x 147.1929pt.
+<gambar/home_page.jpg, id=111, 1463.4675pt x 724.7075pt>
+File: gambar/home_page.jpg Graphic file (type jpg)
+<use gambar/home_page.jpg>
+Package pdftex.def Info: gambar/home_page.jpg  used on input line 21.
+(pdftex.def)             Requested size: 248.78618pt x 123.19864pt.
 
-Overfull \hbox (1.19107pt too wide) in paragraph at lines 29--31
- [][] 
- []
 
+<gambar/create_page.jpeg, id=113, 1548.78625pt x 780.9175pt>
+File: gambar/create_page.jpeg Graphic file (type jpg)
+<use gambar/create_page.jpeg>
+Package pdftex.def Info: gambar/create_page.jpeg  used on input line 32.
+(pdftex.def)             Requested size: 232.3079pt x 117.13257pt.
+<gambar/listing_page.jpg, id=115, 1522.68875pt x 697.60625pt>
+File: gambar/listing_page.jpg Graphic file (type jpg)
+<use gambar/listing_page.jpg>
+Package pdftex.def Info: gambar/listing_page.jpg  used on input line 43.
+(pdftex.def)             Requested size: 228.39346pt x 104.63641pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -572,48 +572,100 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.35 
-      <./gambar/tampilan_aplikasi.jpeg>]
-Underfull \hbox (badness 3977) in paragraph at lines 37--38
+l.49 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.49 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.49 
+      <./gambar/tampilan_aplikasi.jpeg> <./gambar/home_page.jpg> <./gambar/create_page.jpeg>]
+<gambar/purchase_page.jpg, id=124, 1499.6025pt x 658.46pt>
+File: gambar/purchase_page.jpg Graphic file (type jpg)
+<use gambar/purchase_page.jpg>
+Package pdftex.def Info: gambar/purchase_page.jpg  used on input line 54.
+(pdftex.def)             Requested size: 224.93066pt x 98.76474pt.
+<gambar/etherscan.jpeg, id=126, 1054.94125pt x 613.29124pt>
+File: gambar/etherscan.jpeg Graphic file (type jpg)
+<use gambar/etherscan.jpeg>
+Package pdftex.def Info: gambar/etherscan.jpeg  used on input line 70.
+(pdftex.def)             Requested size: 253.19107pt x 147.1929pt.
+
+Overfull \hbox (1.19107pt too wide) in paragraph at lines 70--72
+ [][] 
+ []
+
+
+
+
+Underfull \hbox (badness 3977) in paragraph at lines 78--79
  \T1/ptm/m/it/10 3) Non-Fungible To-ken (NFT): [][][] \T1/ptm/m/n/10 Non-Fungible To-kens
  []
 
-<gambar/opensea.jpeg, id=124, 1606.0pt x 781.92125pt>
+<gambar/opensea.jpeg, id=127, 1606.0pt x 781.92125pt>
 File: gambar/opensea.jpeg Graphic file (type jpg)
 <use gambar/opensea.jpeg>
-Package pdftex.def Info: gambar/opensea.jpeg  used on input line 41.
+Package pdftex.def Info: gambar/opensea.jpeg  used on input line 82.
 (pdftex.def)             Requested size: 240.8896pt x 117.28313pt.
+<<oml.cmap>><<oms.cmap>>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 75.
+(Font)              <7> on input line 92.
+<<omx.cmap>>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 75.
+(Font)              <5> on input line 92.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 116.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 116.
 
-Overfull \hbox (3.53415pt too wide) in paragraph at lines 75--75
+Overfull \hbox (3.53415pt too wide) in paragraph at lines 116--116
 \T1/ptm/m/n/8 c2a41BB8B52EcE 
  []
 
-<gambar/riwayat_transaksi.jpeg, id=125, 414.54875pt x 692.5875pt>
+<gambar/riwayat_transaksi.jpeg, id=131, 414.54875pt x 692.5875pt>
 File: gambar/riwayat_transaksi.jpeg Graphic file (type jpg)
 <use gambar/riwayat_transaksi.jpeg>
-Package pdftex.def Info: gambar/riwayat_transaksi.jpeg  used on input line 85.
+Package pdftex.def Info: gambar/riwayat_transaksi.jpeg  used on input line 126.
 (pdftex.def)             Requested size: 95.3442pt x 159.29176pt.
 
-Underfull \vbox (badness 1199) has occurred while \output is active []
 
-
-
-<gambar/detail_transaksi_etherscan.jpeg, id=126, 1100.11pt x 706.64pt>
+[4
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.132 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.132 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.132 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.132 
+       <./gambar/listing_page.jpg> <./gambar/purchase_page.jpg> <./gambar/etherscan.jpeg> <./gambar/opensea.jpeg>]
+<gambar/detail_transaksi_etherscan.jpeg, id=141, 1100.11pt x 706.64pt>
 File: gambar/detail_transaksi_etherscan.jpeg Graphic file (type jpg)
 <use gambar/detail_transaksi_etherscan.jpeg>
-Package pdftex.def Info: gambar/detail_transaksi_etherscan.jpeg  used on input line 96.
+Package pdftex.def Info: gambar/detail_transaksi_etherscan.jpeg  used on input line 137.
 (pdftex.def)             Requested size: 220.0181pt x 141.32549pt.
-<gambar/detail_nft_etherscan.jpeg, id=127, 1571.8725pt x 568.1225pt>
+<gambar/detail_nft_etherscan.jpeg, id=142, 1571.8725pt x 568.1225pt>
 File: gambar/detail_nft_etherscan.jpeg Graphic file (type jpg)
 <use gambar/detail_nft_etherscan.jpeg>
-Package pdftex.def Info: gambar/detail_nft_etherscan.jpeg  used on input line 107.
+Package pdftex.def Info: gambar/detail_nft_etherscan.jpeg  used on input line 148.
 (pdftex.def)             Requested size: 259.34778pt x 93.73616pt.
 
-Overfull \hbox (7.34778pt too wide) in paragraph at lines 107--109
+Overfull \hbox (7.34778pt too wide) in paragraph at lines 148--150
  [][] 
  []
 
@@ -622,121 +674,88 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[4
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.113 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.113 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.113 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.113 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.113 
-       <./gambar/etherscan.jpeg> <./gambar/opensea.jpeg> <./gambar/riwayat_transaksi.jpeg> <./gambar/detail_transaksi_etherscan.jpeg>]
-<gambar/nft_pada_opensea.jpeg, id=137, 1276.77pt x 944.52875pt>
+<gambar/nft_pada_opensea.jpeg, id=143, 1276.77pt x 944.52875pt>
 File: gambar/nft_pada_opensea.jpeg Graphic file (type jpg)
 <use gambar/nft_pada_opensea.jpeg>
-Package pdftex.def Info: gambar/nft_pada_opensea.jpeg  used on input line 118.
+Package pdftex.def Info: gambar/nft_pada_opensea.jpeg  used on input line 159.
 (pdftex.def)             Requested size: 191.50723pt x 141.67319pt.
-<gambar/lock_token.jpeg, id=138, 1120.185pt x 596.2275pt>
+<gambar/lock_token.jpeg, id=144, 1120.185pt x 596.2275pt>
 File: gambar/lock_token.jpeg Graphic file (type jpg)
 <use gambar/lock_token.jpeg>
-Package pdftex.def Info: gambar/lock_token.jpeg  used on input line 129.
+Package pdftex.def Info: gambar/lock_token.jpeg  used on input line 170.
 (pdftex.def)             Requested size: 224.03302pt x 119.24338pt.
 
 
-<gambar/bridge_transfer.jpeg, id=139, 351.3125pt x 170.6375pt>
-File: gambar/bridge_transfer.jpeg Graphic file (type jpg)
-<use gambar/bridge_transfer.jpeg>
-Package pdftex.def Info: gambar/bridge_transfer.jpeg  used on input line 140.
-(pdftex.def)             Requested size: 175.6558pt x 85.31853pt.
-LaTeX Font Info:    Trying to load font information for T1+newtxtt on input line 147.
-(c:/texlive/2024/texmf-dist/tex/latex/newtxtt/t1newtxtt.fd
-File: t1newtxtt.fd 2020/02/15 Font definitions for T1/newtxtt.
-)
-LaTeX Font Info:    Font shape `T1/newtxtt/m/n' will be
-(Font)              scaled to size 7.5pt on input line 147.
-<gambar/verifikasi_metamask_wallet.jpeg, id=141, 462.72874pt x 835.12pt>
-File: gambar/verifikasi_metamask_wallet.jpeg Graphic file (type jpg)
-<use gambar/verifikasi_metamask_wallet.jpeg>
-Package pdftex.def Info: gambar/verifikasi_metamask_wallet.jpeg  used on input line 151.
-(pdftex.def)             Requested size: 92.5441pt x 167.02103pt.
-<gambar/detail_pada_etherscan.jpeg, id=142, 1106.1325pt x 689.57625pt>
-File: gambar/detail_pada_etherscan.jpeg Graphic file (type jpg)
-<use gambar/detail_pada_etherscan.jpeg>
-Package pdftex.def Info: gambar/detail_pada_etherscan.jpeg  used on input line 162.
-(pdftex.def)             Requested size: 221.22258pt x 137.9128pt.
-
-
 [5
-pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.170 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.170 
+l.178 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.170 
+l.178 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.170 
-      {c:/texlive/2024/texmf-dist/fonts/enc/dvips/newtxtt/txttBec.enc}
+l.178 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.170 
+l.178 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.170 
-       <./gambar/detail_nft_etherscan.jpeg> <./gambar/nft_pada_opensea.jpeg> <./gambar/lock_token.jpeg> <./gambar/bridge_transfer.jpeg> <./gambar/verifikasi_metamask_wallet.jpeg> <./gambar/detail_pada_etherscan.jpeg>]
-<gambar/nft_detail_etherscan2.jpeg, id=155, 1546.77875pt x 546.04pt>
+l.178 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.178 
+       <./gambar/riwayat_transaksi.jpeg> <./gambar/detail_transaksi_etherscan.jpeg> <./gambar/detail_nft_etherscan.jpeg> <./gambar/nft_pada_opensea.jpeg> <./gambar/lock_token.jpeg>]
+<gambar/bridge_transfer.jpeg, id=155, 351.3125pt x 170.6375pt>
+File: gambar/bridge_transfer.jpeg Graphic file (type jpg)
+<use gambar/bridge_transfer.jpeg>
+Package pdftex.def Info: gambar/bridge_transfer.jpeg  used on input line 181.
+(pdftex.def)             Requested size: 175.6558pt x 85.31853pt.
+LaTeX Font Info:    Trying to load font information for T1+newtxtt on input line 188.
+ (c:/texlive/2024/texmf-dist/tex/latex/newtxtt/t1newtxtt.fd
+File: t1newtxtt.fd 2020/02/15 Font definitions for T1/newtxtt.
+)
+LaTeX Font Info:    Font shape `T1/newtxtt/m/n' will be
+(Font)              scaled to size 7.5pt on input line 188.
+<gambar/verifikasi_metamask_wallet.jpeg, id=157, 462.72874pt x 835.12pt>
+File: gambar/verifikasi_metamask_wallet.jpeg Graphic file (type jpg)
+<use gambar/verifikasi_metamask_wallet.jpeg>
+Package pdftex.def Info: gambar/verifikasi_metamask_wallet.jpeg  used on input line 192.
+(pdftex.def)             Requested size: 92.5441pt x 167.02103pt.
+<gambar/detail_pada_etherscan.jpeg, id=158, 1106.1325pt x 689.57625pt>
+File: gambar/detail_pada_etherscan.jpeg Graphic file (type jpg)
+<use gambar/detail_pada_etherscan.jpeg>
+Package pdftex.def Info: gambar/detail_pada_etherscan.jpeg  used on input line 203.
+(pdftex.def)             Requested size: 221.22258pt x 137.9128pt.
+
+
+<gambar/nft_detail_etherscan2.jpeg, id=160, 1546.77875pt x 546.04pt>
 File: gambar/nft_detail_etherscan2.jpeg Graphic file (type jpg)
 <use gambar/nft_detail_etherscan2.jpeg>
-Package pdftex.def Info: gambar/nft_detail_etherscan2.jpeg  used on input line 173.
+Package pdftex.def Info: gambar/nft_detail_etherscan2.jpeg  used on input line 214.
 (pdftex.def)             Requested size: 255.20749pt x 90.09271pt.
 
-Overfull \hbox (3.20749pt too wide) in paragraph at lines 173--175
+Overfull \hbox (3.20749pt too wide) in paragraph at lines 214--216
  [][] 
  []
 
-<gambar/nft_pada_opensea_2.jpeg, id=156, 1179.40625pt x 901.3675pt>
+<gambar/nft_pada_opensea_2.jpeg, id=161, 1179.40625pt x 901.3675pt>
 File: gambar/nft_pada_opensea_2.jpeg Graphic file (type jpg)
 <use gambar/nft_pada_opensea_2.jpeg>
-Package pdftex.def Info: gambar/nft_pada_opensea_2.jpeg  used on input line 184.
+Package pdftex.def Info: gambar/nft_pada_opensea_2.jpeg  used on input line 225.
 (pdftex.def)             Requested size: 176.9033pt x 135.19928pt.
-) (./konten/5-kesimpulan.tex
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 9.
-
-
-
-) (./main.bbl)
+) (./konten/5-kesimpulan.tex) (./main.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -755,16 +774,31 @@ Package balance Warning: You have called \balance in second column
 (balance)                Columns might not be balanced.
 
 [6
-pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.110 \end{document}
-                    
 pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.110 \end{document}
-                     <./gambar/nft_detail_etherscan2.jpeg> <./gambar/nft_pada_opensea_2.jpeg>] (./main.aux)
+                    {c:/texlive/2024/texmf-dist/fonts/enc/dvips/newtxtt/txttBec.enc}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.110 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.110 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{figure.19}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.110 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{figure.20}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.110 \end{document}
+                     <./gambar/bridge_transfer.jpeg> <./gambar/verifikasi_metamask_wallet.jpeg> <./gambar/detail_pada_etherscan.jpeg> <./gambar/nft_detail_etherscan2.jpeg> <./gambar/nft_pada_opensea_2.jpeg>] (./main.aux)
  ***********
 LaTeX2e <2024-06-01>
 L3 programming layer <2024-05-27>
@@ -774,21 +808,21 @@ L3 programming layer <2024-05-27>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 44123673CD3CC1486D03557EA31A6108;3060.
+(rerunfilecheck)             Checksum: 0FAE30318E76D1265DE6D88273E919FD;2588.
  ) 
 Here is how much of TeX's memory you used:
- 15184 strings out of 473600
- 251725 string characters out of 5732738
+ 15224 strings out of 473600
+ 252769 string characters out of 5732738
  1952894 words of memory out of 5000000
- 37657 multiletter control sequences out of 15000+600000
+ 37693 multiletter control sequences out of 15000+600000
  668860 words of font info for 136 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 94i,11n,117p,1665b,568s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,11n,117p,1678b,532s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtxtt/newtxtt.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (6 pages, 1622901 bytes).
+Output written on main.pdf (6 pages, 1744560 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
- 163 compressed objects within 2 object streams
- 47 named destinations out of 1000 (max. 500000)
- 253 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 214 PDF objects out of 1000 (max. 8388607)
+ 169 compressed objects within 2 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 257 words of extra memory for PDF output out of 10000 (max. 10000000)
 
